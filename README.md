@@ -27,8 +27,7 @@ The product goal is not a walking tour and not a generic mystery generator. It i
 - Most locations are static and only need one useful visit.
 - A small number of specialist hub locations interpret evidence.
 - Evidence is first-class, but this is not an inventory-combination adventure game.
-- sometimes The player discovers evidence; experts interpret evidence; the player performs deduction.
-- mostly players visti a location and read the narrative there (and from that are able to solve)
+- The player discovers evidence; experts interpret evidence; the player performs deduction.
 - The mystery does not need to be impossibly clever. The challenge comes from finding the right threads inside a large, plausible city.
 - Do not expose the machinery unless the choice is genuinely meaningful.
 
@@ -39,6 +38,7 @@ The product goal is not a walking tour and not a generic mystery generator. It i
 - [`docs/CASE_AUTHORING_AND_EDITOR.md`](docs/CASE_AUTHORING_AND_EDITOR.md) — case development workflow, editor requirements, POI review, and generic lead engine.
 - [`docs/DATA_MODEL.md`](docs/DATA_MODEL.md) — initial JSON-first data model for locations, cases, evidence, hub responses, newspapers, directories, and theories.
 - [`docs/PILOT_CASE_BRIEF.md`](docs/PILOT_CASE_BRIEF.md) — scope for the first playable pilot case.
+- [`docs/WEB_MOBILE_ADVANTAGES.md`](docs/WEB_MOBILE_ADVANTAGES.md) — web/mobile features that improve the formula without turning it into an adventure game.
 
 ## Relationship to LondonTour
 

@@ -351,3 +351,15 @@ Build in this order:
 8. Full pilot case.
 
 Do not spend weeks on historical data ingestion before the evidence-hub gameplay works.
+
+## 9. Web/mobile product affordances
+
+See [`WEB_MOBILE_ADVANTAGES.md`](WEB_MOBILE_ADVANTAGES.md) before implementing player-facing features.
+
+The early product should preserve the basic loop:
+
+```text
+choose location → read lead → think → choose next location
+```
+
+Digital features should reduce friction, prevent spoilers, improve research, preserve notes, and make London richer. They should not replace the investigation with inventory puzzles or dialogue trees.

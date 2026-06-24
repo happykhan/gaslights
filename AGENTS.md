@@ -149,3 +149,7 @@ Implement the smallest vertical slice:
 9. Save investigation state to localStorage.
 
 That vertical slice proves the most important mechanic: **find evidence, choose the right specialist location, receive interpretation without exposing inventory machinery**.
+
+## Web/mobile formula notes
+
+Before adding a player-facing feature, read `docs/WEB_MOBILE_ADVANTAGES.md`. The early product should preserve the consulting-detective loop: choose a place, read a lead, think, and choose another place. Digital features should reduce paper friction, support note-taking/research, and make London richer. They should not replace the core loop with inventory puzzles or dialogue trees.
