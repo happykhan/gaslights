@@ -27,7 +27,8 @@ The product goal is not a walking tour and not a generic mystery generator. It i
 - Most locations are static and only need one useful visit.
 - A small number of specialist hub locations interpret evidence.
 - Evidence is first-class, but this is not an inventory-combination adventure game.
-- The player discovers evidence; experts interpret evidence; the player performs deduction.
+- sometimes The player discovers evidence; experts interpret evidence; the player performs deduction.
+- mostly players visti a location and read the narrative there (and from that are able to solve)
 - The mystery does not need to be impossibly clever. The challenge comes from finding the right threads inside a large, plausible city.
 - Do not expose the machinery unless the choice is genuinely meaningful.
 
