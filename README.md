@@ -38,7 +38,10 @@ The product goal is not a walking tour and not a generic mystery generator. It i
 - [`docs/CASE_AUTHORING_AND_EDITOR.md`](docs/CASE_AUTHORING_AND_EDITOR.md) — case development workflow, editor requirements, POI review, and generic lead engine.
 - [`docs/DATA_MODEL.md`](docs/DATA_MODEL.md) — initial JSON-first data model for locations, cases, evidence, hub responses, newspapers, directories, and theories.
 - [`docs/PILOT_CASE_BRIEF.md`](docs/PILOT_CASE_BRIEF.md) — scope for the first playable pilot case.
-- [`docs/WEB_MOBILE_ADVANTAGES.md`](docs/WEB_MOBILE_ADVANTAGES.md) — web/mobile features that improve the formula without turning it into an adventure game.
+
+- [`docs/PILOT_CASE_FULL_DRAFT.md`](docs/PILOT_CASE_FULL_DRAFT.md) — complete playable draft for the first case.
+- [`docs/PILOT_CASE_RUNTIME_CHECKLIST.md`](docs/PILOT_CASE_RUNTIME_CHECKLIST.md) — runtime requirements for loading and playing the pilot case.
+- [`data/cases/missing-chemist.case.json`](data/cases/missing-chemist.case.json) — machine-readable pilot case data.
 
 ## Relationship to LondonTour
 

@@ -352,14 +352,36 @@ Build in this order:
 
 Do not spend weeks on historical data ingestion before the evidence-hub gameplay works.
 
-## 9. Web/mobile product affordances
 
-See [`WEB_MOBILE_ADVANTAGES.md`](WEB_MOBILE_ADVANTAGES.md) before implementing player-facing features.
+## Pilot case data now included
 
-The early product should preserve the basic loop:
+The repository docs bundle includes a complete first playable draft:
+
+- `docs/PILOT_CASE_FULL_DRAFT.md`
+- `docs/PILOT_CASE_RUNTIME_CHECKLIST.md`
+- `data/cases/missing-chemist.case.json`
+- `data/london1895/locations.seed.json`
+- `data/london1895/directory.seed.json`
+- `data/london1895/generic-lead-rules.seed.json`
+- `data/newspapers/1894-05-17-london-evening-chronicle.json`
+
+### First implementation goal with content
+
+Load the pilot case data and support this path end-to-end:
 
 ```text
-choose location → read lead → think → choose next location
+Harcourt's Laboratory
+  → Charing Cross Railway Office
+  → Dr North, Analytical Chemist
+  → Mrs Harcourt
+  → Mallory's Lodgings
+  → Henley Pawn & Pledge
+  → Central Cab Registry
+  → North Star Assurance
+  → Port Records Office
+  → Caledonia Warehouse
+  → Theory submission
+  → Solution comparison
 ```
 
-Digital features should reduce friction, prevent spoilers, improve research, preserve notes, and make London richer. They should not replace the investigation with inventory puzzles or dialogue trees.
+This should be implemented before expanding the editor.

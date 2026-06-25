@@ -1,0 +1,1235 @@
+{
+  "id": "missing_chemist",
+  "title": "The Missing Chemist",
+  "date": "1894-05-17",
+  "status": "playable_draft",
+  "summary": "An analytical chemist vanishes after a lecture. His laboratory is disturbed, a railway ticket has been planted, and his assistant is missing.",
+  "intro": "Thursday, 17 May 1894. Mrs Agnes Harcourt asks for help in finding her husband, Dr Edwin Harcourt, an analytical chemist of Craven Street. Harcourt was last seen on Tuesday night after a lecture at the Royal Institution. By Wednesday morning his laboratory had been found in disorder. His assistant, Silas Mallory, has not returned to his lodgings.\n\nThe police have no body, no ransom note, and no clear crime. Mrs Harcourt insists that her husband would never abandon his work voluntarily: he was preparing to secure a patent for a cheap hospital disinfectant, and several commercial men had shown interest in it.\n\nYour task is to determine who caused Harcourt's disappearance, why, how it was done, where he was taken, and when the decisive event occurred.\n",
+  "startingLocationIds": [
+    "harcourt_laboratory",
+    "harcourt_home",
+    "royal_institution"
+  ],
+  "activeLocationIds": [
+    "harcourt_laboratory",
+    "harcourt_home",
+    "royal_institution",
+    "charing_cross_railway_office",
+    "dr_north_analytical_chemist",
+    "mallory_lodgings",
+    "henley_pawnbroker",
+    "central_cab_registry",
+    "north_star_assurance",
+    "port_authority_london_docks",
+    "rudd_vale_office",
+    "chancery_patent_solicitors",
+    "bow_street_police_station",
+    "blue_anchor_wapping",
+    "london_evening_chronicle_office",
+    "st_bartholomews_hospital",
+    "lady_ashcombe_house",
+    "ezra_pike_bookmaker",
+    "caledonia_warehouse_limehouse"
+  ],
+  "hiddenLocationIds": [
+    "caledonia_warehouse_limehouse"
+  ],
+  "newspaperIssueIds": [
+    "chronicle_1894_05_17"
+  ],
+  "directoryEntryIds": [
+    "dir_harcourt_edwin",
+    "dir_harcourt_agnes",
+    "dir_mallory_silas",
+    "dir_rudd_vale",
+    "dir_north_star",
+    "dir_chx_railway",
+    "dir_dr_north",
+    "dir_henley_pawn",
+    "dir_cab_registry",
+    "dir_port_records",
+    "dir_caledonia",
+    "dir_peabody_finch",
+    "dir_bow_street",
+    "dir_blue_anchor",
+    "dir_chronicle",
+    "dir_st_barts",
+    "dir_lady_ashcombe",
+    "dir_ezra_pike",
+    "dir_royal_institution",
+    "dir_post_office",
+    "dir_british_museum",
+    "dir_bank_england",
+    "dir_somerset"
+  ],
+  "people": [
+    {
+      "id": "edwin_harcourt",
+      "name": "Dr Edwin Harcourt",
+      "role": "missing chemist",
+      "locationIds": [
+        "harcourt_laboratory",
+        "harcourt_home"
+      ]
+    },
+    {
+      "id": "agnes_harcourt",
+      "name": "Mrs Agnes Harcourt",
+      "role": "client / wife of missing man",
+      "locationIds": [
+        "harcourt_home"
+      ]
+    },
+    {
+      "id": "silas_mallory",
+      "name": "Silas Mallory",
+      "role": "assistant and primary culprit",
+      "locationIds": [
+        "mallory_lodgings"
+      ]
+    },
+    {
+      "id": "nathaniel_rudd",
+      "name": "Nathaniel Rudd",
+      "role": "chemical importer and accessory",
+      "locationIds": [
+        "rudd_vale_office",
+        "caledonia_warehouse_limehouse"
+      ]
+    },
+    {
+      "id": "ezra_pike",
+      "name": "Ezra Pike",
+      "role": "bookmaker and debt source",
+      "locationIds": [
+        "ezra_pike_bookmaker"
+      ]
+    },
+    {
+      "id": "lady_ashcombe",
+      "name": "Lady Eleanor Ashcombe",
+      "role": "scientific patron and red herring",
+      "locationIds": [
+        "lady_ashcombe_house"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "train_ticket_brighton",
+      "caseId": "missing_chemist",
+      "name": "Brighton railway ticket",
+      "type": "document",
+      "summary": "A second-class ticket to Brighton found half-hidden under the laboratory blotter.",
+      "description": "The ticket is creased and bears the date of Tuesday, 15 May. It is not torn in the manner normally used at the barrier.",
+      "discoveredAtLeadId": "lead_harcourt_laboratory",
+      "domains": [
+        "railway_ticket",
+        "timetable"
+      ],
+      "tags": [
+        "travel",
+        "false_trail",
+        "timeline"
+      ],
+      "relatedLocationIds": [
+        "charing_cross_railway_office"
+      ],
+      "supportsSolutionSlots": [
+        "who",
+        "how",
+        "when"
+      ]
+    },
+    {
+      "id": "porcelain_cup_residue",
+      "caseId": "missing_chemist",
+      "name": "Porcelain cup with bitter residue",
+      "type": "physical",
+      "summary": "A tea cup from Harcourt's bench with an unusual bitter odour.",
+      "description": "The cup appears ordinary, but a residue clings to the inner glaze.",
+      "discoveredAtLeadId": "lead_harcourt_laboratory",
+      "domains": [
+        "chemical",
+        "poison",
+        "residue"
+      ],
+      "tags": [
+        "sedative",
+        "method"
+      ],
+      "relatedLocationIds": [
+        "dr_north_analytical_chemist"
+      ],
+      "supportsSolutionSlots": [
+        "how"
+      ]
+    },
+    {
+      "id": "torn_blue_label",
+      "caseId": "missing_chemist",
+      "name": "Torn blue shipping label",
+      "type": "document_fragment",
+      "summary": "A torn blue cargo label showing only 'RUD...' and 'CAL...'.",
+      "description": "The label looks as if it was torn from a crate. Only fragments of the printed destination remain.",
+      "discoveredAtLeadId": "lead_harcourt_laboratory",
+      "domains": [
+        "shipping",
+        "warehouse"
+      ],
+      "tags": [
+        "rudd_vale",
+        "where"
+      ],
+      "relatedLocationIds": [
+        "rudd_vale_office",
+        "port_authority_london_docks"
+      ],
+      "supportsSolutionSlots": [
+        "where"
+      ]
+    },
+    {
+      "id": "cab_number_317",
+      "caseId": "missing_chemist",
+      "name": "Cab number 317",
+      "type": "witness_detail",
+      "summary": "The laboratory porter remembers the number 317 on a cab outside Craven Street on Tuesday night.",
+      "description": "Not a physical object, but a precise detail useful at the cab registry.",
+      "discoveredAtLeadId": "lead_harcourt_laboratory",
+      "domains": [
+        "cab_number",
+        "cab_journey"
+      ],
+      "tags": [
+        "transport",
+        "timeline"
+      ],
+      "relatedLocationIds": [
+        "central_cab_registry"
+      ],
+      "supportsSolutionSlots": [
+        "where",
+        "when",
+        "how"
+      ]
+    },
+    {
+      "id": "pawn_receipt_harcourt_watch",
+      "caseId": "missing_chemist",
+      "name": "Pawn receipt for E.H. silver watch",
+      "type": "document",
+      "summary": "A pawn receipt found in Mallory's room for a silver watch bearing the initials E.H.",
+      "description": "The receipt is timed late on Tuesday night at Henley Pawn & Pledge.",
+      "discoveredAtLeadId": "lead_mallory_lodgings",
+      "domains": [
+        "pawn_receipt",
+        "watch"
+      ],
+      "tags": [
+        "identity",
+        "debt",
+        "timeline"
+      ],
+      "relatedLocationIds": [
+        "henley_pawnbroker"
+      ],
+      "supportsSolutionSlots": [
+        "who",
+        "when",
+        "why"
+      ]
+    },
+    {
+      "id": "gambling_iou",
+      "caseId": "missing_chemist",
+      "name": "Gambling IOU to Ezra Pike",
+      "type": "document",
+      "summary": "A note showing Mallory owed £83 to Ezra Pike.",
+      "description": "The IOU is written in Pike's hand and threatens exposure to Harcourt if not paid by Thursday.",
+      "discoveredAtLeadId": "lead_mallory_lodgings",
+      "domains": [
+        "financial",
+        "gambling"
+      ],
+      "tags": [
+        "motive",
+        "debt"
+      ],
+      "relatedLocationIds": [
+        "ezra_pike_bookmaker"
+      ],
+      "supportsSolutionSlots": [
+        "why"
+      ]
+    },
+    {
+      "id": "steamship_advert_clipping",
+      "caseId": "missing_chemist",
+      "name": "S.S. Mercia advert clipping",
+      "type": "newspaper_clipping",
+      "summary": "A clipped advert for the S.S. Mercia sailing to New York on Thursday evening.",
+      "description": "The clipping was cut from the Evening Chronicle and marked with a pencil cross.",
+      "discoveredAtLeadId": "lead_mallory_lodgings",
+      "domains": [
+        "shipping",
+        "manifest"
+      ],
+      "tags": [
+        "escape",
+        "shipping"
+      ],
+      "relatedLocationIds": [
+        "port_authority_london_docks"
+      ],
+      "supportsSolutionSlots": [
+        "where",
+        "when"
+      ]
+    },
+    {
+      "id": "cargo_insurance_slip",
+      "caseId": "missing_chemist",
+      "name": "North Star cargo insurance slip",
+      "type": "document",
+      "summary": "A cargo policy slip naming S. Merritt and Rudd & Vale.",
+      "description": "The policy number is legible, but the insured goods are described only as 'laboratory glass and samples'.",
+      "discoveredAtLeadId": "lead_mallory_lodgings",
+      "domains": [
+        "insurance",
+        "cargo_policy",
+        "shipping"
+      ],
+      "tags": [
+        "alias",
+        "warehouse",
+        "cargo"
+      ],
+      "relatedLocationIds": [
+        "north_star_assurance",
+        "port_authority_london_docks"
+      ],
+      "supportsSolutionSlots": [
+        "who",
+        "where",
+        "why"
+      ]
+    },
+    {
+      "id": "formula_priority_letter",
+      "caseId": "missing_chemist",
+      "name": "Patent priority letter",
+      "type": "letter",
+      "summary": "A solicitor's letter showing Harcourt intended to file the formula before the end of the week.",
+      "description": "The draft names Harcourt as sole inventor and excludes any claim by his assistant.",
+      "discoveredAtLeadId": "lead_chancery_patent_solicitors",
+      "domains": [
+        "legal",
+        "patent"
+      ],
+      "tags": [
+        "motive",
+        "formula"
+      ],
+      "relatedLocationIds": [
+        "chancery_patent_solicitors"
+      ],
+      "supportsSolutionSlots": [
+        "why"
+      ]
+    },
+    {
+      "id": "shipping_manifest_entry",
+      "caseId": "missing_chemist",
+      "name": "S.S. Mercia manifest entry",
+      "type": "ledger_entry",
+      "summary": "A manifest entry for Rudd & Vale cargo under the alias S. Merritt.",
+      "description": "The entry places the cargo at Caledonia Warehouse before sailing.",
+      "discoveredAtLeadId": "hub_port_manifest_response",
+      "domains": [
+        "shipping",
+        "manifest",
+        "warehouse"
+      ],
+      "tags": [
+        "where",
+        "alias",
+        "endgame"
+      ],
+      "relatedLocationIds": [
+        "caledonia_warehouse_limehouse"
+      ],
+      "supportsSolutionSlots": [
+        "who",
+        "where",
+        "when"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "laboratory_drawer_forced_after_search",
+      "caseId": "missing_chemist",
+      "summary": "The laboratory drawer appears forced, but the instruments and ordinary valuables were left behind.",
+      "source": {
+        "type": "lead",
+        "id": "lead_harcourt_laboratory"
+      },
+      "supportsSolutionSlots": [
+        "how"
+      ],
+      "tags": [
+        "staging"
+      ]
+    },
+    {
+      "id": "mallory_missing_from_work",
+      "caseId": "missing_chemist",
+      "summary": "Silas Mallory has not returned to work or to his lodgings since Tuesday night.",
+      "source": {
+        "type": "lead",
+        "id": "lead_harcourt_home"
+      },
+      "supportsSolutionSlots": [
+        "who"
+      ],
+      "tags": [
+        "suspect"
+      ]
+    },
+    {
+      "id": "rudd_offered_to_buy_formula",
+      "caseId": "missing_chemist",
+      "summary": "Nathaniel Rudd had tried to buy Harcourt's disinfectant formula and was rebuffed.",
+      "source": {
+        "type": "lead",
+        "id": "lead_royal_institution"
+      },
+      "supportsSolutionSlots": [
+        "why"
+      ],
+      "tags": [
+        "commercial_motive"
+      ]
+    },
+    {
+      "id": "ticket_bought_by_mallory_not_used",
+      "caseId": "missing_chemist",
+      "summary": "The Brighton ticket was bought by a man matching Mallory and was probably never used by Harcourt.",
+      "source": {
+        "type": "hub_response",
+        "id": "hub_railway_ticket_response"
+      },
+      "supportsSolutionSlots": [
+        "who",
+        "how",
+        "when"
+      ],
+      "tags": [
+        "false_trail"
+      ]
+    },
+    {
+      "id": "chloral_in_cup",
+      "caseId": "missing_chemist",
+      "summary": "The cup contains traces consistent with chloral hydrate, enough to stupefy a man but not necessarily kill him.",
+      "source": {
+        "type": "hub_response",
+        "id": "hub_chemist_cup_response"
+      },
+      "supportsSolutionSlots": [
+        "how"
+      ],
+      "tags": [
+        "drugging"
+      ]
+    },
+    {
+      "id": "mallory_in_debt",
+      "caseId": "missing_chemist",
+      "summary": "Mallory owed money to Ezra Pike and needed cash by Thursday.",
+      "source": {
+        "type": "lead",
+        "id": "lead_mallory_lodgings"
+      },
+      "supportsSolutionSlots": [
+        "why"
+      ],
+      "tags": [
+        "debt"
+      ]
+    },
+    {
+      "id": "mallory_pawned_harcourt_watch",
+      "caseId": "missing_chemist",
+      "summary": "Mallory pawned Harcourt's watch late on Tuesday night, after the disappearance.",
+      "source": {
+        "type": "hub_response",
+        "id": "hub_pawnbroker_receipt_response"
+      },
+      "supportsSolutionSlots": [
+        "who",
+        "when"
+      ],
+      "tags": [
+        "identity",
+        "timeline"
+      ]
+    },
+    {
+      "id": "cab_317_to_caledonia",
+      "caseId": "missing_chemist",
+      "summary": "Cab 317 carried a young man and a stupefied older gentleman from Craven Street to Caledonia Wharf on Tuesday night.",
+      "source": {
+        "type": "hub_response",
+        "id": "hub_cab_registry_response"
+      },
+      "supportsSolutionSlots": [
+        "how",
+        "where",
+        "when"
+      ],
+      "tags": [
+        "transport",
+        "timeline"
+      ]
+    },
+    {
+      "id": "cargo_policy_alias_merritt",
+      "caseId": "missing_chemist",
+      "summary": "The cargo policy names S. Merritt, an alias connected to Mallory, and Rudd & Vale chemical cargo.",
+      "source": {
+        "type": "hub_response",
+        "id": "hub_insurance_policy_response"
+      },
+      "supportsSolutionSlots": [
+        "who",
+        "where",
+        "why"
+      ],
+      "tags": [
+        "alias",
+        "shipping"
+      ]
+    },
+    {
+      "id": "manifest_places_cargo_at_caledonia",
+      "caseId": "missing_chemist",
+      "summary": "The port manifest places the insured cargo at Caledonia Warehouse before transfer to the S.S. Mercia.",
+      "source": {
+        "type": "hub_response",
+        "id": "hub_port_manifest_response"
+      },
+      "supportsSolutionSlots": [
+        "where",
+        "when"
+      ],
+      "tags": [
+        "shipping",
+        "endgame"
+      ]
+    },
+    {
+      "id": "patent_excludes_mallory",
+      "caseId": "missing_chemist",
+      "summary": "The patent draft names Harcourt alone, giving Mallory a motive to steal or sell before filing.",
+      "source": {
+        "type": "lead",
+        "id": "lead_chancery_patent_solicitors"
+      },
+      "supportsSolutionSlots": [
+        "why"
+      ],
+      "tags": [
+        "patent",
+        "motive"
+      ]
+    },
+    {
+      "id": "harcourt_found_alive",
+      "caseId": "missing_chemist",
+      "summary": "Harcourt is alive at Caledonia Warehouse, weak from confinement and drugging.",
+      "source": {
+        "type": "lead",
+        "id": "lead_caledonia_warehouse"
+      },
+      "supportsSolutionSlots": [
+        "how",
+        "where"
+      ],
+      "tags": [
+        "solution"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead_harcourt_laboratory",
+      "caseId": "missing_chemist",
+      "locationId": "harcourt_laboratory",
+      "title": "Harcourt's Laboratory",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "The laboratory is disorderly, though not in the manner of an ordinary burglary. A drawer has been forced, but the balances, lenses, and small silver instruments remain untouched. Under the blotter you find a second-class ticket to Brighton dated Tuesday. On the bench sits a porcelain tea cup with a bitter smell clinging to it. A torn blue cargo label has caught beneath an overturned stool: only the fragments 'RUD...' and 'CAL...' can be read. The porter recalls a cab outside after half-past eight; he is fairly sure the painted number was 317.",
+      "onVisit": {
+        "discoverEvidenceIds": [
+          "train_ticket_brighton",
+          "porcelain_cup_residue",
+          "torn_blue_label",
+          "cab_number_317"
+        ],
+        "discoverFactIds": [
+          "laboratory_drawer_forced_after_search"
+        ],
+        "revealLocationIds": [
+          "charing_cross_railway_office",
+          "dr_north_analytical_chemist",
+          "central_cab_registry",
+          "rudd_vale_office"
+        ],
+        "addNotebook": "At Harcourt's laboratory: Brighton ticket, bitter cup, torn blue label, cab number 317, staged-looking disorder."
+      },
+      "repeatText": "The same details stand out: the too-neat forced drawer, the Brighton ticket, the cup residue, the torn blue label, and cab number 317.",
+      "solutionTags": [
+        "who",
+        "how",
+        "where",
+        "when"
+      ]
+    },
+    {
+      "id": "lead_harcourt_home",
+      "caseId": "missing_chemist",
+      "locationId": "harcourt_home",
+      "title": "Mrs Harcourt",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "Mrs Harcourt is certain her husband would not flee. He had been preparing a patent filing and had spoken of a cheap disinfectant that might make hospital wards safer. She gives you the name of his assistant, Silas Mallory, of Greek Street. Mallory had been useful but nervous of late. She also recalls the name Rudd & Vale: Harcourt had refused their offer to buy the formula outright.",
+      "onVisit": {
+        "discoverFactIds": [
+          "mallory_missing_from_work"
+        ],
+        "revealLocationIds": [
+          "mallory_lodgings",
+          "chancery_patent_solicitors",
+          "rudd_vale_office"
+        ],
+        "addNotebook": "Mrs Harcourt names Silas Mallory and says Rudd & Vale wanted the formula."
+      },
+      "repeatText": "Mrs Harcourt can add little beyond her certainty that Edwin would not abandon his work voluntarily.",
+      "solutionTags": [
+        "who",
+        "why"
+      ]
+    },
+    {
+      "id": "lead_royal_institution",
+      "caseId": "missing_chemist",
+      "locationId": "royal_institution",
+      "title": "The Royal Institution",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "The lecture attendant remembers Harcourt leaving in good spirits. Mallory waited for him in the hall, pale and sharp-tempered. A commercial gentleman, Nathaniel Rudd, had pressed Harcourt after the lecture and was rebuffed: 'I shall not sell what I have not yet secured,' Harcourt said. Mallory heard every word.",
+      "onVisit": {
+        "discoverFactIds": [
+          "rudd_offered_to_buy_formula"
+        ],
+        "revealLocationIds": [
+          "rudd_vale_office",
+          "mallory_lodgings",
+          "lady_ashcombe_house"
+        ],
+        "addNotebook": "At the Royal Institution: Rudd wanted the formula; Harcourt refused; Mallory heard the exchange."
+      },
+      "repeatText": "The attendant repeats that Rudd pressed Harcourt and that Mallory was listening.",
+      "solutionTags": [
+        "why",
+        "who"
+      ]
+    },
+    {
+      "id": "lead_mallory_lodgings",
+      "caseId": "missing_chemist",
+      "locationId": "mallory_lodgings",
+      "title": "Mallory's Lodgings",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "Mallory's room is stripped of clothing but not of haste. Behind a loose grate you find an IOU to Ezra Pike for £83, a pawn receipt for a silver watch initialled E.H., a clipped S.S. Mercia advertisement, and a North Star Assurance slip naming 'S. Merritt' alongside Rudd & Vale chemical cargo. The landlady says Mallory left before dawn with a carpet-bag and no forwarding address.",
+      "onVisit": {
+        "discoverEvidenceIds": [
+          "pawn_receipt_harcourt_watch",
+          "gambling_iou",
+          "steamship_advert_clipping",
+          "cargo_insurance_slip"
+        ],
+        "discoverFactIds": [
+          "mallory_in_debt"
+        ],
+        "revealLocationIds": [
+          "henley_pawnbroker",
+          "ezra_pike_bookmaker",
+          "north_star_assurance",
+          "port_authority_london_docks"
+        ],
+        "addNotebook": "Mallory's lodgings: IOU, pawn receipt for E.H. watch, S.S. Mercia clipping, North Star cargo slip under S. Merritt."
+      },
+      "repeatText": "Mallory's room remains the strongest link between the debt, the watch, the ship, and Rudd & Vale.",
+      "solutionTags": [
+        "who",
+        "why",
+        "where"
+      ]
+    },
+    {
+      "id": "lead_rudd_vale_office",
+      "caseId": "missing_chemist",
+      "locationId": "rudd_vale_office",
+      "title": "Rudd & Vale",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "Nathaniel Rudd receives you with commercial politeness and denies any special dealing with Harcourt. He admits attending the lecture, but says scientists often mistake curiosity for an offer. His office smells strongly of packing straw and carbolic spirit. A clerk entering with a blue crate label withdraws when he sees you; the colour matches the fragment from Harcourt's laboratory.",
+      "onVisit": {
+        "revealLocationIds": [
+          "port_authority_london_docks"
+        ],
+        "addNotebook": "Rudd denies special dealings, but his office uses blue crate labels like the torn fragment."
+      },
+      "repeatText": "Rudd remains smooth and unhelpful. The blue labels are still the only crack in his denial.",
+      "solutionTags": [
+        "why",
+        "where"
+      ]
+    },
+    {
+      "id": "lead_chancery_patent_solicitors",
+      "caseId": "missing_chemist",
+      "locationId": "chancery_patent_solicitors",
+      "title": "Peabody & Finch",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "Mr Finch confirms that Harcourt intended to file a provisional specification by Friday. The papers name Harcourt alone as inventor. Mallory had delivered laboratory notes once or twice, but had no claim in the draft. If the formula were sold before filing, priority might become difficult to untangle.",
+      "onVisit": {
+        "discoverEvidenceIds": [
+          "formula_priority_letter"
+        ],
+        "discoverFactIds": [
+          "patent_excludes_mallory"
+        ],
+        "addNotebook": "Patent solicitors: Harcourt alone would own the formula; Mallory had no claim."
+      },
+      "repeatText": "The solicitor's papers confirm the motive: the formula was valuable, imminent, and not Mallory's.",
+      "solutionTags": [
+        "why"
+      ]
+    },
+    {
+      "id": "lead_bow_street_police",
+      "caseId": "missing_chemist",
+      "locationId": "bow_street_police_station",
+      "title": "Bow Street Police Station",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "The inspector is willing to say only that no body has been found and no ransom note received. He considers flight, kidnapping, and misadventure all possible. He warns that a commercial dispute is not proof of a crime, but writes down Mallory's name when you mention the assistant's disappearance.",
+      "onVisit": {
+        "addNotebook": "Police have no body or ransom note. Mallory's absence matters, but they need proof."
+      },
+      "repeatText": "The inspector still wants evidence, not theories.",
+      "solutionTags": [
+        "how"
+      ]
+    },
+    {
+      "id": "lead_blue_anchor_wapping",
+      "caseId": "missing_chemist",
+      "locationId": "blue_anchor_wapping",
+      "title": "The Blue Anchor",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "The Blue Anchor offers three rumours, all contradictory. One sailor swears a chemist ran willingly to sea; another says Rudd & Vale are moving ordinary disinfectant; a third insists every missing Londoner turns up in America. The only useful point is that Rudd & Vale's night carts have lately been seen near Limehouse rather than Wapping proper.",
+      "onVisit": {
+        "revealLocationIds": [
+          "caledonia_warehouse_limehouse"
+        ],
+        "addNotebook": "Blue Anchor gossip is unreliable, but Rudd & Vale carts have been seen nearer Limehouse."
+      },
+      "repeatText": "The pub has more confidence than evidence. Its Limehouse rumour may be worth remembering.",
+      "solutionTags": [
+        "where"
+      ]
+    },
+    {
+      "id": "lead_london_evening_chronicle_office",
+      "caseId": "missing_chemist",
+      "locationId": "london_evening_chronicle_office",
+      "title": "The Evening Chronicle Office",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "The clerk at the Chronicle confirms that Mallory bought several copies of today's paper before noon and asked whether shipping advertisements were kept in the front office. He left no name, but the description matches him. The office has nothing beyond the printed issue, which remains the proper source for adverts and notices.",
+      "onVisit": {
+        "addNotebook": "Mallory was interested in today's shipping advertisements."
+      },
+      "repeatText": "The Chronicle adds no secret article. The printed paper is the useful source.",
+      "solutionTags": [
+        "where",
+        "when"
+      ]
+    },
+    {
+      "id": "lead_st_bartholomews_hospital",
+      "caseId": "missing_chemist",
+      "locationId": "st_bartholomews_hospital",
+      "title": "St Bartholomew's Hospital",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "A physician remembers Harcourt's disinfectant demonstration with enthusiasm. The hospital hoped to test it, but had not purchased or financed it. This weakens the idea that a hospital dispute caused the disappearance, though it confirms the formula had real commercial value.",
+      "onVisit": {
+        "addNotebook": "Hospital interest confirms the formula's value, but provides no culprit."
+      },
+      "repeatText": "The hospital remains an interested observer, not a likely conspirator.",
+      "solutionTags": [
+        "why"
+      ]
+    },
+    {
+      "id": "lead_lady_ashcombe_house",
+      "caseId": "missing_chemist",
+      "locationId": "lady_ashcombe_house",
+      "title": "Lady Ashcombe",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "Lady Ashcombe is flattered to be consulted and eager to suggest scandal. She disliked Rudd and found Mallory common, but admits she knows nothing solid. Her only useful recollection is that Harcourt was cheerful after the lecture and spoke of filing his patent 'before another rogue gets wind of it.'",
+      "onVisit": {
+        "addNotebook": "Lady Ashcombe confirms Harcourt intended to file his patent soon and did not seem ready to flee."
+      },
+      "repeatText": "Lady Ashcombe's gossip grows more colourful but no more reliable.",
+      "solutionTags": [
+        "why"
+      ]
+    },
+    {
+      "id": "lead_ezra_pike_bookmaker",
+      "caseId": "missing_chemist",
+      "locationId": "ezra_pike_bookmaker",
+      "title": "Ezra Pike",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "text": "Pike denies threatening anyone, then admits Mallory owed him £83 and had promised repayment before Friday. He says Mallory spoke of 'a passage out' and 'a gentleman who would pay well for a secret.' Pike did not know the gentleman's name and does not care to know it.",
+      "onVisit": {
+        "discoverFactIds": [
+          "mallory_in_debt"
+        ],
+        "addNotebook": "Ezra Pike confirms Mallory's debt and mentions a passage out and a buyer for a secret."
+      },
+      "repeatText": "Pike repeats that Mallory needed money by Friday and spoke of leaving.",
+      "solutionTags": [
+        "why",
+        "where"
+      ]
+    },
+    {
+      "id": "lead_caledonia_warehouse",
+      "caseId": "missing_chemist",
+      "locationId": "caledonia_warehouse_limehouse",
+      "title": "Caledonia Warehouse",
+      "kind": "case_lead",
+      "countsAsLead": true,
+      "availability": {
+        "recommendedRevealFactAny": [
+          "manifest_places_cargo_at_caledonia",
+          "cab_317_to_caledonia"
+        ],
+        "hiddenUntilRevealed": true
+      },
+      "text": "Caledonia Warehouse is quiet except for a night watchman who is too frightened to delay you. In an upper storeroom, behind crates marked as laboratory glass, you find Edwin Harcourt alive but weak. His notebook is on the table, half-copied. Mallory's carpet-bag lies beside a trunk labelled S. Merritt. Rudd's blue labels are stacked by the door. Harcourt says he remembers tea in the laboratory, then waking here while Mallory demanded the final cipher for the formula.",
+      "onVisit": {
+        "discoverFactIds": [
+          "harcourt_found_alive"
+        ],
+        "revealLocationIds": [],
+        "addNotebook": "At Caledonia Warehouse: Harcourt alive; Mallory's alias/trunk; Rudd labels; formula theft confirmed."
+      },
+      "repeatText": "The warehouse has yielded the truth: Harcourt was drugged, carried here, and held until the formula could be copied and shipped.",
+      "solutionTags": [
+        "who",
+        "why",
+        "how",
+        "where",
+        "when"
+      ]
+    }
+  ],
+  "hubResponses": [
+    {
+      "id": "hub_railway_ticket_response",
+      "caseId": "missing_chemist",
+      "hubLocationId": "charing_cross_railway_office",
+      "priority": 100,
+      "trigger": {
+        "evidenceAny": [
+          "train_ticket_brighton"
+        ],
+        "factsAll": []
+      },
+      "countsAsLead": true,
+      "text": "The clerk turns the Brighton ticket over and consults Tuesday's unusually careful ledger. It was sold at 7:15 p.m. to a young man with a narrow face and ink-stained cuffs, not to a gentleman of Harcourt's age. The barrier record shows no matching ticket taken from Harcourt. 'Bought to be found, perhaps,' the clerk says.",
+      "onResolve": {
+        "discoverFactIds": [
+          "ticket_bought_by_mallory_not_used"
+        ],
+        "revealLocationIds": [
+          "mallory_lodgings"
+        ],
+        "addNotebook": "Railway clerk: Brighton ticket was likely a planted false trail bought by someone matching Mallory."
+      },
+      "repeatText": "The railway ledger still points to a false trail: Mallory-like buyer, no sign Harcourt used the ticket."
+    },
+    {
+      "id": "hub_chemist_cup_response",
+      "caseId": "missing_chemist",
+      "hubLocationId": "dr_north_analytical_chemist",
+      "priority": 100,
+      "trigger": {
+        "evidenceAny": [
+          "porcelain_cup_residue"
+        ],
+        "factsAll": []
+      },
+      "countsAsLead": true,
+      "text": "Dr North performs two quick tests and frowns. The residue is consistent with chloral hydrate. The amount would stupefy a man and leave him docile for transport, though it need not kill him. She asks whether the missing man drank tea shortly before vanishing.",
+      "onResolve": {
+        "discoverFactIds": [
+          "chloral_in_cup"
+        ],
+        "addNotebook": "Dr North: cup contained chloral hydrate; Harcourt was probably drugged, not killed on the spot."
+      },
+      "repeatText": "Dr North's conclusion remains: chloral hydrate, sufficient to render Harcourt helpless."
+    },
+    {
+      "id": "hub_pawnbroker_receipt_response",
+      "caseId": "missing_chemist",
+      "hubLocationId": "henley_pawnbroker",
+      "priority": 100,
+      "trigger": {
+        "evidenceAny": [
+          "pawn_receipt_harcourt_watch"
+        ],
+        "factsAll": []
+      },
+      "countsAsLead": true,
+      "text": "Henley identifies the receipt at once. The watch was pledged at 10:20 on Tuesday by Silas Mallory, whom he knows by sight. The watch bore the initials E.H. Mallory's hands shook so badly that Henley assumed drink or fear.",
+      "onResolve": {
+        "discoverFactIds": [
+          "mallory_pawned_harcourt_watch"
+        ],
+        "addNotebook": "Henley: Mallory pawned Harcourt's watch at 10:20 p.m. Tuesday."
+      },
+      "repeatText": "Henley remains certain: Mallory pledged the E.H. watch late on Tuesday."
+    },
+    {
+      "id": "hub_cab_registry_response",
+      "caseId": "missing_chemist",
+      "hubLocationId": "central_cab_registry",
+      "priority": 100,
+      "trigger": {
+        "evidenceAny": [
+          "cab_number_317"
+        ],
+        "factsAll": []
+      },
+      "countsAsLead": true,
+      "text": "Cab 317 belongs to Thomas Smee. The registry sends a boy to fetch him. Smee remembers the fare: a young man hired him near Craven Street at about twenty minutes to nine and helped a heavy, half-conscious gentleman into the cab, saying his uncle was overcome. They drove east to Caledonia Wharf, Limehouse.",
+      "onResolve": {
+        "discoverFactIds": [
+          "cab_317_to_caledonia"
+        ],
+        "revealLocationIds": [
+          "caledonia_warehouse_limehouse"
+        ],
+        "addNotebook": "Cab 317 carried a young man and stupefied older gentleman from Craven Street to Caledonia Wharf."
+      },
+      "repeatText": "The cab trail runs from Craven Street to Caledonia Wharf."
+    },
+    {
+      "id": "hub_insurance_policy_response",
+      "caseId": "missing_chemist",
+      "hubLocationId": "north_star_assurance",
+      "priority": 100,
+      "trigger": {
+        "evidenceAny": [
+          "cargo_insurance_slip"
+        ],
+        "factsAll": []
+      },
+      "countsAsLead": true,
+      "text": "The assurance clerk copies the policy number and becomes suddenly careful. It covers one crate of laboratory glass and chemical samples, insured by Rudd & Vale for shipment to New York under the name S. Merritt. The crate is listed for temporary storage at Caledonia Warehouse before transfer to the S.S. Mercia.",
+      "onResolve": {
+        "discoverFactIds": [
+          "cargo_policy_alias_merritt"
+        ],
+        "revealLocationIds": [
+          "port_authority_london_docks",
+          "caledonia_warehouse_limehouse"
+        ],
+        "addNotebook": "North Star: cargo policy links S. Merritt, Rudd & Vale, New York shipment, and Caledonia Warehouse."
+      },
+      "repeatText": "The cargo policy still links S. Merritt, Rudd & Vale, and Caledonia Warehouse."
+    },
+    {
+      "id": "hub_port_manifest_response",
+      "caseId": "missing_chemist",
+      "hubLocationId": "port_authority_london_docks",
+      "priority": 100,
+      "trigger": {
+        "evidenceAny": [
+          "cargo_insurance_slip",
+          "steamship_advert_clipping",
+          "torn_blue_label"
+        ],
+        "factsAny": [
+          "cargo_policy_alias_merritt"
+        ]
+      },
+      "countsAsLead": true,
+      "text": "With either the policy number, the Mercia clipping, or the torn blue label, the dock clerk can search the manifest. He finds the entry: Rudd & Vale, one crate laboratory glass and samples, alias S. Merritt, Caledonia Warehouse, transfer to S.S. Mercia before nine tonight. A note in the margin says: 'Do not open. Private chemical samples.'",
+      "onResolve": {
+        "discoverEvidenceIds": [
+          "shipping_manifest_entry"
+        ],
+        "discoverFactIds": [
+          "manifest_places_cargo_at_caledonia"
+        ],
+        "revealLocationIds": [
+          "caledonia_warehouse_limehouse"
+        ],
+        "addNotebook": "Port manifest: Rudd & Vale cargo under S. Merritt is at Caledonia Warehouse before sailing on the S.S. Mercia."
+      },
+      "repeatText": "The manifest points to Caledonia Warehouse and the S.S. Mercia."
+    }
+  ],
+  "genericLeadRules": [
+    {
+      "id": "generic_railway_needs_specifics",
+      "hubDomainsAny": [
+        "railway_ticket",
+        "timetable",
+        "passenger_ledger"
+      ],
+      "priority": 50,
+      "countsAsLead": false,
+      "text": "The railway clerk explains that ledgers are exacting, but he needs a ticket, date, destination, or passenger name before he can help."
+    },
+    {
+      "id": "generic_chemist_needs_sample",
+      "hubDomainsAny": [
+        "chemical",
+        "poison",
+        "residue"
+      ],
+      "priority": 50,
+      "countsAsLead": false,
+      "text": "The analyst can identify a substance only if you bring a sample, stain, vessel, or exact preparation."
+    },
+    {
+      "id": "generic_insurance_needs_policy",
+      "hubDomainsAny": [
+        "insurance",
+        "cargo_policy",
+        "policy_number"
+      ],
+      "priority": 50,
+      "countsAsLead": false,
+      "text": "The insurance clerk cannot search the books without a policy number, insured name, or particular claim."
+    },
+    {
+      "id": "generic_port_needs_manifest",
+      "hubDomainsAny": [
+        "shipping",
+        "manifest",
+        "warehouse"
+      ],
+      "priority": 50,
+      "countsAsLead": false,
+      "text": "The dock clerk handles hundreds of crates a day. He needs a ship, warehouse, cargo mark, policy number, or consignee."
+    },
+    {
+      "id": "generic_cab_needs_number",
+      "hubDomainsAny": [
+        "cab_number",
+        "cab_journey",
+        "driver"
+      ],
+      "priority": 50,
+      "countsAsLead": false,
+      "text": "The registry can trace a cab by number, driver, or unusually precise journey, but not by rumour alone."
+    },
+    {
+      "id": "generic_pawn_needs_receipt",
+      "hubDomainsAny": [
+        "pawn_receipt",
+        "watch",
+        "pledge"
+      ],
+      "priority": 50,
+      "countsAsLead": false,
+      "text": "The pawnbroker keeps his books, but he cannot identify a pledge without a receipt, object, initials, or date."
+    },
+    {
+      "id": "generic_pub_no_case_info",
+      "locationTypes": [
+        "pub"
+      ],
+      "priority": 10,
+      "countsAsLead": false,
+      "text": "The publican has plenty of ordinary gossip, but nothing that appears to touch the present matter."
+    },
+    {
+      "id": "generic_library_reference",
+      "locationTypes": [
+        "library"
+      ],
+      "priority": 10,
+      "countsAsLead": false,
+      "text": "The reading room can provide background knowledge, but this case calls for more specific evidence."
+    },
+    {
+      "id": "generic_fallback",
+      "locationTypes": [
+        "private_residence",
+        "commercial_office",
+        "hospital",
+        "registry_office",
+        "telegraph_office",
+        "bank"
+      ],
+      "priority": 1,
+      "countsAsLead": false,
+      "text": "You make enquiries, but nothing here appears to advance the present case."
+    }
+  ],
+  "solution": {
+    "who": "silas_mallory",
+    "whoText": "Silas Mallory, Harcourt's assistant. Nathaniel Rudd is an accessory who intended to profit from the stolen formula.",
+    "why": "formula_theft_to_pay_debts",
+    "whyText": "Mallory owed money and knew Harcourt was about to file the patent under Harcourt's sole name. Rudd & Vale were willing to pay for the formula before legal ownership was settled.",
+    "how": "drugged_with_chloral_and_staged_flight",
+    "howText": "Mallory drugged Harcourt's tea with chloral hydrate, broke the drawer to imitate burglary, planted a Brighton ticket as a false trail, and moved Harcourt by cab while he appeared drunk or ill.",
+    "where": "caledonia_warehouse_limehouse",
+    "whereText": "Harcourt was taken to Caledonia Warehouse, Limehouse, where Rudd & Vale cargo was being prepared for the S.S. Mercia.",
+    "when": "1894-05-15T20:40/21:20",
+    "whenText": "The decisive movement happened on Tuesday 15 May between roughly 8:40 p.m. and 9:20 p.m.; the watch was pawned at 10:20 p.m. after the transfer.",
+    "explanation": "Mallory created a false flight to Brighton while actually moving Harcourt east to Limehouse. The chloral cup proves incapacitation. The railway ticket proves the false trail. The cab record proves the route. The cargo policy and port manifest prove the warehouse and planned escape. The pawn receipt and debts prove Mallory's pressure and opportunity. Harcourt is recovered alive at Caledonia Warehouse before Mallory and Rudd can finish copying the formula and ship the evidence to New York.",
+    "supportingEvidenceIds": [
+      "train_ticket_brighton",
+      "porcelain_cup_residue",
+      "cab_number_317",
+      "pawn_receipt_harcourt_watch",
+      "gambling_iou",
+      "cargo_insurance_slip",
+      "shipping_manifest_entry",
+      "formula_priority_letter"
+    ],
+    "criticalFactIds": [
+      "ticket_bought_by_mallory_not_used",
+      "chloral_in_cup",
+      "cab_317_to_caledonia",
+      "mallory_pawned_harcourt_watch",
+      "cargo_policy_alias_merritt",
+      "manifest_places_cargo_at_caledonia",
+      "patent_excludes_mallory",
+      "harcourt_found_alive"
+    ]
+  },
+  "theoryOptions": {
+    "who": [
+      "silas_mallory",
+      "nathaniel_rudd",
+      "edwin_harcourt",
+      "lady_ashcombe",
+      "unknown"
+    ],
+    "why": [
+      "formula_theft_to_pay_debts",
+      "insurance_fraud",
+      "romantic_revenge",
+      "professional_jealousy",
+      "voluntary_escape"
+    ],
+    "how": [
+      "drugged_with_chloral_and_staged_flight",
+      "murdered_in_laboratory",
+      "voluntary_train_departure",
+      "kidnapped_by_sailors",
+      "unknown"
+    ],
+    "where": [
+      "caledonia_warehouse_limehouse",
+      "brighton",
+      "rudd_vale_office",
+      "royal_institution",
+      "unknown"
+    ],
+    "when": [
+      "1894-05-15T20:40/21:20",
+      "1894-05-15T18:00",
+      "1894-05-16T09:00",
+      "unknown"
+    ]
+  },
+  "scoring": {
+    "benchmarkLeadCount": 9,
+    "criticalEvidenceIds": [
+      "train_ticket_brighton",
+      "porcelain_cup_residue",
+      "cab_number_317",
+      "pawn_receipt_harcourt_watch",
+      "cargo_insurance_slip",
+      "shipping_manifest_entry"
+    ],
+    "criticalLocationIds": [
+      "harcourt_laboratory",
+      "charing_cross_railway_office",
+      "dr_north_analytical_chemist",
+      "mallory_lodgings",
+      "henley_pawnbroker",
+      "central_cab_registry",
+      "north_star_assurance",
+      "port_authority_london_docks",
+      "caledonia_warehouse_limehouse"
+    ],
+    "slotPoints": {
+      "who": 20,
+      "why": 20,
+      "how": 20,
+      "where": 20,
+      "when": 20
+    }
+  },
+  "authorNotes": {
+    "criticalPath": [
+      "harcourt_laboratory",
+      "charing_cross_railway_office",
+      "dr_north_analytical_chemist",
+      "harcourt_home",
+      "mallory_lodgings",
+      "henley_pawnbroker",
+      "central_cab_registry",
+      "north_star_assurance",
+      "port_authority_london_docks",
+      "caledonia_warehouse_limehouse"
+    ],
+    "alternatePath": [
+      "royal_institution",
+      "rudd_vale_office",
+      "mallory_lodgings",
+      "north_star_assurance",
+      "port_authority_london_docks",
+      "caledonia_warehouse_limehouse"
+    ],
+    "redHerrings": [
+      "lady_ashcombe_house",
+      "st_bartholomews_hospital",
+      "blue_anchor_wapping"
+    ],
+    "implementationWarning": "This is a playable draft, not final prose. It exists to exercise map, directory, newspaper, static leads, evidence objects, hub responses, and theory comparison."
+  }
+}
