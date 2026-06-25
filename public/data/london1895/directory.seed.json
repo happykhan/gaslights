@@ -1,0 +1,301 @@
+[
+  {
+    "id": "dir_harcourt_edwin",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Harcourt, Edwin, D.Sc.",
+    "sortName": "Harcourt, Edwin",
+    "category": "chemist",
+    "occupation": "Analytical chemist",
+    "locationId": "harcourt_laboratory",
+    "addressText": "17 Craven Street, Strand",
+    "notes": "Missing chemist; case victim."
+  },
+  {
+    "id": "dir_harcourt_agnes",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Harcourt, Mrs Agnes",
+    "sortName": "Harcourt, Agnes",
+    "category": "private_residence",
+    "occupation": "Widow? no — wife of missing chemist",
+    "locationId": "harcourt_home",
+    "addressText": "23 Gower Street",
+    "notes": "Briefing/contact."
+  },
+  {
+    "id": "dir_mallory_silas",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Mallory, Silas",
+    "sortName": "Mallory, Silas",
+    "category": "laboratory assistant",
+    "occupation": "Assistant to Dr Harcourt",
+    "locationId": "mallory_lodgings",
+    "addressText": "9 Greek Street, Soho",
+    "notes": "Primary suspect."
+  },
+  {
+    "id": "dir_rudd_vale",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Rudd & Vale Chemical Importers",
+    "sortName": "Rudd and Vale",
+    "category": "chemical importer",
+    "occupation": "Chemical importers and brokers",
+    "locationId": "rudd_vale_office",
+    "addressText": "Fenchurch Street",
+    "notes": "Commercial interest in Harcourt's formula."
+  },
+  {
+    "id": "dir_north_star",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "North Star Assurance Office",
+    "sortName": "North Star Assurance",
+    "category": "insurance",
+    "occupation": "Cargo and commercial assurance",
+    "locationId": "north_star_assurance",
+    "addressText": "Lombard Street",
+    "notes": "Interprets cargo insurance slip."
+  },
+  {
+    "id": "dir_chx_railway",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Charing Cross Railway Office",
+    "sortName": "Charing Cross Railway Office",
+    "category": "railway",
+    "occupation": "Railway tickets and timetables",
+    "locationId": "charing_cross_railway_office",
+    "addressText": "Charing Cross Station, Strand",
+    "notes": "Interprets railway ticket."
+  },
+  {
+    "id": "dir_dr_north",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "North, Dr Livia",
+    "sortName": "North, Livia",
+    "category": "chemist",
+    "occupation": "Analytical chemist",
+    "locationId": "dr_north_analytical_chemist",
+    "addressText": "Great Russell Street",
+    "notes": "Interprets residue/cup."
+  },
+  {
+    "id": "dir_henley_pawn",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Henley Pawn & Pledge",
+    "sortName": "Henley Pawn and Pledge",
+    "category": "pawnbroker",
+    "occupation": "Pawnbroker",
+    "locationId": "henley_pawnbroker",
+    "addressText": "Little Newport Street",
+    "notes": "Interprets pawn receipt."
+  },
+  {
+    "id": "dir_cab_registry",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Central Cab Registry",
+    "sortName": "Central Cab Registry",
+    "category": "cab",
+    "occupation": "Licensed cab registry",
+    "locationId": "central_cab_registry",
+    "addressText": "Great Queen Street",
+    "notes": "Traces cab number 317."
+  },
+  {
+    "id": "dir_port_records",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Port Records Office, London Docks",
+    "sortName": "Port Records Office",
+    "category": "shipping",
+    "occupation": "Dock and manifest records",
+    "locationId": "port_authority_london_docks",
+    "addressText": "London Docks, Wapping",
+    "notes": "Traces cargo/warehouse."
+  },
+  {
+    "id": "dir_caledonia",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Caledonia Warehouse",
+    "sortName": "Caledonia Warehouse",
+    "category": "warehouse",
+    "occupation": "Chemical cargo warehouse",
+    "locationId": "caledonia_warehouse_limehouse",
+    "addressText": "Caledonia Wharf, Limehouse",
+    "notes": "Hidden/endgame location; author may choose not to expose in directory until discovered."
+  },
+  {
+    "id": "dir_peabody_finch",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Peabody & Finch",
+    "sortName": "Peabody and Finch",
+    "category": "solicitor",
+    "occupation": "Patent solicitors",
+    "locationId": "chancery_patent_solicitors",
+    "addressText": "Chancery Lane",
+    "notes": "Patent priority / motive support."
+  },
+  {
+    "id": "dir_bow_street",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Bow Street Police Station",
+    "sortName": "Bow Street Police Station",
+    "category": "police",
+    "occupation": "Police station",
+    "locationId": "bow_street_police_station",
+    "addressText": "Bow Street",
+    "notes": "Official enquiry."
+  },
+  {
+    "id": "dir_blue_anchor",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "The Blue Anchor",
+    "sortName": "Blue Anchor",
+    "category": "pub",
+    "occupation": "Public house",
+    "locationId": "blue_anchor_wapping",
+    "addressText": "Wapping High Street",
+    "notes": "Dockside rumour/red herring."
+  },
+  {
+    "id": "dir_chronicle",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "London Evening Chronicle",
+    "sortName": "London Evening Chronicle",
+    "category": "newspaper",
+    "occupation": "Newspaper office",
+    "locationId": "london_evening_chronicle_office",
+    "addressText": "Fleet Street",
+    "notes": "Archive/newspaper source."
+  },
+  {
+    "id": "dir_st_barts",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "St Bartholomew's Hospital",
+    "sortName": "St Bartholomew's Hospital",
+    "category": "hospital",
+    "occupation": "Hospital",
+    "locationId": "st_bartholomews_hospital",
+    "addressText": "Smithfield",
+    "notes": "Optional motive context."
+  },
+  {
+    "id": "dir_lady_ashcombe",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Ashcombe, Lady Eleanor",
+    "sortName": "Ashcombe, Eleanor",
+    "category": "society",
+    "occupation": "Scientific patron",
+    "locationId": "lady_ashcombe_house",
+    "addressText": "Grosvenor Square",
+    "notes": "Red herring / society context."
+  },
+  {
+    "id": "dir_ezra_pike",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Pike, Ezra",
+    "sortName": "Pike, Ezra",
+    "category": "bookmaker",
+    "occupation": "Turf commission agent",
+    "locationId": "ezra_pike_bookmaker",
+    "addressText": "Cranbourn Street",
+    "notes": "Confirms Mallory's debts if visited."
+  },
+  {
+    "id": "dir_royal_institution",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Royal Institution",
+    "sortName": "Royal Institution",
+    "category": "scientific institution",
+    "occupation": "Lecture rooms",
+    "locationId": "royal_institution",
+    "addressText": "Albemarle Street",
+    "notes": "Last public lecture before disappearance."
+  },
+  {
+    "id": "dir_post_office",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "General Post Office Telegraph Counter",
+    "sortName": "General Post Office",
+    "category": "telegraph",
+    "occupation": "Telegraph office",
+    "locationId": "general_post_office_telegraph",
+    "addressText": "St Martin's-le-Grand",
+    "notes": "Ambient specialist."
+  },
+  {
+    "id": "dir_british_museum",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "British Museum Reading Room",
+    "sortName": "British Museum Reading Room",
+    "category": "library",
+    "occupation": "Research library",
+    "locationId": "british_museum_reading_room",
+    "addressText": "Great Russell Street",
+    "notes": "Ambient research location."
+  },
+  {
+    "id": "dir_bank_england",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Bank of England",
+    "sortName": "Bank of England",
+    "category": "bank",
+    "occupation": "Bank",
+    "locationId": "bank_of_england",
+    "addressText": "Threadneedle Street",
+    "notes": "Ambient financial location."
+  },
+  {
+    "id": "dir_somerset",
+    "caseIds": [
+      "missing_chemist"
+    ],
+    "displayName": "Somerset House Registry",
+    "sortName": "Somerset House Registry",
+    "category": "registry",
+    "occupation": "Civil records",
+    "locationId": "somerset_house_registry",
+    "addressText": "Strand",
+    "notes": "Ambient official records."
+  }
+]

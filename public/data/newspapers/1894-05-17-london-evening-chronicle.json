@@ -1,0 +1,207 @@
+{
+  "id": "chronicle_1894_05_17",
+  "title": "The London Evening Chronicle",
+  "date": "1894-05-17",
+  "caseIds": [
+    "missing_chemist"
+  ],
+  "items": [
+    {
+      "id": "article_harcourt_missing",
+      "type": "news",
+      "headline": "Analytical Chemist Missing After Albemarle Street Lecture",
+      "body": "Dr Edwin Harcourt of Craven Street has not been seen since Tuesday evening, after delivering a lecture on hospital disinfectants at the Royal Institution. His rooms were later found in disorder. Police state that no body has been discovered and that enquiries continue.",
+      "tags": [
+        "case",
+        "hints_start"
+      ],
+      "linkedLocationIds": [
+        "royal_institution",
+        "harcourt_laboratory",
+        "bow_street_police_station"
+      ],
+      "linkedPersonIds": [
+        "edwin_harcourt"
+      ],
+      "isDirectClue": true
+    },
+    {
+      "id": "advert_ss_mercia",
+      "type": "advert",
+      "headline": "Passage to New York — S.S. Mercia",
+      "body": "Berths and limited cargo space remain available on the S.S. Mercia, sailing Thursday evening from the London Docks. Apply to the dock agents before four o'clock.",
+      "tags": [
+        "shipping",
+        "possible_escape",
+        "indirect_clue"
+      ],
+      "linkedLocationIds": [
+        "port_authority_london_docks"
+      ],
+      "linkedPersonIds": [],
+      "isDirectClue": false
+    },
+    {
+      "id": "notice_rudd_vale_porter",
+      "type": "advert",
+      "headline": "Night Porter Wanted",
+      "body": "Rudd & Vale require a sober man accustomed to chemical cargo, for night work at their eastern warehouse. References essential. Apply Fenchurch Street before noon.",
+      "tags": [
+        "rudd_vale",
+        "warehouse",
+        "indirect_clue"
+      ],
+      "linkedLocationIds": [
+        "rudd_vale_office"
+      ],
+      "linkedPersonIds": [
+        "nathaniel_rudd"
+      ],
+      "isDirectClue": false
+    },
+    {
+      "id": "court_ezra_pike",
+      "type": "court_report",
+      "headline": "Turf Agent Fined",
+      "body": "Ezra Pike, a turf commission agent of Cranbourn Street, was fined for keeping disorderly books. Several young clerks and assistants were said to have lost heavily in recent weeks.",
+      "tags": [
+        "gambling",
+        "debt",
+        "indirect_clue"
+      ],
+      "linkedLocationIds": [
+        "ezra_pike_bookmaker"
+      ],
+      "linkedPersonIds": [
+        "ezra_pike"
+      ],
+      "isDirectClue": false
+    },
+    {
+      "id": "society_ashcombe_lecture",
+      "type": "society",
+      "headline": "Science and Society",
+      "body": "Lady Ashcombe entertained a small party after Tuesday's lecture at the Royal Institution. Dr Harcourt's remarks on cheap antiseptic vapours were said to have excited commercial attention.",
+      "tags": [
+        "society",
+        "scientific_patron",
+        "rudd_vale_interest"
+      ],
+      "linkedLocationIds": [
+        "lady_ashcombe_house",
+        "royal_institution"
+      ],
+      "linkedPersonIds": [
+        "lady_ashcombe",
+        "edwin_harcourt"
+      ],
+      "isDirectClue": false
+    },
+    {
+      "id": "shipping_intelligence_mercia",
+      "type": "shipping_notice",
+      "headline": "Shipping Intelligence",
+      "body": "The S.S. Mercia takes manufactured goods, laboratory glass, and two crates of chemical samples for New York, weather permitting. Final manifests close this afternoon.",
+      "tags": [
+        "shipping",
+        "cargo",
+        "indirect_clue"
+      ],
+      "linkedLocationIds": [
+        "port_authority_london_docks"
+      ],
+      "linkedPersonIds": [],
+      "isDirectClue": false
+    },
+    {
+      "id": "railway_delay_chx",
+      "type": "transport_notice",
+      "headline": "Charing Cross Ticket Office Crowded",
+      "body": "A temporary alteration of counters at Charing Cross has obliged clerks to keep unusually exact ticket ledgers during the present week.",
+      "tags": [
+        "railway",
+        "ledger",
+        "indirect_clue"
+      ],
+      "linkedLocationIds": [
+        "charing_cross_railway_office"
+      ],
+      "linkedPersonIds": [],
+      "isDirectClue": false
+    },
+    {
+      "id": "letter_smoke_abatement",
+      "type": "letter",
+      "headline": "Letter: The Smoke Evil",
+      "body": "Sir,—London cannot hope to breathe cleanly while every factory chimney pours its filth above the poorer streets. If science can help, Parliament should not be slow to listen.",
+      "tags": [
+        "ambient",
+        "science",
+        "public_health"
+      ],
+      "linkedLocationIds": [],
+      "linkedPersonIds": [],
+      "isDirectClue": false
+    },
+    {
+      "id": "theatre_notice_lyceum",
+      "type": "entertainment",
+      "headline": "At the Lyceum",
+      "body": "The Lyceum announces a crowded house for Saturday. Gentlemen are requested not to obstruct the carriage entrance after the performance.",
+      "tags": [
+        "ambient",
+        "theatre"
+      ],
+      "linkedLocationIds": [],
+      "linkedPersonIds": [],
+      "isDirectClue": false
+    },
+    {
+      "id": "lost_silver_watch",
+      "type": "notice",
+      "headline": "Lost or Mislaid",
+      "body": "A silver watch, plain case, initials E.H., is reported missing from rooms near the Strand. Pawnbrokers are requested to communicate with the owner.",
+      "tags": [
+        "watch",
+        "pawn",
+        "indirect_clue"
+      ],
+      "linkedLocationIds": [
+        "henley_pawnbroker"
+      ],
+      "linkedPersonIds": [
+        "edwin_harcourt"
+      ],
+      "isDirectClue": false
+    },
+    {
+      "id": "dock_lightermen_dispute",
+      "type": "news",
+      "headline": "Lightermen's Dispute at Wapping",
+      "body": "Minor delays affected several warehouses east of the Tower yesterday, though cargo for foreign steamers continues to be accepted under special arrangement.",
+      "tags": [
+        "ambient",
+        "dock",
+        "wapping"
+      ],
+      "linkedLocationIds": [
+        "blue_anchor_wapping",
+        "port_authority_london_docks"
+      ],
+      "linkedPersonIds": [],
+      "isDirectClue": false
+    },
+    {
+      "id": "births_deaths_marriages",
+      "type": "notices",
+      "headline": "Births, Deaths, and Marriages",
+      "body": "Ordinary notices of the day, including one long announcement from Kensington and three births in Clapham. None appears to concern the present matter.",
+      "tags": [
+        "ambient"
+      ],
+      "linkedLocationIds": [],
+      "linkedPersonIds": [],
+      "isDirectClue": false
+    }
+  ]
+}

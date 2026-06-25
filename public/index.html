@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gaslights</title>
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div id="app" class="app-shell">
+      <aside class="sidebar" aria-label="Investigation controls">
+        <header class="brand">
+          <p class="eyebrow">London, 1894</p>
+          <h1>Gaslights</h1>
+          <p id="caseSummary" class="case-summary">Loading the case...</p>
+        </header>
+
+        <nav class="tabs" aria-label="Investigation sections">
+          <button class="tab is-active" data-view="briefing" type="button">Briefing</button>
+          <button class="tab" data-view="search" type="button">Search</button>
+          <button class="tab" data-view="notebook" type="button">Notebook</button>
+          <button class="tab" data-view="theory" type="button">Theory</button>
+        </nav>
+
+        <section id="briefingView" class="panel view is-active" aria-label="Case briefing">
+          <h2 id="caseTitle">The Missing Chemist</h2>
+          <div id="caseIntro" class="prose"></div>
+          <div class="stats">
+            <span><strong id="leadCount">0</strong> leads</span>
+            <span><strong id="evidenceCount">0</strong> evidence</span>
+            <span><strong id="factCount">0</strong> facts</span>
+          </div>
+          <button id="resetInvestigation" class="secondary-button" type="button">Reset investigation</button>
+        </section>
+
+        <section id="searchView" class="panel view" aria-label="Search">
+          <label class="field">
+            <span>Search map, directory, and newspaper</span>
+            <input id="searchInput" type="search" placeholder="chemist, Mallory, railway, Mercia" autocomplete="off" />
+          </label>
+          <div class="filters" aria-label="Map layers">
+            <label><input id="showKnown" type="checkbox" checked /> Known places</label>
+            <label><input id="showHidden" type="checkbox" /> Hidden after discovery</label>
+            <label><input id="showDirectory" type="checkbox" checked /> Directory</label>
+          </div>
+          <div id="searchResults" class="results"></div>
+        </section>
+
+        <section id="notebookView" class="panel view" aria-label="Notebook">
+          <h2>Notebook</h2>
+          <h3>Evidence</h3>
+          <div id="evidenceList" class="compact-list"></div>
+          <h3>Facts</h3>
+          <div id="factList" class="compact-list"></div>
+          <h3>Notes</h3>
+          <div id="noteList" class="compact-list"></div>
+        </section>
+
+        <section id="theoryView" class="panel view" aria-label="Theory board">
+          <h2>Theory</h2>
+          <form id="theoryForm" class="theory-form"></form>
+          <button id="submitTheory" class="primary-button" type="button">Submit theory</button>
+          <div id="solutionResult" class="solution-result" hidden></div>
+        </section>
+      </aside>
+
+      <main class="map-stage">
+        <div id="map" class="map" aria-label="Historical London map"></div>
+        <div class="map-tools" aria-label="Map controls">
+          <button id="toggleHistorical" type="button" aria-pressed="false">Historical</button>
+          <label class="opacity-control">
+            <span>Opacity</span>
+            <input id="historicalOpacity" type="range" min="0" max="1" step="0.05" value="0.45" />
+          </label>
+        </div>
+        <section id="leadPanel" class="lead-panel" aria-live="polite">
+          <button id="closeLead" class="close-button" type="button" aria-label="Close">×</button>
+          <p id="leadKicker" class="eyebrow">Choose a location</p>
+          <h2 id="leadTitle">The city is the interface</h2>
+          <p id="leadText">Search the directory, inspect the newspaper, or click a known place on the map to begin.</p>
+          <div id="leadDiscoveries" class="discoveries"></div>
+          <button id="visitLocation" class="primary-button" type="button" hidden>Visit location</button>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>
