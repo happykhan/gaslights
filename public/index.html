@@ -68,7 +68,14 @@
       <main class="map-stage">
         <div id="map" class="map" aria-label="Historical London map"></div>
         <div class="map-tools" aria-label="Map controls">
-          <button id="toggleHistorical" type="button" aria-pressed="false">Historical</button>
+          <div class="zoom-indicator" aria-live="polite">
+            <span>Zoom</span>
+            <strong id="zoomLevel">15.0</strong>
+          </div>
+          <div class="map-label" aria-label="Historical map layer">
+            <span>Historical</span>
+            <strong>London 1895</strong>
+          </div>
           <label class="opacity-control">
             <span>Opacity</span>
             <input id="historicalOpacity" type="range" min="0" max="1" step="0.05" value="0.45" />
@@ -86,6 +93,6 @@
     </div>
 
     <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
-    <script type="module" src="./assets/app.js"></script>
+    <script type="module" src="./assets/app.js?v=202606261840"></script>
   </body>
 </html>

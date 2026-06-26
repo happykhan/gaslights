@@ -11,6 +11,7 @@ test("static app files exist and load the runtime", () => {
 
 test("public data files are present for static serving", () => {
   for (const file of [
+    "public/data/map-sources.json",
     "public/data/london1895/locations.seed.json",
     "public/data/london1895/directory.seed.json",
     "public/data/london1895/generic-lead-rules.seed.json",
@@ -26,4 +27,12 @@ test("visit rendering refreshes state before showing narration", () => {
   const app = fs.readFileSync("public/assets/app.js", "utf8");
   assert.match(app, /function renderInvestigationState\(\)/);
   assert.match(app, /renderInvestigationState\(\);\n\s*renderResolution\(resolution\);/);
+});
+
+test("map sources are data-driven", () => {
+  const app = fs.readFileSync("public/assets/app.js", "utf8");
+  const sources = JSON.parse(fs.readFileSync("public/data/map-sources.json", "utf8"));
+  assert.match(app, /mapSources:\s*(?:`\.\/data\/map-sources\.json\?v=\$\{ASSET_VERSION\}`|"\.\/data\/map-sources\.json")/);
+  assert.doesNotMatch(app, /historicalTiles:/);
+  assert.ok(sources.some((source) => source.id === "london-1895-six-inch-local"));
 });

@@ -262,12 +262,44 @@ select {
   left: 16px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   padding: 10px;
   background: rgba(27, 27, 23, 0.92);
   border: 1px solid var(--line);
   border-radius: 8px;
   z-index: 1;
+}
+
+.zoom-indicator {
+  display: grid;
+  gap: 2px;
+  min-width: 72px;
+  padding: 6px 8px;
+  color: var(--muted);
+  background: rgba(17, 18, 15, 0.7);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 0.78rem;
+}
+
+.zoom-indicator strong {
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.map-label {
+  display: grid;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.map-label strong {
+  color: var(--ink);
+  font-size: 0.92rem;
+  line-height: 1.1;
 }
 
 .opacity-control {
@@ -297,6 +329,10 @@ select {
   border-radius: 8px;
   box-shadow: 0 18px 40px var(--shadow);
   z-index: 1;
+}
+
+.lead-panel[hidden] {
+  display: none;
 }
 
 .lead-panel p {

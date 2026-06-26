@@ -38,10 +38,35 @@ The product goal is not a walking tour and not a generic mystery generator. It i
 - [`docs/CASE_AUTHORING_AND_EDITOR.md`](docs/CASE_AUTHORING_AND_EDITOR.md) — case development workflow, editor requirements, POI review, and generic lead engine.
 - [`docs/DATA_MODEL.md`](docs/DATA_MODEL.md) — initial JSON-first data model for locations, cases, evidence, hub responses, newspapers, directories, and theories.
 - [`docs/PILOT_CASE_BRIEF.md`](docs/PILOT_CASE_BRIEF.md) — scope for the first playable pilot case.
-
 - [`docs/PILOT_CASE_FULL_DRAFT.md`](docs/PILOT_CASE_FULL_DRAFT.md) — complete playable draft for the first case.
 - [`docs/PILOT_CASE_RUNTIME_CHECKLIST.md`](docs/PILOT_CASE_RUNTIME_CHECKLIST.md) — runtime requirements for loading and playing the pilot case.
 - [`data/cases/missing-chemist.case.json`](data/cases/missing-chemist.case.json) — machine-readable pilot case data.
+
+## Historical map docs
+
+- [`docs/HISTORICAL_TILE_BUILD_PROCESS.md`](docs/HISTORICAL_TILE_BUILD_PROCESS.md) — the end-to-end guide for building historical overlays from reviewed NLS sheets into `public/tiles/`.
+- [`docs/NLS_HISTORICAL_MAP_PIPELINE.md`](docs/NLS_HISTORICAL_MAP_PIPELINE.md) — command-level NLS preview, crop-review, reviewed-build, and manifest workflow notes.
+- [`docs/IIIF_TILE_DOWNLOAD_WORKFLOW.md`](docs/IIIF_TILE_DOWNLOAD_WORKFLOW.md) — lower-level single-sheet IIIF download notes and source-image constraints.
+
+## Historical map build
+
+Gaslights uses a single local historical overlay based on the London 1895 six-inch series rather than hotlinking the NLS viewer at runtime.
+
+The main reviewed-sheet build command is:
+
+```bash
+npm run nls:build:reviewed -- --manifest data/raw/nls-sheet-index/london-1895-six-inch.manifest.json
+```
+
+If the reviewed sheets are already fully downloaded locally and you only want to build the overlay from what is present:
+
+```bash
+npm run nls:build:reviewed -- --manifest data/raw/nls-sheet-index/london-1895-six-inch.manifest.json --skip-download
+```
+
+This flow is documented in:
+
+- [`docs/HISTORICAL_TILE_BUILD_PROCESS.md`](docs/HISTORICAL_TILE_BUILD_PROCESS.md)
 
 ## Relationship to LondonTour
 

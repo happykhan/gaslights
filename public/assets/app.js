@@ -6,25 +6,32 @@ import {
   resolveVisit
 } from "./case-engine.js";
 
+const ASSET_VERSION = "202606261840";
+
 const DATA_PATHS = {
   locations: "./data/london1895/locations.seed.json",
   directory: "./data/london1895/directory.seed.json",
   genericRules: "./data/london1895/generic-lead-rules.seed.json",
   newspaper: "./data/newspapers/1894-05-17-london-evening-chronicle.json",
-  caseData: "./data/cases/missing-chemist.case.json"
+  caseData: "./data/cases/missing-chemist.case.json",
+  mapSources: `./data/map-sources.json?v=${ASSET_VERSION}`
 };
 
 const MAP_CONFIG = {
-  center: [-0.112, 51.512],
-  zoom: 12.2,
-  modernTiles: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-  historicalTiles: null,
-  attribution: "Map data © OpenStreetMap contributors. Historical layer placeholder pending licensed source."
+  center: [-0.1246, 51.5079],
+  zoom: 12.6
 };
+const MAP_MIN_ZOOM = 12.6;
+const HISTORICAL_SOURCE_ID = "london-1895-six-inch-local";
+const HISTORICAL_LAYER_MIN_ZOOM = 0;
+const HISTORICAL_LAYER_MAX_ZOOM = 20;
+const MODERN_BASE_OPACITY = 0.28;
 
 const storeKey = "gaslights:missing_chemist:v1";
+const mapLayerStoreKey = "gaslights:map-layers:v1";
 const data = await loadData();
 let state = loadState(data.caseData);
+let mapLayerState = loadMapLayerState(data.mapSources);
 let selectedLocationId = null;
 let map;
 let markers = [];
@@ -43,6 +50,7 @@ const els = {
   noteList: document.querySelector("#noteList"),
   theoryForm: document.querySelector("#theoryForm"),
   solutionResult: document.querySelector("#solutionResult"),
+  leadPanel: document.querySelector("#leadPanel"),
   leadKicker: document.querySelector("#leadKicker"),
   leadTitle: document.querySelector("#leadTitle"),
   leadText: document.querySelector("#leadText"),
@@ -52,15 +60,15 @@ const els = {
   showKnown: document.querySelector("#showKnown"),
   showHidden: document.querySelector("#showHidden"),
   showDirectory: document.querySelector("#showDirectory"),
-  toggleHistorical: document.querySelector("#toggleHistorical"),
-  historicalOpacity: document.querySelector("#historicalOpacity")
+  historicalOpacity: document.querySelector("#historicalOpacity"),
+  zoomLevel: document.querySelector("#zoomLevel")
 };
 
 boot();
 
 async function loadData() {
   const entries = await Promise.all(Object.entries(DATA_PATHS).map(async ([key, path]) => {
-    const response = await fetch(path);
+    const response = await fetch(path, { cache: "no-store" });
     if (!response.ok) throw new Error(`Failed to load ${path}`);
     return [key, await response.json()];
   }));
@@ -75,47 +83,76 @@ function boot() {
 }
 
 function initMap() {
+  const style = {
+    version: 8,
+    sources: {},
+    layers: []
+  };
+
+  for (const source of data.mapSources.filter((item) => item.kind === "raster_xyz")) {
+    const sourceMinZoom = getRenderableSourceMinZoom(source);
+    const sourceMaxZoom = getRenderableSourceMaxZoom(source);
+    style.sources[source.id] = {
+      type: "raster",
+      tiles: source.tiles,
+      tileSize: source.tileSize || 256,
+      attribution: source.attribution,
+      minzoom: sourceMinZoom,
+      maxzoom: sourceMaxZoom
+    };
+    style.layers.push({
+      id: source.id,
+      type: "raster",
+      source: source.id,
+      minzoom: sourceMinZoom,
+      maxzoom: sourceMaxZoom,
+      paint: { "raster-opacity": getInitialMapSourceOpacity(source) },
+      layout: { visibility: isMapSourceVisible(source.id) ? "visible" : "none" }
+    });
+  }
+
   map = new maplibregl.Map({
     container: "map",
     center: MAP_CONFIG.center,
     zoom: MAP_CONFIG.zoom,
-    style: {
-      version: 8,
-      sources: {
-        modern: {
-          type: "raster",
-          tiles: [MAP_CONFIG.modernTiles],
-          tileSize: 256,
-          attribution: MAP_CONFIG.attribution
-        }
-      },
-      layers: [
-        {
-          id: "modern",
-          type: "raster",
-          source: "modern"
-        }
-      ]
-    }
+    minZoom: MAP_MIN_ZOOM,
+    maxZoom: HISTORICAL_LAYER_MAX_ZOOM,
+    style
   });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
   map.on("load", () => {
-    if (MAP_CONFIG.historicalTiles) {
-      map.addSource("historical", {
-        type: "raster",
-        tiles: [MAP_CONFIG.historicalTiles],
-        tileSize: 256
-      });
-      map.addLayer({
-        id: "historical",
-        type: "raster",
-        source: "historical",
-        paint: { "raster-opacity": Number(els.historicalOpacity.value) },
-        layout: { visibility: "none" }
-      });
-    }
+    syncHistoricalControls();
+    syncZoomIndicator();
     renderMarkers();
   });
+  map.on("zoom", syncZoomIndicator);
+  map.on("move", syncZoomIndicator);
+}
+
+function getRenderableSourceMinZoom(source) {
+  return isHistoricalLocalSource(source)
+    ? HISTORICAL_LAYER_MIN_ZOOM
+    : (source.minzoom ?? 0);
+}
+
+function getRenderableSourceMaxZoom(source) {
+  return isHistoricalLocalSource(source)
+    ? HISTORICAL_LAYER_MAX_ZOOM
+    : (source.maxzoom ?? HISTORICAL_LAYER_MAX_ZOOM);
+}
+
+function isHistoricalLocalSource(source) {
+  return source?.id === HISTORICAL_SOURCE_ID;
+}
+
+function isModernBaseSource(source) {
+  return Boolean(source?.defaultVisible);
+}
+
+function getInitialMapSourceOpacity(source) {
+  const storedOpacity = getMapSourceOpacity(source.id);
+  if (mapLayerState[source.id]?.opacity !== undefined) return storedOpacity;
+  return isModernBaseSource(source) ? MODERN_BASE_OPACITY : storedOpacity;
 }
 
 function bindEvents() {
@@ -129,7 +166,7 @@ function bindEvents() {
   els.visitLocation.addEventListener("click", () => visitSelectedLocation());
   els.closeLead.addEventListener("click", () => {
     selectedLocationId = null;
-    renderLeadPrompt();
+    hideLeadPanel();
   });
   document.querySelector("#resetInvestigation").addEventListener("click", () => {
     state = createInitialState(data.caseData);
@@ -143,17 +180,8 @@ function bindEvents() {
     for (const slot of ["who", "why", "how", "where", "when"]) state.theory[slot] = form.get(slot) || null;
     saveState();
   });
-  els.toggleHistorical.addEventListener("click", () => {
-    if (!MAP_CONFIG.historicalTiles || !map.getLayer("historical")) {
-      els.toggleHistorical.textContent = "Historical source needed";
-      return;
-    }
-    const visible = map.getLayoutProperty("historical", "visibility") !== "none";
-    map.setLayoutProperty("historical", "visibility", visible ? "none" : "visible");
-    els.toggleHistorical.setAttribute("aria-pressed", String(!visible));
-  });
   els.historicalOpacity.addEventListener("input", () => {
-    if (map.getLayer("historical")) map.setPaintProperty("historical", "raster-opacity", Number(els.historicalOpacity.value));
+    setHistoricalOpacity(Number(els.historicalOpacity.value));
   });
 }
 
@@ -283,6 +311,7 @@ function buildSearchResults(query) {
 }
 
 function openLocation(locationId, fly) {
+  showLeadPanel();
   selectedLocationId = locationId;
   const location = findLocation(locationId);
   if (fly && location?.coordinates) {
@@ -292,6 +321,7 @@ function openLocation(locationId, fly) {
 }
 
 function renderLocationPreview(locationId) {
+  showLeadPanel();
   const location = findLocation(locationId);
   const alreadyVisited = state.visitedLocationIds.includes(locationId);
   els.leadKicker.textContent = alreadyVisited ? "Visited location" : location.type.replaceAll("_", " ");
@@ -303,6 +333,7 @@ function renderLocationPreview(locationId) {
 }
 
 function renderLeadPrompt() {
+  showLeadPanel();
   els.leadKicker.textContent = "Choose a location";
   els.leadTitle.textContent = "The city is the interface";
   els.leadText.textContent = "Search the directory, inspect the newspaper, or click a known place on the map to begin.";
@@ -320,6 +351,7 @@ function visitSelectedLocation() {
 }
 
 function renderResolution(resolution) {
+  showLeadPanel();
   els.leadKicker.textContent = resolution.kind.replaceAll("_", " ");
   els.leadTitle.textContent = resolution.title;
   els.leadText.textContent = resolution.text;
@@ -332,11 +364,20 @@ function renderResolution(resolution) {
 }
 
 function showReference(result) {
+  showLeadPanel();
   els.leadKicker.textContent = result.kind;
   els.leadTitle.textContent = result.title;
   els.leadText.textContent = result.body || result.detail;
   els.leadDiscoveries.innerHTML = "";
   els.visitLocation.hidden = true;
+}
+
+function showLeadPanel() {
+  els.leadPanel.hidden = false;
+}
+
+function hideLeadPanel() {
+  els.leadPanel.hidden = true;
 }
 
 function renderNotebook() {
@@ -396,6 +437,104 @@ function loadState(caseData) {
     localStorage.removeItem(storeKey);
   }
   return createInitialState(caseData);
+}
+
+function loadMapLayerState(mapSources) {
+  const defaults = Object.fromEntries(mapSources.map((source) => [
+    source.id,
+    {
+      visible: source.id === HISTORICAL_SOURCE_ID ? true : Boolean(source.defaultVisible),
+      opacity: Number.isFinite(source.opacity) ? source.opacity : 1
+    }
+  ]));
+  try {
+    const stored = JSON.parse(localStorage.getItem(mapLayerStoreKey));
+    if (!stored || typeof stored !== "object") return defaults;
+    const merged = { ...defaults, ...stored };
+    merged[HISTORICAL_SOURCE_ID] = {
+      ...merged[HISTORICAL_SOURCE_ID],
+      visible: true
+    };
+    return merged;
+  } catch {
+    localStorage.removeItem(mapLayerStoreKey);
+    return defaults;
+  }
+}
+
+function saveMapLayerState() {
+  localStorage.setItem(mapLayerStoreKey, JSON.stringify(mapLayerState));
+}
+
+function isMapSourceVisible(sourceId) {
+  return Boolean(mapLayerState[sourceId]?.visible);
+}
+
+function getMapSourceOpacity(sourceId) {
+  return mapLayerState[sourceId]?.opacity ?? 1;
+}
+
+function setMapSourceVisibility(sourceId, visible) {
+  const source = data.mapSources.find((item) => item.id === sourceId);
+  mapLayerState[sourceId] = {
+    ...mapLayerState[sourceId],
+    visible
+  };
+  if (map.getLayer(sourceId)) map.setLayoutProperty(sourceId, "visibility", visible ? "visible" : "none");
+  if (visible && source?.bounds) {
+    map.fitBounds(source.bounds, { padding: 80, maxZoom: Math.max(map.getZoom(), source.minzoom || 14) });
+  }
+  saveMapLayerState();
+  syncHistoricalControls();
+}
+
+function setMapSourceOpacity(sourceId, opacity) {
+  mapLayerState[sourceId] = {
+    ...mapLayerState[sourceId],
+    opacity
+  };
+  if (map.getLayer(sourceId)) map.setPaintProperty(sourceId, "raster-opacity", opacity);
+  saveMapLayerState();
+  syncHistoricalControls();
+}
+
+function getHistoricalSource() {
+  return data.mapSources.find((source) => source.id === HISTORICAL_SOURCE_ID) || null;
+}
+
+function setHistoricalOpacity(opacity) {
+  const source = getHistoricalSource();
+  if (!source) return;
+  setMapSourceOpacity(source.id, opacity);
+}
+
+function syncHistoricalControls() {
+  const source = getHistoricalSource();
+  if (!source) return;
+  els.historicalOpacity.value = String(getMapSourceOpacity(source.id));
+}
+
+function syncZoomIndicator() {
+  if (!map || !els.zoomLevel) return;
+  els.zoomLevel.textContent = map.getZoom().toFixed(1);
+}
+
+function combineBounds(boundsList) {
+  if (!boundsList.length) return null;
+  let west = Infinity;
+  let south = Infinity;
+  let east = -Infinity;
+  let north = -Infinity;
+  for (const bounds of boundsList) {
+    west = Math.min(west, bounds[0]);
+    south = Math.min(south, bounds[1]);
+    east = Math.max(east, bounds[2]);
+    north = Math.max(north, bounds[3]);
+  }
+  return [
+    [west, south],
+    [east, north]
+  ];
 }
 
 function saveState() {

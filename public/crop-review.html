@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gaslights Crop Review</title>
+    <link rel="stylesheet" href="./assets/crop-review.css" />
+  </head>
+  <body>
+    <div class="review-shell">
+      <aside class="review-sidebar">
+        <div class="review-brand">
+          <p class="review-eyebrow">NLS Sheet Review</p>
+          <h1>Crop review</h1>
+        </div>
+
+        <label class="review-field">
+          <span>Filter sheets</span>
+          <input id="sheetSearch" type="search" placeholder="VII.84, 101201649, Lambeth" autocomplete="off" />
+        </label>
+
+        <label class="review-checkbox">
+          <input id="onlyNeedsReview" type="checkbox" checked />
+          <span>Only needs review</span>
+        </label>
+
+        <div class="review-actions">
+          <button id="prevSheet" type="button">Prev</button>
+          <button id="nextSheet" type="button">Next</button>
+          <button id="fitView" type="button">Fit</button>
+        </div>
+
+        <label class="review-field">
+          <span>Edit mode</span>
+          <select id="editMode">
+            <option value="crop">Crop bounds</option>
+            <option value="corners">Georef corners</option>
+          </select>
+        </label>
+
+        <div id="sheetList" class="sheet-list" aria-label="Sheets"></div>
+      </aside>
+
+      <main class="review-main">
+        <header class="sheet-header">
+          <div>
+            <p id="sheetStatus" class="review-status">Loading</p>
+            <h2 id="sheetTitle">Preparing sheets</h2>
+          </div>
+          <div class="sheet-header-actions">
+            <label class="autosave-toggle">
+              <input id="autosaveToggle" type="checkbox" checked />
+              <span>Auto-save</span>
+            </label>
+            <span id="saveState" class="save-state">Idle</span>
+            <button id="resetCrop" type="button">Reset</button>
+            <button id="resetQuad" type="button">Reset corners</button>
+            <button id="saveCrop" class="is-primary" type="button">Save crop</button>
+          </div>
+        </header>
+
+        <section class="workspace-grid">
+          <div class="canvas-panel">
+            <canvas id="mainCanvas"></canvas>
+          </div>
+
+          <aside class="preview-panel">
+            <div class="bounds-card">
+              <div class="bounds-grid">
+                <label><span>Left</span><input id="leftInput" type="number" step="1" /></label>
+                <label><span>Top</span><input id="topInput" type="number" step="1" /></label>
+                <label><span>Right</span><input id="rightInput" type="number" step="1" /></label>
+                <label><span>Bottom</span><input id="bottomInput" type="number" step="1" /></label>
+              </div>
+              <label class="review-field">
+                <span>Status</span>
+                <select id="statusInput">
+                  <option value="reviewed">reviewed</option>
+                  <option value="auto_detected_needs_review">auto_detected_needs_review</option>
+                  <option value="manual_fix_needed">manual_fix_needed</option>
+                </select>
+              </label>
+              <label class="review-field">
+                <span>Notes</span>
+                <textarea id="notesInput" rows="3"></textarea>
+              </label>
+              <p id="sheetMeta" class="sheet-meta"></p>
+              <p class="sheet-meta">Red box = stitch crop. Gold corners = georeference control points.</p>
+            </div>
+
+            <div class="mini-grid">
+              <section class="mini-card">
+                <h3>Whole preview</h3>
+                <canvas id="overviewCanvas"></canvas>
+              </section>
+              <section class="mini-card">
+                <h3>Top-left</h3>
+                <p class="mini-help">High-resolution corner preview with crop lines and georeference point.</p>
+                <canvas id="topLeftCanvas"></canvas>
+              </section>
+              <section class="mini-card">
+                <h3>Top-right</h3>
+                <p class="mini-help">High-resolution corner preview with crop lines and georeference point.</p>
+                <canvas id="topRightCanvas"></canvas>
+              </section>
+              <section class="mini-card">
+                <h3>Bottom-right</h3>
+                <p class="mini-help">High-resolution corner preview with crop lines and georeference point.</p>
+                <canvas id="bottomRightCanvas"></canvas>
+              </section>
+              <section class="mini-card">
+                <h3>Bottom-left</h3>
+                <p class="mini-help">High-resolution corner preview with crop lines and georeference point.</p>
+                <canvas id="bottomLeftCanvas"></canvas>
+              </section>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./assets/crop-review.js"></script>
+  </body>
+</html>

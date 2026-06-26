@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+
+# Raw IIIF/NLS downloaded imagery should not be committed.
+data/raw/nls-iiif-sheets/**/tiles/
+data/raw/nls-iiif-sheets/**/*.jpg
+data/raw/nls-iiif-sheets/**/*.jpeg
+data/raw/nls-iiif-sheets/**/*.png
+data/raw/nls-iiif-sheets/**/*.tif
+data/raw/nls-iiif-sheets/**/*.tiff
+
+# Large raw datasets and local extraction assets.
+data/raw/gb1900/
+data/raw/london-os-text-layer/
+data/raw/london-os-text-layer/*.geojson
+data/raw/london-os-text-layer/*.png
+
+# Build outputs.
+build/iiif-sheets/
+build/historical-geotiffs/
+build/historical-mosaic/
+
+# Generated local map tiles can be very large. Commit production tiles only by explicit decision.
+public/tiles/

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "modern-dev-osm",
+    "label": "Modern reference map",
+    "kind": "raster_xyz",
+    "tiles": [
+      "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+    ],
+    "tileSize": 256,
+    "defaultVisible": true,
+    "opacity": 1,
+    "devOnly": true,
+    "minzoom": 0,
+    "maxzoom": 19,
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL",
+    "notes": "Development only. Do not rely on OSM public tile servers for production."
+  },
+  {
+    "id": "london-1895-six-inch-local",
+    "label": "London 1895",
+    "kind": "raster_xyz",
+    "tiles": [
+      "/tiles/london-1895-six-inch/{z}/{x}/{y}.png?v=202606261801"
+    ],
+    "tileSize": 256,
+    "defaultVisible": true,
+    "opacity": 1,
+    "minzoom": 11,
+    "maxzoom": 20,
+    "attribution": "Historical mapping derived from out-of-copyright Ordnance Survey/NLS six-inch source material; provenance recorded per sheet.",
+    "license": "needs-production-verification",
+    "notes": "Generated from 8 reviewed sheets for London 1895 six-inch; updated 2026-06-26T18:01:27.517Z.",
+    "bounds": [
+      -0.2305399,
+      51.4645187,
+      -0.0218126,
+      51.5513826
+    ]
+  }
+]

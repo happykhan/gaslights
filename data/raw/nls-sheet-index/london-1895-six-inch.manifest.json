@@ -1,0 +1,431 @@
+{
+  "generatedAt": "2026-06-26T12:16:54.163Z",
+  "source": [
+    "map_json2/MapFinderWithOutlinesFeatures (1).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (10).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (11).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (12).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (13).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (2).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (3).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (4).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (5).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (6).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (7).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (8).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (9).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures - 2026-06-26T125342.659.geojson"
+  ],
+  "filter": {
+    "sourceType": "NLS Map Finder outline export",
+    "series": "6inch1890s",
+    "bbox": null,
+    "sheetPrefix": "London/Middlesex/Surrey/Kent six-inch series",
+    "scale": "6in_to_1mile",
+    "targetYears": [
+      "1894",
+      "1895",
+      "1896",
+      "1897",
+      "1898"
+    ]
+  },
+  "sheets": [
+    {
+      "imageId": "91617032",
+      "sheet": "London VI.SE",
+      "year": "1894",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/91617032",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/9161%2F91617032/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.230455,
+                51.493448
+              ],
+              [
+                -0.2305399,
+                51.5223771
+              ],
+              [
+                -0.16098,
+                51.5224359
+              ],
+              [
+                -0.1609392,
+                51.4935067
+              ],
+              [
+                -0.230455,
+                51.493448
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.2305399,
+        "south": 51.493448,
+        "east": -0.1609392,
+        "north": 51.5224359
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    },
+    {
+      "imageId": "96805011",
+      "sheet": "London VII.NE",
+      "year": "1894",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/96805011",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/9680%2F96805011/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.09142,
+                51.5224536
+              ],
+              [
+                -0.0914168,
+                51.5513826
+              ],
+              [
+                -0.0218126,
+                51.551359
+              ],
+              [
+                -0.02186,
+                51.5224299
+              ],
+              [
+                -0.09142,
+                51.5224536
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.09142,
+        "south": 51.5224299,
+        "east": -0.0218126,
+        "north": 51.5513826
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    },
+    {
+      "imageId": "99383316",
+      "sheet": "London VII.NW",
+      "year": "1894",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/99383316",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/9938%2F99383316/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.16098,
+                51.5224359
+              ],
+              [
+                -0.1610209,
+                51.551365
+              ],
+              [
+                -0.0914168,
+                51.5513826
+              ],
+              [
+                -0.09142,
+                51.5224536
+              ],
+              [
+                -0.16098,
+                51.5224359
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.1610209,
+        "south": 51.5224359,
+        "east": -0.0914168,
+        "north": 51.5513826
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    },
+    {
+      "imageId": "96805017",
+      "sheet": "London VII.SE",
+      "year": "1894",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/96805017",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/9680%2F96805017/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.0914232,
+                51.4935243
+              ],
+              [
+                -0.09142,
+                51.5224536
+              ],
+              [
+                -0.02186,
+                51.5224299
+              ],
+              [
+                -0.0219072,
+                51.4935007
+              ],
+              [
+                -0.0914232,
+                51.4935243
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.0914232,
+        "south": 51.4935007,
+        "east": -0.02186,
+        "north": 51.5224536
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    },
+    {
+      "imageId": "91617035",
+      "sheet": "London VII.SW",
+      "year": "1894",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/91617035",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/9161%2F91617035/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.1609392,
+                51.4935067
+              ],
+              [
+                -0.16098,
+                51.5224359
+              ],
+              [
+                -0.09142,
+                51.5224536
+              ],
+              [
+                -0.0914232,
+                51.4935243
+              ],
+              [
+                -0.1609392,
+                51.4935067
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.16098,
+        "south": 51.4935067,
+        "east": -0.09142,
+        "north": 51.5224536
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    },
+    {
+      "imageId": "95470395",
+      "sheet": "London X.NE",
+      "year": "1894",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/95470395",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/9547%2F95470395/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.2303703,
+                51.4645187
+              ],
+              [
+                -0.230455,
+                51.493448
+              ],
+              [
+                -0.1609392,
+                51.4935067
+              ],
+              [
+                -0.1608984,
+                51.4645774
+              ],
+              [
+                -0.2303703,
+                51.4645187
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.230455,
+        "south": 51.4645187,
+        "east": -0.1608984,
+        "north": 51.4935067
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    },
+    {
+      "imageId": "96805053",
+      "sheet": "London XI.NE",
+      "year": "1894",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/96805053",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/9680%2F96805053/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.0914264,
+                51.464595
+              ],
+              [
+                -0.0914232,
+                51.4935243
+              ],
+              [
+                -0.0219072,
+                51.4935007
+              ],
+              [
+                -0.0219544,
+                51.4645714
+              ],
+              [
+                -0.0914264,
+                51.464595
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.0914264,
+        "south": 51.4645714,
+        "east": -0.0219072,
+        "north": 51.4935243
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    },
+    {
+      "imageId": "96805050",
+      "sheet": "London XI.NW",
+      "year": "1894",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/96805050",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/9680%2F96805050/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.1608984,
+                51.4645774
+              ],
+              [
+                -0.1609392,
+                51.4935067
+              ],
+              [
+                -0.0914232,
+                51.4935243
+              ],
+              [
+                -0.0914264,
+                51.464595
+              ],
+              [
+                -0.1608984,
+                51.4645774
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.1609392,
+        "south": 51.4645774,
+        "east": -0.0914232,
+        "north": 51.4935243
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    },
+    {
+      "imageId": "101436343",
+      "sheet": "Surrey III.NW",
+      "year": "1898",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/101436343",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/10143%2F101436343/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.1459095,
+                51.494318
+              ],
+              [
+                -0.1457678,
+                51.523247
+              ],
+              [
+                -0.0762072,
+                51.5230938
+              ],
+              [
+                -0.0763928,
+                51.4941649
+              ],
+              [
+                -0.1459095,
+                51.494318
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.1459095,
+        "south": 51.4941649,
+        "east": -0.0762072,
+        "north": 51.523247
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    }
+  ]
+}
