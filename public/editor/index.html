@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gaslights Editor</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" />
+    <link rel="stylesheet" href="/assets/location-editor.css?v=202606281815" />
+  </head>
+  <body>
+    <div class="editor-shell">
+      <aside class="editor-sidebar">
+        <header>
+          <p class="eyebrow">Authoring</p>
+          <h1>Editor</h1>
+          <p class="muted">Cases, places, people, visit logic, and newspaper.</p>
+        </header>
+
+        <nav class="editor-tabs">
+          <button class="editor-tab is-active" data-tab="cases" type="button">Case Editor</button>
+          <button class="editor-tab" data-tab="locations" type="button">World Places</button>
+          <button class="editor-tab" data-tab="people" type="button">World People</button>
+        </nav>
+
+        <section id="casesTab" class="tab-panel is-active">
+          <div class="tab-actions">
+            <button id="newCase" class="secondary-button" type="button">New case</button>
+            <button id="duplicateCase" class="secondary-button" type="button">Duplicate</button>
+            <button id="deleteCase" class="secondary-button" type="button">Delete</button>
+          </div>
+          <div class="bulk-actions">
+            <p class="eyebrow">Bulk case data</p>
+            <button id="exportCaseJson" class="secondary-button" type="button">Export JSON</button>
+            <button id="importCaseJson" class="secondary-button" type="button">Import JSON</button>
+          </div>
+          <label class="field">
+            <span>Search</span>
+            <input id="caseQuery" type="search" placeholder="Find a case" autocomplete="off" />
+          </label>
+          <div class="selection-actions" data-selection-kind="cases">
+            <span id="caseSelectionSummary" class="selection-summary">0 selected</span>
+            <button id="selectVisibleCases" class="secondary-button inline-button" type="button">Select visible</button>
+            <button id="clearSelectedCases" class="secondary-button inline-button" type="button">Clear</button>
+            <button id="deleteSelectedCases" class="secondary-button inline-button danger-button" type="button">Delete selected</button>
+          </div>
+          <div id="caseList" class="location-list"></div>
+        </section>
+
+        <section id="locationsTab" class="tab-panel">
+          <div class="tab-actions">
+            <button id="newLocation" class="secondary-button" type="button">New location</button>
+            <button id="deleteLocation" class="secondary-button" type="button">Delete</button>
+          </div>
+          <div class="bulk-actions">
+            <p class="eyebrow">Bulk place data</p>
+            <button id="exportLocationsCsv" class="secondary-button" type="button">Export CSV</button>
+            <button id="exportLocationsJson" class="secondary-button" type="button">Export JSON</button>
+            <button id="importLocationsCsv" class="secondary-button" type="button">Import CSV</button>
+            <button id="importLocationsJson" class="secondary-button" type="button">Import JSON</button>
+          </div>
+          <label class="field">
+            <span>Search</span>
+            <input id="locationQuery" type="search" placeholder="Find a place" autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>Sort</span>
+            <select id="locationSort" data-editor-select>
+              <option value="name">Alphabetical</option>
+              <option value="type">POI type</option>
+              <option value="visibility">Visibility</option>
+              <option value="source">Source</option>
+              <option value="recent">Recently added</option>
+            </select>
+          </label>
+          <div class="selection-actions" data-selection-kind="locations">
+            <span id="locationSelectionSummary" class="selection-summary">0 selected</span>
+            <button id="selectVisibleLocations" class="secondary-button inline-button" type="button">Select visible</button>
+            <button id="clearSelectedLocations" class="secondary-button inline-button" type="button">Clear</button>
+            <button id="exportSelectedLocationsCsv" class="secondary-button inline-button" type="button">Export selected CSV</button>
+            <button id="deleteSelectedLocations" class="secondary-button inline-button danger-button" type="button">Delete selected</button>
+          </div>
+          <div id="locationList" class="location-list"></div>
+        </section>
+
+        <section id="peopleTab" class="tab-panel">
+          <div class="tab-actions">
+            <button id="newPerson" class="secondary-button" type="button">New person</button>
+            <button id="deletePerson" class="secondary-button" type="button">Delete</button>
+          </div>
+          <div class="bulk-actions">
+            <p class="eyebrow">Bulk people data</p>
+            <button id="exportPeopleCsv" class="secondary-button" type="button">Export CSV</button>
+            <button id="exportPeopleJson" class="secondary-button" type="button">Export JSON</button>
+            <button id="importPeopleCsv" class="secondary-button" type="button">Import CSV</button>
+            <button id="importPeopleJson" class="secondary-button" type="button">Import JSON</button>
+          </div>
+          <label class="field">
+            <span>Search</span>
+            <input id="personQuery" type="search" placeholder="Find a person" autocomplete="off" />
+          </label>
+          <div class="selection-actions" data-selection-kind="people">
+            <span id="personSelectionSummary" class="selection-summary">0 selected</span>
+            <button id="selectVisiblePeople" class="secondary-button inline-button" type="button">Select visible</button>
+            <button id="clearSelectedPeople" class="secondary-button inline-button" type="button">Clear</button>
+            <button id="exportSelectedPeopleCsv" class="secondary-button inline-button" type="button">Export selected CSV</button>
+            <button id="deleteSelectedPeople" class="secondary-button inline-button danger-button" type="button">Delete selected</button>
+          </div>
+          <div id="personList" class="location-list"></div>
+        </section>
+      </aside>
+
+      <main class="editor-main">
+        <section id="caseWorkspacePanel" class="editor-panel is-active">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Case workspace</p>
+              <h2 id="workspaceCaseTitle">Loading case…</h2>
+            </div>
+            <div class="panel-header-actions">
+              <div id="workspaceStatus" class="status-pill">Loading</div>
+            </div>
+          </div>
+
+          <nav class="workspace-tabs">
+            <button class="workspace-tab is-active" data-workspace-tab="briefing" type="button">Briefing</button>
+            <button class="workspace-tab" data-workspace-tab="theory" type="button">Theory</button>
+            <button class="workspace-tab" data-workspace-tab="caseLocations" type="button">Case locations</button>
+            <button class="workspace-tab" data-workspace-tab="visitRules" type="button">Visit rules</button>
+            <button class="workspace-tab" data-workspace-tab="newspaper" type="button">Newspaper</button>
+          </nav>
+
+          <section id="briefingPanel" class="workspace-panel is-active">
+            <form id="briefingForm" class="editor-form"></form>
+          </section>
+
+          <section id="theoryPanel" class="workspace-panel">
+            <form id="theoryFormEditor" class="editor-form"></form>
+          </section>
+
+          <section id="caseLocationsPanel" class="workspace-panel">
+            <div class="editor-workspace">
+              <div class="editor-form">
+                <div class="panel-header compact-header">
+                  <div>
+                    <p class="eyebrow">Assigned locations</p>
+                    <h3 id="caseLocationTitle">Case locations</h3>
+                  </div>
+                  <div class="panel-header-actions">
+                    <button id="addCaseLocation" class="secondary-button inline-button" type="button">Add location</button>
+                    <button id="removeCaseLocation" class="secondary-button inline-button" type="button">Remove</button>
+                  </div>
+                </div>
+                <div class="grid-2">
+                  <label class="field">
+                    <span>Global location</span>
+                    <select id="caseLocationPicker"></select>
+                  </label>
+                  <label class="field">
+                    <span>Assigned list</span>
+                    <select id="caseLocationList" size="12"></select>
+                  </label>
+                </div>
+                <form id="caseLocationRoleForm" class="editor-form"></form>
+              </div>
+              <aside class="editor-sidecard">
+                <div class="sidecard-header">
+                  <div>
+                    <p class="eyebrow">Map</p>
+                    <h3>Location preview</h3>
+                  </div>
+                  <div class="map-toolbar">
+                    <label class="editor-map-opacity">
+                      <span>Historical</span>
+                      <input data-historical-opacity type="range" min="0" max="1" step="0.05" value="0.85" />
+                      <output data-historical-opacity-output>85%</output>
+                    </label>
+                    <button id="centerCaseLocationMap" class="secondary-button inline-button" type="button">Center</button>
+                  </div>
+                </div>
+                <div id="caseLocationMap" class="editor-map"></div>
+                <p class="muted map-hint">Preview the currently selected case location.</p>
+              </aside>
+            </div>
+          </section>
+
+          <section id="visitRulesPanel" class="workspace-panel">
+            <div class="editor-workspace">
+              <div class="editor-form">
+                <div class="panel-header compact-header">
+                  <div>
+                    <p class="eyebrow">Visit rules</p>
+                    <h3 id="rulePanelTitle">Rules</h3>
+                  </div>
+                  <div class="panel-header-actions">
+                    <button id="newRule" class="secondary-button inline-button" type="button">New rule</button>
+                    <button id="moveRuleUp" class="secondary-button inline-button" type="button">Move up</button>
+                    <button id="moveRuleDown" class="secondary-button inline-button" type="button">Move down</button>
+                    <button id="duplicateRule" class="secondary-button inline-button" type="button">Duplicate</button>
+                    <button id="deleteRule" class="secondary-button inline-button" type="button">Delete</button>
+                  </div>
+                </div>
+                <div class="grid-2">
+                  <label class="field">
+                    <span>Location filter</span>
+                    <select id="ruleLocationFilter"></select>
+                  </label>
+                  <label class="field">
+                    <span>Rules</span>
+                    <select id="ruleList" size="12"></select>
+                  </label>
+                </div>
+                <form id="ruleForm" class="editor-form"></form>
+              </div>
+            </div>
+          </section>
+
+          <section id="newspaperPanel" class="workspace-panel">
+            <div class="editor-workspace">
+              <div class="editor-form">
+                <div class="panel-header compact-header">
+                  <div>
+                    <p class="eyebrow">Newspaper</p>
+                    <h3 id="articleTitle">Articles</h3>
+                  </div>
+                  <div class="panel-header-actions">
+                    <button id="newArticle" class="secondary-button inline-button" type="button">New article</button>
+                    <button id="deleteArticle" class="secondary-button inline-button" type="button">Delete</button>
+                  </div>
+                </div>
+                <div class="bulk-actions inline-bulk-actions">
+                  <p class="eyebrow">Bulk newspaper data</p>
+                  <button id="exportNewspaperCsv" class="secondary-button inline-button" type="button">Export CSV</button>
+                  <button id="exportNewspaperJson" class="secondary-button inline-button" type="button">Export JSON</button>
+                  <button id="importNewspaperCsv" class="secondary-button inline-button" type="button">Import CSV</button>
+                  <button id="importNewspaperJson" class="secondary-button inline-button" type="button">Import JSON</button>
+                </div>
+                <form id="issueForm" class="editor-form"></form>
+                <div class="grid-2">
+                  <label class="field">
+                    <span>Articles</span>
+                    <select id="articleList" size="12"></select>
+                  </label>
+                  <form id="articleForm" class="editor-form"></form>
+                </div>
+              </div>
+              <aside class="editor-sidecard">
+                <div class="sidecard-header">
+                  <div>
+                    <p class="eyebrow">Preview</p>
+                    <h3>The Daily Telegraph</h3>
+                  </div>
+                </div>
+                <div id="articlePreview" class="article-preview"></div>
+              </aside>
+            </div>
+          </section>
+        </section>
+
+        <section id="locationWorkspacePanel" class="editor-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Global POI</p>
+              <h2 id="locationTitle">Select a location</h2>
+              <p id="locationSubtitle" class="panel-subtitle"></p>
+            </div>
+            <div class="panel-header-actions">
+              <button class="secondary-button inline-button" type="submit" form="locationForm" data-location-save-action="save">Save</button>
+              <button class="secondary-button inline-button" type="submit" form="locationForm" data-location-save-action="save-new">Save and new</button>
+              <button id="toggleLocationMapSize" class="secondary-button inline-button" type="button" aria-pressed="false">Large map</button>
+              <div id="locationStatus" class="status-pill" title="Shows whether the current editor section is ready, saving, or saved.">Ready</div>
+            </div>
+          </div>
+          <div class="editor-workspace">
+            <form id="locationForm" class="editor-form"></form>
+            <aside class="editor-sidecard">
+              <div class="sidecard-header">
+                <div>
+                  <p class="eyebrow">Map</p>
+                  <h3>Location preview</h3>
+                </div>
+                <div class="map-toolbar">
+                  <label class="editor-map-opacity">
+                    <span>Historical</span>
+                    <input data-historical-opacity type="range" min="0" max="1" step="0.05" value="0.85" />
+                    <output data-historical-opacity-output>85%</output>
+                  </label>
+                  <button id="centerLocationMap" class="secondary-button inline-button" type="button">Center</button>
+                </div>
+              </div>
+              <div id="locationMap" class="editor-map"></div>
+              <p class="muted map-hint">Drag the marker or tap the map to update coordinates for the selected global location.</p>
+              <div id="locationNearbyList" class="nearby-list" aria-live="polite"></div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="peopleWorkspacePanel" class="editor-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">People</p>
+              <h2 id="personTitle">Select a person</h2>
+            </div>
+            <div class="panel-header-actions">
+              <div id="personStatus" class="status-pill" title="Shows whether the current editor section is ready, saving, or saved.">Ready</div>
+            </div>
+          </div>
+          <div class="editor-workspace">
+            <form id="personForm" class="editor-form"></form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <input id="importFilePicker" type="file" hidden />
+
+    <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+    <script type="module" src="/assets/location-editor.js?v=202606281815"></script>
+  </body>
+</html>

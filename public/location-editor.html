@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gaslights Location Editor</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/location-editor.css" />
+  </head>
+  <body>
+    <div class="editor-shell">
+      <aside class="editor-sidebar">
+        <header>
+          <p class="eyebrow">Authoring</p>
+          <h1>Location Editor</h1>
+          <p class="muted">Edit the stable POI pool and the case theory text from one place.</p>
+        </header>
+
+        <nav class="editor-tabs">
+          <button class="editor-tab is-active" data-tab="locations" type="button">Locations</button>
+          <button class="editor-tab" data-tab="case" type="button">Case</button>
+        </nav>
+
+        <section id="locationsTab" class="tab-panel is-active">
+          <label class="field">
+            <span>Search</span>
+            <input id="locationQuery" type="search" placeholder="Find a place" autocomplete="off" />
+          </label>
+          <div id="locationList" class="location-list"></div>
+        </section>
+
+        <section id="caseTab" class="tab-panel">
+          <p class="muted">Briefing and theory defaults for the active case.</p>
+          <div id="caseSummaryCard" class="summary-card"></div>
+        </section>
+      </aside>
+
+      <main class="editor-main">
+        <section id="locationEditorPanel" class="editor-panel is-active">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Global POI</p>
+              <h2 id="locationTitle">Select a location</h2>
+            </div>
+            <div id="locationStatus" class="status-pill">Idle</div>
+          </div>
+          <form id="locationForm" class="editor-form"></form>
+        </section>
+
+        <section id="caseEditorPanel" class="editor-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Case Editor</p>
+              <h2>Missing Chemist</h2>
+            </div>
+            <div id="caseStatus" class="status-pill">Idle</div>
+          </div>
+          <form id="caseForm" class="editor-form"></form>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./assets/location-editor.js"></script>
+  </body>
+</html>

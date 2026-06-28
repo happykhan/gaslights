@@ -1,69 +1,57 @@
 [
   {
     "id": "generic_railway_needs_specifics",
-    "hubDomainsAny": [
-      "railway_ticket",
-      "timetable",
-      "passenger_ledger"
-    ],
     "priority": 50,
     "countsAsLead": false,
-    "text": "The railway clerk explains that ledgers are exacting, but he needs a ticket, date, destination, or passenger name before he can help."
+    "text": "The railway clerk explains that ledgers are exacting, but he needs a ticket, date, destination, or passenger name before he can help.",
+    "tagsAny": [
+      "railway"
+    ]
   },
   {
     "id": "generic_chemist_needs_sample",
-    "hubDomainsAny": [
-      "chemical",
-      "poison",
-      "residue"
-    ],
     "priority": 50,
     "countsAsLead": false,
-    "text": "The analyst can identify a substance only if you bring a sample, stain, vessel, or exact preparation."
+    "text": "The analyst can identify a substance only if you bring a sample, stain, vessel, or exact preparation.",
+    "tagsAny": [
+      "chemist"
+    ]
   },
   {
     "id": "generic_insurance_needs_policy",
-    "hubDomainsAny": [
-      "insurance",
-      "cargo_policy",
-      "policy_number"
-    ],
     "priority": 50,
     "countsAsLead": false,
-    "text": "The insurance clerk cannot search the books without a policy number, insured name, or particular claim."
+    "text": "The insurance clerk cannot search the books without a policy number, insured name, or particular claim.",
+    "tagsAny": [
+      "insurance"
+    ]
   },
   {
     "id": "generic_port_needs_manifest",
-    "hubDomainsAny": [
-      "shipping",
-      "manifest",
-      "warehouse"
-    ],
     "priority": 50,
     "countsAsLead": false,
-    "text": "The dock clerk handles hundreds of crates a day. He needs a ship, warehouse, cargo mark, policy number, or consignee."
+    "text": "The dock clerk handles hundreds of crates a day. He needs a ship, warehouse, cargo mark, policy number, or consignee.",
+    "tagsAny": [
+      "shipping"
+    ]
   },
   {
     "id": "generic_cab_needs_number",
-    "hubDomainsAny": [
-      "cab_number",
-      "cab_journey",
-      "driver"
-    ],
     "priority": 50,
     "countsAsLead": false,
-    "text": "The registry can trace a cab by number, driver, or unusually precise journey, but not by rumour alone."
+    "text": "The registry can trace a cab by number, driver, or unusually precise journey, but not by rumour alone.",
+    "tagsAny": [
+      "cab"
+    ]
   },
   {
     "id": "generic_pawn_needs_receipt",
-    "hubDomainsAny": [
-      "pawn_receipt",
-      "watch",
-      "pledge"
-    ],
     "priority": 50,
     "countsAsLead": false,
-    "text": "The pawnbroker keeps his books, but he cannot identify a pledge without a receipt, object, initials, or date."
+    "text": "The pawnbroker keeps his books, but he cannot identify a pledge without a receipt, object, initials, or date.",
+    "tagsAny": [
+      "pawn"
+    ]
   },
   {
     "id": "generic_pub_no_case_info",

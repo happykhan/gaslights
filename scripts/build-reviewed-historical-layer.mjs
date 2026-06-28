@@ -7,7 +7,8 @@ const args = process.argv.slice(2);
 const options = {
   manifest: "data/raw/nls-sheet-index/london-1895-six-inch.manifest.json",
   delayMs: 200,
-  zooms: "12-20",
+  mode: "preview",
+  zooms: null,
   forceDownload: false,
   forceStitch: false,
   forceGeoreference: false,
@@ -25,6 +26,8 @@ for (let i = 0; i < args.length; i += 1) {
     options.manifest = args[++i];
   } else if (arg === "--delay-ms") {
     options.delayMs = Number(args[++i]);
+  } else if (arg === "--mode") {
+    options.mode = args[++i];
   } else if (arg === "--zooms") {
     options.zooms = args[++i];
   } else if (arg === "--force-download") {
@@ -57,9 +60,20 @@ if (!Number.isFinite(options.delayMs) || options.delayMs < 0) {
   throw new Error("--delay-ms must be a non-negative number");
 }
 
+if (!["preview", "draft", "full"].includes(options.mode)) {
+  throw new Error(`--mode must be preview, draft, or full; received ${options.mode}`);
+}
+
 const manifest = JSON.parse(fs.readFileSync(options.manifest, "utf8"));
 const allSheets = manifest.sheets || manifest;
 const targetConfig = resolveTargetConfig(manifest, options.manifest);
+const zoomRange = options.zooms || (
+  options.mode === "full"
+    ? "12-18"
+    : options.mode === "draft"
+      ? "12-16"
+      : "12-14"
+);
 const reviewedSheets = allSheets
   .filter((sheet) => !options.sheetIds.size || options.sheetIds.has(sheet.imageId))
   .filter((sheet) => {
@@ -186,7 +200,7 @@ if (!options.skipMosaic) {
   }
   run("bash", [
     "scripts/build-historical-mosaic.sh",
-    options.zooms,
+    zoomRange,
     targetConfig.tileDir,
     targetConfig.vrtPath,
     ...mosaicInputs
@@ -205,6 +219,7 @@ if (options.updateMapSources) {
 }
 
 console.log("\nReviewed historical build complete.");
+console.log(`Build mode: ${options.mode} (${zoomRange})`);
 console.log(JSON.stringify(summary, null, 2));
 
 function usage(exitCode) {
@@ -214,7 +229,8 @@ function usage(exitCode) {
 Options:
   --manifest <path>          Manifest JSON. Default: ${options.manifest}
   --delay-ms <n>             Delay between IIIF tile requests. Default: ${options.delayMs}
-  --zooms <range>            gdal2tiles zoom range. Default: ${options.zooms}
+  --mode <preview|draft|full> Tile pyramid preset. Default: ${options.mode}
+  --zooms <range>            Override gdal2tiles zoom range. Default: mode preset
   --sheet <imageId>          Limit to one reviewed sheet; repeatable
   --force-download           Re-download IIIF source tiles
   --force-stitch             Re-stitch cropped TIFF
@@ -227,6 +243,8 @@ Options:
 
 Examples:
   node scripts/build-reviewed-historical-layer.mjs
+  node scripts/build-reviewed-historical-layer.mjs --mode draft
+  node scripts/build-reviewed-historical-layer.mjs --mode full
   node scripts/build-reviewed-historical-layer.mjs --sheet 101201646 --sheet 101201649
   node scripts/build-reviewed-historical-layer.mjs --skip-download --skip-mosaic
 `);
@@ -317,7 +335,7 @@ function resolveTargetConfig(manifest, manifestPath) {
       tileDir: "public/tiles/london-1895-six-inch",
       vrtPath: "build/historical-mosaic/london-1895-six-inch.vrt",
       minzoom: 11,
-      maxzoom: 20,
+      maxzoom: 18,
       attribution: "Historical mapping derived from out-of-copyright Ordnance Survey/NLS six-inch source material; provenance recorded per sheet."
     };
   }
@@ -330,7 +348,7 @@ function resolveTargetConfig(manifest, manifestPath) {
       tileDir: "public/tiles/london-1851",
       vrtPath: "build/historical-mosaic/london-1851.vrt",
       minzoom: 12,
-      maxzoom: 20,
+      maxzoom: 18,
       attribution: "Historical mapping derived from out-of-copyright Ordnance Survey/NLS source material; provenance recorded per sheet."
     };
   }
@@ -342,7 +360,7 @@ function resolveTargetConfig(manifest, manifestPath) {
     tileDir: "public/tiles/london-1895",
     vrtPath: "build/historical-mosaic/london-1895.vrt",
     minzoom: 12,
-    maxzoom: 20,
+    maxzoom: 18,
     attribution: "Historical mapping derived from out-of-copyright Ordnance Survey/NLS source material; provenance recorded per sheet."
   };
 }

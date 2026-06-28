@@ -37,7 +37,7 @@ These are the kinds of features that improve the formula while preserving the co
 - notebook and evidence log
 - timeline builder
 - theory sheet
-- specialist evidence interpretation
+- case-specific POI responses
 - save/resume
 - endgame comparison
 - post-case exploration
@@ -72,7 +72,7 @@ The first pilot case should include only the features needed to prove the formul
 4. Static location leads.
 5. Visited-lead tracking.
 6. Notebook / evidence list.
-7. A small number of specialist hub responses.
+7. A small number of reactive POI responses.
 8. Theory submission.
 9. Endgame comparison.
 10. Save/resume.
@@ -253,12 +253,11 @@ The notebook should have both automatic and manual sections.
 
 Automatic sections:
 
-- visited leads
+- visited places
 - discovered people
 - discovered places
-- discovered evidence
-- discovered facts
-- hub interpretations
+- resolved visit rules
+- automatic notebook notes
 
 Manual sections:
 
@@ -276,7 +275,7 @@ Many mysteries depend on sequence, alibi, and travel time.
 Timeline entries can be:
 
 - auto-added by lead text
-- auto-added by hub interpretation
+- auto-added by visit rules
 - manually added by the player
 - edited or pinned by the player
 
@@ -356,15 +355,15 @@ type Evidence = {
 };
 ```
 
-Evidence is **not** an adventure-game inventory. In the common case, the player should not manually use evidence on a person or place.
+Clues are **not** an adventure-game inventory. In the common case, the player should not manually use objects on a person or place.
 
-## 16. Specialist hub responses
+## 16. Reactive tagged POIs
 
-A small number of specialist POIs can interpret evidence.
+A small number of tagged POIs can react to prior visits.
 
 Examples:
 
-| Specialist POI | Interprets |
+| Tagged POI | Can help with |
 | --- | --- |
 | Railway clerk | tickets, routes, timetables, luggage |
 | Coroner | wounds, bodies, time of death, medical details |
@@ -377,10 +376,10 @@ Examples:
 Mechanic:
 
 ```text
-Find train ticket
+Learn about a suspicious train ticket
 Visit railway clerk
-Game silently detects known evidence
-Show new interpretation text
+Game checks resolved visit rules
+Show relevant case-specific text
 ```
 
 No menu is needed if the player’s intention is obvious. The location choice is the interaction.
@@ -388,25 +387,20 @@ No menu is needed if the player’s intention is obvious. The location choice is
 Suggested type:
 
 ```ts
-type HubResponse = {
+type CaseVisitRule = {
   id: string;
-  caseId: string;
-  hubLocationId: string;
+  locationId: string;
   priority: number;
-  trigger: {
-    evidenceAny?: string[];
-    evidenceAll?: string[];
-    factsAny?: string[];
-    factsAll?: string[];
+  conditions: {
+    all?: VisitCondition[];
+    any?: VisitCondition[];
+    none?: VisitCondition[];
   };
   text: string;
-  onResolve?: {
-    discoverFactIds?: string[];
+  effects?: {
     revealLocationIds?: string[];
-    addTimelineEventIds?: string[];
     addNotebook?: string;
   };
-  repeatText?: string;
   countsAsLead?: boolean;
 };
 ```
@@ -453,7 +447,7 @@ Good hints:
 
 ```text
 You have not followed up the railway angle.
-You have evidence that may be useful to a specialist.
+A prior visit gives you something concrete to ask about.
 Your theory explains the motive but not the timing.
 The newspaper archive may contain useful context.
 ```
@@ -557,8 +551,7 @@ type InvestigationState = {
   startedAt: string;
   updatedAt: string;
   visits: Visit[];
-  discoveredEvidenceIds: string[];
-  discoveredFactIds: string[];
+  resolvedVisitRuleIds: string[];
   revealedLocationIds: string[];
   notebook: NotebookState;
   timeline: TimelineEvent[];
@@ -575,19 +568,19 @@ The editor should eventually show:
 
 - all case locations on the map
 - which clues point to which locations
-- which evidence can be interpreted where
+- which visit rules unlock later locations
 - whether the case can be solved without a critical location
 - dead-end density
 - missing repeat text
 - missing generic fallback text
-- solution slots with supporting evidence
+- solution slots with options and model answers
 
 During playtesting, record:
 
 - visit order
 - common stuck points
 - unused leads
-- evidence found but never interpreted
+- visit rules players never trigger
 - theories submitted
 - wrong suspects/motives
 
@@ -602,8 +595,8 @@ Build in this order:
 3. Directory search.
 4. Newspaper reader/search.
 5. Visit lead and track visited locations.
-6. Notebook/evidence log.
-7. Specialist hub responses.
+6. Notebook and visit history.
+7. Reactive POI responses.
 8. Theory sheet.
 9. Endgame comparison.
 10. Save/resume.
@@ -619,7 +612,7 @@ A player can:
 5. Choose locations on the map.
 6. Read only the leads they visit.
 7. Discover evidence.
-8. Get at least one specialist interpretation by visiting the right POI.
+8. Get at least one reactive response by visiting the right POI.
 9. Maintain notes and a theory.
 10. Submit a final theory.
 11. See a meaningful comparison with the solution.

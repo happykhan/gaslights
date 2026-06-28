@@ -1,0 +1,2744 @@
+{
+  "inputCount": 539,
+  "queueCount": 539,
+  "queueWithOsmHints": 65,
+  "samples": [
+    {
+      "id": "57eec0352c66dca32200960b",
+      "reviewStatus": "candidate",
+      "name": "Foundling Hospital",
+      "canonicalName": "",
+      "typeGuess": "hospital",
+      "confirmedType": "",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.12081742,
+        "lat": 51.52414391
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57eec0352c66dca32200960b",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "unclassified",
+        "osmCategory": "highway",
+        "displayName": "Brunswick Square, King's Cross, London Borough of Camden, Greater London, England, WC1N 1DJ, United Kingdom",
+        "name": "Brunswick Square"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f685e22c66dcab3d01c187",
+      "reviewStatus": "candidate",
+      "name": "Monument Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08821249,
+        "lat": 51.51074569
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f685e22c66dcab3d01c187",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "bus_stop",
+        "osmCategory": "highway",
+        "displayName": "Monument Station, King William Street, Leadenhall Market, Monument, City of London, Greater London, England, EC4R 9EL, United Kingdom",
+        "lat": "51.5095210",
+        "lon": "-0.0873094",
+        "distanceMeters": 149.8,
+        "importance": 9.307927061870783e-05
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f6b28d2c66dcab3d01db64",
+      "reviewStatus": "candidate",
+      "name": "R.C. Chap.",
+      "canonicalName": "",
+      "typeGuess": "church",
+      "confirmedType": "",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08666754,
+        "lat": 51.51766617
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f6b28d2c66dcab3d01db64",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "yes",
+        "osmCategory": "office",
+        "displayName": "FirstBank UK, 28, Finsbury Circus, Broadgate, Moorgate, City of London, Greater London, England, EC2M 7DT, United Kingdom",
+        "name": "FirstBank UK"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57e5262e2c66dc43f4000dd1",
+      "reviewStatus": "candidate",
+      "name": "Westminster Bridge",
+      "canonicalName": "",
+      "typeGuess": "bridge",
+      "confirmedType": "",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.12329578,
+        "lat": 51.50075538
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57e5262e2c66dc43f4000dd1",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "primary",
+        "osmCategory": "highway",
+        "displayName": "Westminster Bridge, Westminster, Millbank, City of Westminster, Greater London, England, SW1A 2JH, United Kingdom",
+        "lat": "51.5008685",
+        "lon": "-0.1225584",
+        "distanceMeters": 52.6,
+        "importance": 0.49659759392124436
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f642682c66dcab3d01a295",
+      "reviewStatus": "candidate",
+      "name": "R.C.CH.",
+      "canonicalName": "",
+      "typeGuess": "church",
+      "confirmedType": "",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1502037,
+        "lat": 51.50954265
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f642682c66dcab3d01a295",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "clothes",
+        "osmCategory": "shop",
+        "displayName": "Celine, 103, Mount Street, East Marylebone, Mayfair, City of Westminster, Greater London, England, W1K 2QL, United Kingdom",
+        "name": "Celine"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f17b822c66dca32201b659",
+      "reviewStatus": "candidate",
+      "name": "Albert Bridge (Suspension)",
+      "canonicalName": "",
+      "typeGuess": "bridge",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1664257,
+        "lat": 51.48233167
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f17b822c66dca32201b659",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "pier",
+        "osmCategory": "man_made",
+        "displayName": "Albert Bridge, Battersea, London Borough of Wandsworth, Greater London, England, SW11 4PL, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f0fe042c66dcdfff000008",
+      "reviewStatus": "candidate",
+      "name": "Atkin's Wharf",
+      "canonicalName": "",
+      "typeGuess": "wharf",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.0325191,
+        "lat": 51.49719547
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0fe042c66dcdfff000008",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "cycleway",
+        "osmCategory": "highway",
+        "displayName": "Thames Path, Surrey Quays, Rotherhithe, London Borough of Southwark, Greater London, England, SE16 7TN, United Kingdom",
+        "name": "Thames Path"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586ebd062c66dc67e2003094",
+      "reviewStatus": "candidate",
+      "name": "Battersea Park Rd. Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14503241,
+        "lat": 51.47869682
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ebd062c66dc67e2003094",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "yes",
+        "osmCategory": "building",
+        "displayName": "Battersea Dogs and Cats Home, 4, Battersea Park Road, Nine Elms, Clapham Junction, London Borough of Wandsworth, Greater London, England, SW8 4AA, United Kingdom",
+        "name": "Battersea Dogs and Cats Home"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f688162c66dcab3d01c32a",
+      "reviewStatus": "candidate",
+      "name": "Blackfriars' Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.10547519,
+        "lat": 51.51152025
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f688162c66dcab3d01c32a",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "train_station",
+        "osmCategory": "building",
+        "displayName": "Blackfriars Station, Queen Victoria Street, Blackfriars, City of London, Greater London, England, EC4V 4EG, United Kingdom",
+        "lat": "51.5116898",
+        "lon": "-0.1035856",
+        "distanceMeters": 132.1,
+        "importance": 9.307927061870783e-05
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f12eaa2c66dca3220171f5",
+      "reviewStatus": "candidate",
+      "name": "Borough Road Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.09989619,
+        "lat": 51.49940625
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f12eaa2c66dca3220171f5",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "bridge",
+        "osmCategory": "man_made",
+        "displayName": "Borough Road, Elephant and Castle, London Borough of Southwark, Greater London, England, SE1 1DR, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586a45852c66dc10b8076fff",
+      "reviewStatus": "candidate",
+      "name": "Camberwell New Rd. Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.09897351,
+        "lat": 51.47309029
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586a45852c66dc10b8076fff",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "house",
+        "osmCategory": "place",
+        "displayName": "Arch 374, Camberwell Station Road, Elmington Estate, Denmark Hill, Camberwell, London Borough of Southwark, Greater London, England, SE5 9JP, United Kingdom",
+        "name": "Arch 374"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f17ba32c66dca32201b683",
+      "reviewStatus": "candidate",
+      "name": "Carlyle Pier (Floating)",
+      "canonicalName": "",
+      "typeGuess": "pier",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17235875,
+        "lat": 51.48187733
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f17ba32c66dca32201b683",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "bus_stop",
+        "osmCategory": "highway",
+        "displayName": "Beaufort Street, Cheyne Walk, World's End, Lot's Village, Chelsea, Royal Borough of Kensington and Chelsea, Greater London, England, SW3 5AZ, United Kingdom",
+        "name": "Beaufort Street"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f17b8f2c66dca32201b663",
+      "reviewStatus": "candidate",
+      "name": "Chelsea Pier (Floating)",
+      "canonicalName": "",
+      "typeGuess": "pier",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.16606092,
+        "lat": 51.48294636
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f17b8f2c66dca32201b663",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "ferry_terminal",
+        "osmCategory": "amenity",
+        "displayName": "Cadogan Pier, Chelsea, Royal Borough of Kensington and Chelsea, Greater London, England, SW3 5RJ, United Kingdom",
+        "name": "Cadogan Pier"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f5a7642c66dcab3d0181db",
+      "reviewStatus": "candidate",
+      "name": "G.P.O.",
+      "canonicalName": "",
+      "typeGuess": "post_office",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.09793282,
+        "lat": 51.5150846
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f5a7642c66dcab3d0181db",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "bus_stop",
+        "osmCategory": "highway",
+        "displayName": "St Paul's Station, Newgate Street, West Smithfield, St Paul's, City of London, Greater London, England, EC1A 7HL, United Kingdom",
+        "name": "St Paul's Station"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586537922c66dc10b805ceae",
+      "reviewStatus": "candidate",
+      "name": "Gloucester Road Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1840961,
+        "lat": 51.4941229
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586537922c66dc10b805ceae",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "train_station",
+        "osmCategory": "building",
+        "displayName": "Gloucester Road Station, Courtfield Road, South Kensington, Royal Borough of Kensington and Chelsea, Greater London, England, SW7 4QH, United Kingdom",
+        "lat": "51.4943514",
+        "lon": "-0.1828862",
+        "distanceMeters": 87.5,
+        "importance": 9.307927061870783e-05
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5865949f2c66dc10b80610c8",
+      "reviewStatus": "candidate",
+      "name": "Goods Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19554377,
+        "lat": 51.48571236
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5865949f2c66dc10b80610c8",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "apartments",
+        "osmCategory": "building",
+        "displayName": "Bolander Grove South, 2, Lillie Square, West Kensington, London Borough of Hammersmith and Fulham, Greater London, England, SW6 1DZ, United Kingdom",
+        "name": "Bolander Grove South"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5866e9042c66dc10b806948f",
+      "reviewStatus": "candidate",
+      "name": "Goods Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1840961,
+        "lat": 51.51929181
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866e9042c66dc10b806948f",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "bar",
+        "osmCategory": "amenity",
+        "displayName": "Pergola Paddington, 5, Kingdom Street, Kensal Town, Paddington, City of Westminster, Greater London, England, W2 6PY, United Kingdom",
+        "name": "Pergola Paddington"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586c1a7e2c66dc10b8081746",
+      "reviewStatus": "candidate",
+      "name": "Goods Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14960289,
+        "lat": 51.5404766
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586c1a7e2c66dc10b8081746",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "residential",
+        "osmCategory": "highway",
+        "displayName": "Primrose Hill, Chalk Farm, London Borough of Camden, Greater London, England, NW1 8RY, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586ec5f92c66dc67e2003507",
+      "reviewStatus": "candidate",
+      "name": "Goods Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.16671538,
+        "lat": 51.46541111
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ec5f92c66dc67e2003507",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "parking",
+        "osmCategory": "amenity",
+        "displayName": "Falcon Lane, Falcon Estate, Clapham Junction, London Borough of Wandsworth, Greater London, England, SW11 2PB, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586ecda32c66dc67e2003643",
+      "reviewStatus": "candidate",
+      "name": "Goods Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14457107,
+        "lat": 51.47169357
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ecda32c66dc67e2003643",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "yard",
+        "osmCategory": "railway",
+        "displayName": "Stewarts Lane Depot, Dickens Street, Nine Elms, Clapham Junction, London Borough of Wandsworth, Greater London, England, SW8 3EY, United Kingdom",
+        "name": "Stewarts Lane Depot"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "58653cd52c66dc10b805d317",
+      "reviewStatus": "candidate",
+      "name": "Grosvenor Road Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1499033,
+        "lat": 51.48583261
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58653cd52c66dc10b805d317",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "trunk",
+        "osmCategory": "highway",
+        "displayName": "Grosvenor Road, Pimlico, City of Westminster, Greater London, England, SW1W 8QN, United Kingdom",
+        "name": "Grosvenor Road"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f6acc22c66dcab3d01d882",
+      "reviewStatus": "candidate",
+      "name": "Guild Hall",
+      "canonicalName": "",
+      "typeGuess": "hall",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.09397388,
+        "lat": 51.51588691
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f6acc22c66dcab3d01d882",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "investment_manager",
+        "osmCategory": "office",
+        "displayName": "Ninety One, 55, Gresham Street, St Paul's, City of London, Greater London, England, EC2V 7EL, United Kingdom",
+        "name": "Ninety One"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586784142c66dc10b806a854",
+      "reviewStatus": "candidate",
+      "name": "Hammersmith Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.22621751,
+        "lat": 51.49215902
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586784142c66dc10b806a854",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "train_station",
+        "osmCategory": "building",
+        "displayName": "Hammersmith Station, Broadway Shopping Centre, Hammersmith, London Borough of Hammersmith and Fulham, Greater London, England, W6 9YE, United Kingdom",
+        "lat": "51.4926558",
+        "lon": "-0.2238391",
+        "distanceMeters": 173.7,
+        "importance": 0.4756793363201296
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586784342c66dc10b806a860",
+      "reviewStatus": "candidate",
+      "name": "Hammersmith Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.22780538,
+        "lat": 51.49340148
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586784342c66dc10b806a860",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "mobile_phone",
+        "osmCategory": "shop",
+        "displayName": "Three., King Street, Hammersmith, London Borough of Hammersmith and Fulham, Greater London, England, W6 0YJ, United Kingdom",
+        "name": "Three."
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "58658bd42c66dc10b8060b7c",
+      "reviewStatus": "candidate",
+      "name": "Hospl",
+      "canonicalName": "",
+      "typeGuess": "hospital",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17062068,
+        "lat": 51.48307999
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58658bd42c66dc10b8060b7c",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "house",
+        "osmCategory": "building",
+        "displayName": "62, Cheyne Walk, Lot's Village, Chelsea, Royal Borough of Kensington and Chelsea, Greater London, England, SW3 5LP, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f686df2c66dcab3d01c23a",
+      "reviewStatus": "candidate",
+      "name": "Mansion Ho. Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.0955832,
+        "lat": 51.51151357
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f686df2c66dcab3d01c23a",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "bus_stop",
+        "osmCategory": "highway",
+        "displayName": "Mansion House Station, Queen Victoria Street, St Paul's, City of London, Greater London, England, EC4M 6XH, United Kingdom",
+        "lat": "51.5121219",
+        "lon": "-0.0946902",
+        "distanceMeters": 91.6,
+        "importance": 9.307927061870783e-05
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586b825c2c66dc10b807ccab",
+      "reviewStatus": "candidate",
+      "name": "Mildmay Park Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.08398533,
+        "lat": 51.54927733
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586b825c2c66dc10b807ccab",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "convenience",
+        "osmCategory": "shop",
+        "displayName": "Mildmay Local, Mildmay Grove North, Newington Green, Highbury, London Borough of Islington, Greater London, England, N1 4PJ, United Kingdom",
+        "name": "Mildmay Local"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586697c12c66dc10b8065a71",
+      "reviewStatus": "candidate",
+      "name": "Misn. Ch.",
+      "canonicalName": "",
+      "typeGuess": "church",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.21141171,
+        "lat": 51.48324702
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586697c12c66dc10b8065a71",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "house",
+        "osmCategory": "building",
+        "displayName": "278, Lillie Road, West Kensington, London Borough of Hammersmith and Fulham, Greater London, England, SW6 7PX, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586594372c66dc10b8061078",
+      "reviewStatus": "candidate",
+      "name": "Mort. Chap.",
+      "canonicalName": "",
+      "typeGuess": "church",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.18897772,
+        "lat": 51.48299313
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586594372c66dc10b8061078",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "footway",
+        "osmCategory": "highway",
+        "displayName": "Chapel Walk, Lot's Village, Earl's Court, Royal Borough of Kensington and Chelsea, Greater London, England, SW10 9UG, United Kingdom",
+        "name": "Chapel Walk"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5866905f2c66dc10b806541e",
+      "reviewStatus": "candidate",
+      "name": "Parson's Green Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.20275354,
+        "lat": 51.47450703
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866905f2c66dc10b806541e",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "residential",
+        "osmCategory": "highway",
+        "displayName": "Beaconsfield Walk, Parson's Green, Fulham, London Borough of Hammersmith and Fulham, Greater London, England, SW6 4DA, United Kingdom",
+        "name": "Beaconsfield Walk"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586ed2732c66dc67e20036c7",
+      "reviewStatus": "candidate",
+      "name": "Queen's Road Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14744639,
+        "lat": 51.47416621
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ed2732c66dc67e20036c7",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "house",
+        "osmCategory": "building",
+        "displayName": "194, Queenstown Road, Nine Elms, Clapham Junction, London Borough of Wandsworth, Greater London, England, SW8 3NR, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586bbbe72c66dc10b807dd0e",
+      "reviewStatus": "candidate",
+      "name": "R.C. Ch.",
+      "canonicalName": "",
+      "typeGuess": "church",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17329216,
+        "lat": 51.52713547
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586bbbe72c66dc10b807dd0e",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "secondary",
+        "osmCategory": "highway",
+        "displayName": "Lisson Grove, St. John's Wood, City of Westminster, Greater London, England, NW8 8UE, United Kingdom",
+        "name": "Lisson Grove"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5866ddca2c66dc10b8068ef9",
+      "reviewStatus": "candidate",
+      "name": "R.C. Chap.",
+      "canonicalName": "",
+      "typeGuess": "church",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14496803,
+        "lat": 51.52734906
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866ddca2c66dc10b8068ef9",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "apartments",
+        "osmCategory": "building",
+        "displayName": "1, Cambridge Terrace Mews, Fitzrovia, London Borough of Camden, Greater London, England, NW1 4JJ, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586ad3e12c66dc10b807bddb",
+      "reviewStatus": "candidate",
+      "name": "R.C. Chap.",
+      "canonicalName": "",
+      "typeGuess": "church",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.13376713,
+        "lat": 51.53041939
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ad3e12c66dc10b807bddb",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "apartments",
+        "osmCategory": "building",
+        "displayName": "St Richard's House, Eversholt Street, St Pancras, London Borough of Camden, Greater London, England, NW1 1BS, United Kingdom",
+        "name": "St Richard's House"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5857c9852c66dc10b8019063",
+      "reviewStatus": "candidate",
+      "name": "R.C. Church",
+      "canonicalName": "",
+      "typeGuess": "church",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.15778899,
+        "lat": 51.55118538
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5857c9852c66dc10b8019063",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "pitch",
+        "osmCategory": "leisure",
+        "displayName": "Alan Cheales Way, Steele's Village, Maitland Park, Gospel Oak, London Borough of Camden, Greater London, England, NW5 4LB, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586781d72c66dc10b806a739",
+      "reviewStatus": "candidate",
+      "name": "R.C. Sch.",
+      "canonicalName": "",
+      "typeGuess": "school",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.21537066,
+        "lat": 51.4957594
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586781d72c66dc10b806a739",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "residential",
+        "osmCategory": "highway",
+        "displayName": "Oxford Gate, Brook Green, London Borough of Hammersmith and Fulham, Greater London, England, W6 7DA, United Kingdom",
+        "name": "Oxford Gate"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f643722c66dcab3d01a2f1",
+      "reviewStatus": "candidate",
+      "name": "R.C.Ch.",
+      "canonicalName": "",
+      "typeGuess": "church",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.13251185,
+        "lat": 51.51527155
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f643722c66dcab3d01a2f1",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "station",
+        "osmCategory": "railway",
+        "displayName": "Tottenham Court Road, Soho Square, Soho, City of Westminster, Greater London, England, W1D 3QX, United Kingdom",
+        "name": "Tottenham Court Road"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586536d82c66dc10b805ce43",
+      "reviewStatus": "candidate",
+      "name": "South Kensington Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17699361,
+        "lat": 51.49382899
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586536d82c66dc10b805ce43",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "bus_stop",
+        "osmCategory": "highway",
+        "displayName": "South Kensington Station, Harrington Road, Brompton, Royal Borough of Kensington and Chelsea, Greater London, England, SW7 2LB, United Kingdom",
+        "lat": "51.4942114",
+        "lon": "-0.1750557",
+        "distanceMeters": 140.7,
+        "importance": 9.307927061870783e-05
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586c1d8e2c66dc10b8081835",
+      "reviewStatus": "candidate",
+      "name": "Sta",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14033318,
+        "lat": 51.55089184
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586c1d8e2c66dc10b8081835",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "bicycle_parking",
+        "osmCategory": "amenity",
+        "displayName": "Leighton Road, Maitland Park, Kentish Town, London Borough of Camden, Greater London, England, NW5 2LY, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586537852c66dc10b805cea3",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.18267989,
+        "lat": 51.49473075
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586537852c66dc10b805cea3",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "restaurant",
+        "osmCategory": "amenity",
+        "displayName": "Comptoir Libanais, 75, Gloucester Road, South Kensington, Royal Borough of Kensington and Chelsea, Greater London, England, SW7 4SS, United Kingdom",
+        "name": "Comptoir Libanais"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5866eade2c66dc10b806953a",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.18829107,
+        "lat": 51.51213454
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866eade2c66dc10b806953a",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "cafe",
+        "osmCategory": "amenity",
+        "displayName": "Urban Social, 79-81, Queensway, Kensal Town, Bayswater, City of Westminster, Greater London, England, W2 4QH, United Kingdom",
+        "name": "Urban Social"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586786f82c66dc10b806a906",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.22653937,
+        "lat": 51.49508477
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586786f82c66dc10b806a906",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "house",
+        "osmCategory": "place",
+        "displayName": "32, Hammersmith Grove, Hammersmith, London Borough of Hammersmith and Fulham, Greater London, England, W6 7HA, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5867881c2c66dc10b806a932",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.22350311,
+        "lat": 51.50223136
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5867881c2c66dc10b806a932",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "apartments",
+        "osmCategory": "building",
+        "displayName": "49-60, Sulgrave Gardens, Shepherd's Bush, London Borough of Hammersmith and Fulham, Greater London, England, W6 7RP, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5867aaf72c66dc10b806ae5a",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19693315,
+        "lat": 51.50887935
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5867aaf72c66dc10b806ae5a",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "platform",
+        "osmCategory": "railway",
+        "displayName": "Westbound Platform 4, Notting Hill Gate, Notting Hill, Royal Borough of Kensington and Chelsea, Greater London, England, W11 3HP, United Kingdom",
+        "name": "Westbound Platform 4"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586b7d1c2c66dc10b807cc15",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.13871312,
+        "lat": 51.5420714
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586b7d1c2c66dc10b807cc15",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "house",
+        "osmCategory": "place",
+        "displayName": "223, Royal College Street, Maitland Park, Kentish Town, London Borough of Camden, Greater London, England, NW1 9LT, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586b7de32c66dc10b807cc37",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.13393879,
+        "lat": 51.54656857
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586b7de32c66dc10b807cc37",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "dog_park",
+        "osmCategory": "leisure",
+        "displayName": "Sandall Road, Kentish Town, London Borough of Camden, Greater London, England, NW5 2AP, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586bc40f2c66dc10b807e3a8",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19273281,
+        "lat": 51.53710665
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586bc40f2c66dc10b807e3a8",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "fast_food",
+        "osmCategory": "amenity",
+        "displayName": "The Pizza Club, 5, Kilburn High Road, Queen's Park, London Borough of Brent, Greater London, England, NW6 6HT, United Kingdom",
+        "name": "The Pizza Club"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586c16222c66dc10b808160a",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17992258,
+        "lat": 51.5469422
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586c16222c66dc10b808160a",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "books",
+        "osmCategory": "shop",
+        "displayName": "WHSmith, Finchley Road, Swiss Cottage, South Hampstead, London Borough of Camden, Greater London, England, NW3 6LP, United Kingdom",
+        "name": "WHSmith"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586c1aa22c66dc10b808174e",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.15479565,
+        "lat": 51.54353937
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586c1aa22c66dc10b808174e",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "residential",
+        "osmCategory": "highway",
+        "displayName": "Bridge Approach, Steele's Village, Primrose Hill, Chalk Farm, London Borough of Camden, Greater London, England, NW3 3HH, United Kingdom",
+        "name": "Bridge Approach"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586e88822c66dc67e2001809",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.203408,
+        "lat": 51.54492722
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586e88822c66dc67e2001809",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "residential",
+        "osmCategory": "building",
+        "displayName": "10, Cavendish Road, Brondesbury Park, Brondesbury, London Borough of Brent, Greater London, England, NW6 7XH, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5936720a2c66dc085a07d099",
+      "reviewStatus": "candidate",
+      "name": "Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17504096,
+        "lat": 51.54343928
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5936720a2c66dc085a07d099",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "secondary_link",
+        "osmCategory": "highway",
+        "displayName": "Finchley Road, Swiss Cottage, Belsize Park, London Borough of Camden, Greater London, England, NW3 6HY, United Kingdom",
+        "name": "Finchley Road"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "58701cbd2c66dc67e2009cd3",
+      "reviewStatus": "candidate",
+      "name": "Stockwell Sta. (Elec. Ry.)",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.12536645,
+        "lat": 51.47246879
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58701cbd2c66dc67e2009cd3",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "residential",
+        "osmCategory": "highway",
+        "displayName": "Studley Road, Stockwell Park, Stockwell, London Borough of Lambeth, Greater London, England, SW4 6RX, United Kingdom",
+        "name": "Studley Road"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "580332422c66dcab3d07483e",
+      "reviewStatus": "candidate",
+      "name": "Sun. Sch.",
+      "canonicalName": "",
+      "typeGuess": "school",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.21637917,
+        "lat": 51.54628167
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "580332422c66dcab3d07483e",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "yes",
+        "osmCategory": "building",
+        "displayName": "236, Willesden Lane, Brondesbury Park, Brondesbury, London Borough of Brent, Greater London, England, NW2 5RE, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f17b422c66dca32201b613",
+      "reviewStatus": "candidate",
+      "name": "Victoria Bridge",
+      "canonicalName": "",
+      "typeGuess": "bridge",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14905572,
+        "lat": 51.48493736
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f17b422c66dca32201b613",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "bridge",
+        "osmCategory": "man_made",
+        "displayName": "Grosvenor Bridge, Arches Lane, Nine Elms, Battersea, London Borough of Wandsworth, Greater London, England, SW11 8AB, United Kingdom",
+        "lat": "51.4843486",
+        "lon": "-0.1473541",
+        "distanceMeters": 134.8,
+        "importance": 0.38548409705301084
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586594ba2c66dc10b80610dc",
+      "reviewStatus": "candidate",
+      "name": "West Brompton Sta. (Met. Dist.)",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19528627,
+        "lat": 51.48753622
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586594ba2c66dc10b80610dc",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "primary",
+        "osmCategory": "highway",
+        "displayName": "Old Brompton Road, Lot's Village, Earl's Court, Royal Borough of Kensington and Chelsea, Greater London, England, SW5 9JX, United Kingdom",
+        "name": "Old Brompton Road"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "586780812c66dc10b806a63e",
+      "reviewStatus": "candidate",
+      "name": "West Kensington Sta.",
+      "canonicalName": "",
+      "typeGuess": "station",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.20704508,
+        "lat": 51.49071612
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586780812c66dc10b806a63e",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "train_station",
+        "osmCategory": "building",
+        "displayName": "West Kensington Station, North End Road, West Kensington, London Borough of Hammersmith and Fulham, Greater London, England, W14 9NL, United Kingdom",
+        "lat": "51.4905912",
+        "lon": "-0.2064577",
+        "distanceMeters": 43.0,
+        "importance": 9.307927061870783e-05
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f00c312c66dca322010922",
+      "reviewStatus": "candidate",
+      "name": "ALBION DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04781842,
+        "lat": 51.49940625
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00c312c66dca322010922",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "service",
+        "osmCategory": "highway",
+        "displayName": "Woodland Crescent, Water Gardens, Canada Water, Rotherhithe, London Borough of Southwark, Greater London, England, SE16 6YJ, United Kingdom",
+        "name": "Woodland Crescent"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f8f1ff2c66dcab3d02971c",
+      "reviewStatus": "candidate",
+      "name": "BARRACKS",
+      "canonicalName": "",
+      "typeGuess": "barracks",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.16580343,
+        "lat": 51.50235825
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f8f1ff2c66dcab3d02971c",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "barracks",
+        "osmCategory": "military",
+        "displayName": "Hyde Park Barracks, Rutland Gate, Knightsbridge, City of Westminster, Greater London, England, SW7 1BN, United Kingdom",
+        "lat": "51.5020208",
+        "lon": "-0.1656725",
+        "distanceMeters": 38.6,
+        "importance": 0.2713361062662927
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5865316c2c66dc10b805cb5d",
+      "reviewStatus": "candidate",
+      "name": "BARRACKS",
+      "canonicalName": "",
+      "typeGuess": "barracks",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.19064069,
+        "lat": 51.50380746
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5865316c2c66dc10b805cb5d",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "footway",
+        "osmCategory": "highway",
+        "displayName": "York Passage, Kensington, Royal Borough of Kensington and Chelsea, Greater London, England, W8 4EY, United Kingdom",
+        "name": "York Passage"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "5866de422c66dc10b8068f44",
+      "reviewStatus": "candidate",
+      "name": "BARRACKS",
+      "canonicalName": "",
+      "typeGuess": "barracks",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.144099,
+        "lat": 51.53342277
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866de422c66dc10b8068f44",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "helipad",
+        "osmCategory": "aeroway",
+        "displayName": "Regents Park Barracks, Park Village East, Primrose Hill, Fitzrovia, London Borough of Camden, Greater London, England, NW1 3SX, United Kingdom",
+        "lat": "51.5330166",
+        "lon": "-0.1445338",
+        "distanceMeters": 54.3,
+        "importance": 9.307927061870783e-05
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "58653f5e2c66dc10b805d5d1",
+      "reviewStatus": "candidate",
+      "name": "BELGRAVE DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.14071941,
+        "lat": 51.48696168
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58653f5e2c66dc10b805d5d1",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "bicycle_parking",
+        "osmCategory": "amenity",
+        "displayName": "Lupus Street, Tachbrook Estate, Pimlico, City of Westminster, Greater London, England, SW1V 4QE, United Kingdom",
+        "name": ""
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57e526552c66dc43f4000dd7",
+      "reviewStatus": "candidate",
+      "name": "BETHLEM ROYAL HOSPITAL",
+      "canonicalName": "",
+      "typeGuess": "hospital",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.10840416,
+        "lat": 51.49685482
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57e526552c66dc43f4000dd7",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "museum",
+        "osmCategory": "tourism",
+        "displayName": "Imperial War Museum London, Lambeth Road, Elephant and Castle, London Borough of Southwark, Greater London, England, SE1 6HZ, United Kingdom",
+        "lat": "51.4959308",
+        "lon": "-0.1085991",
+        "distanceMeters": 103.6,
+        "importance": 0.5565392384324315
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f0e9972c66dca322014b7c",
+      "reviewStatus": "candidate",
+      "name": "CANADA DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04821539,
+        "lat": 51.49681475
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0e9972c66dca322014b7c",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "low",
+        "source": "reverse",
+        "osmType": "footway",
+        "osmCategory": "highway",
+        "displayName": "Rafter Walk, Canada Water, Rotherhithe, London Borough of Southwark, Greater London, England, SE16 7AR, United Kingdom",
+        "name": "Rafter Walk"
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "58653c422c66dc10b805d27a",
+      "reviewStatus": "candidate",
+      "name": "CHELSEA BARRACKS",
+      "canonicalName": "",
+      "typeGuess": "barracks",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.15472054,
+        "lat": 51.48967399
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58653c422c66dc10b805d27a",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "neighbourhood",
+        "osmCategory": "place",
+        "displayName": "Chelsea Barracks, Belgravia, City of Westminster, Greater London, England, United Kingdom",
+        "lat": "51.4893129",
+        "lon": "-0.1546860",
+        "distanceMeters": 40.2,
+        "importance": 0.08009307927061872
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f6b91b2c66dc32f2000023",
+      "reviewStatus": "candidate",
+      "name": "COVENT GARDEN",
+      "canonicalName": "",
+      "typeGuess": "garden",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.12349963,
+        "lat": 51.5120878
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f6b91b2c66dc32f2000023",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": {
+        "confidence": "medium",
+        "source": "search",
+        "osmType": "suburb",
+        "osmCategory": "place",
+        "displayName": "Covent Garden, City of Westminster, Greater London, England, WC2E 8RF, United Kingdom",
+        "lat": "51.5117363",
+        "lon": "-0.1226769",
+        "distanceMeters": 69.1,
+        "importance": 0.5852773874711704
+      },
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f782df2c66dcab3d0211be",
+      "reviewStatus": "candidate",
+      "name": "DEPTFORD BRIDGE",
+      "canonicalName": "",
+      "typeGuess": "bridge",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.02387166,
+        "lat": 51.47443352
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f782df2c66dcab3d0211be",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f0e9cf2c66dca322014b96",
+      "reviewStatus": "candidate",
+      "name": "DEPTFORD WHARF",
+      "canonicalName": "",
+      "typeGuess": "wharf",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03171444,
+        "lat": 51.49243958
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0e9cf2c66dca322014b96",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f132062c66dca3220174ed",
+      "reviewStatus": "candidate",
+      "name": "DRAW DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.12591362,
+        "lat": 51.48842474
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f132062c66dca3220174ed",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f00b8b2c66dca3220108ea",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04660606,
+        "lat": 51.50665233
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00b8b2c66dca3220108ea",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f0fd252c66dca3220153a3",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03225088,
+        "lat": 51.50400113
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0fd252c66dca3220153a3",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f0fe9f2c66dca32201546b",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03260493,
+        "lat": 51.49541207
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0fe9f2c66dca32201546b",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f00b922c66dca3220108f0",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04503965,
+        "lat": 51.50721995
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00b922c66dca3220108f0",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f00bb72c66dca3220108fc",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03978252,
+        "lat": 51.50770742
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00bb72c66dca3220108fc",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f0fe982c66dca322015467",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03255129,
+        "lat": 51.49652753
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0fe982c66dca322015467",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f53c922c66dcab3d015117",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.02990127,
+        "lat": 51.49626036
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f53c922c66dcab3d015117",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f53cfa2c66dc5da7000119",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.0294292,
+        "lat": 51.50082884
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f53cfa2c66dc5da7000119",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f545532c66dcab3d01541d",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03330231,
+        "lat": 51.50775417
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f545532c66dcab3d01541d",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f5454d2c66dcab3d015417",
+      "reviewStatus": "candidate",
+      "name": "DRY DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03149986,
+        "lat": 51.50694616
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f5454d2c66dcab3d015417",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f6878a2c66dcab3d01c2be",
+      "reviewStatus": "candidate",
+      "name": "G.P.O. SAVINGS BK.",
+      "canonicalName": "",
+      "typeGuess": "post_office",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.10166109,
+        "lat": 51.51198431
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f6878a2c66dcab3d01c2be",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    },
+    {
+      "id": "57f0e9bc2c66dca322014b8a",
+      "reviewStatus": "candidate",
+      "name": "GREENLAND DOCK",
+      "canonicalName": "",
+      "typeGuess": "dock",
+      "confirmedType": "",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03736854,
+        "lat": 51.49502465
+      },
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0e9bc2c66dca322014b8a",
+          "license": "CC0"
+        }
+      ],
+      "osmHint": null,
+      "globalDescription": "",
+      "tags": [],
+      "hubDomains": [],
+      "notes": ""
+    }
+  ]
+}

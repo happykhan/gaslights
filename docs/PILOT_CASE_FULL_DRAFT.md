@@ -422,9 +422,9 @@ Caledonia Warehouse is quiet except for a night watchman who is too frightened t
 **Repeat text:** The warehouse has yielded the truth: Harcourt was drugged, carried here, and held until the formula could be copied and shipped.
 
 
-## Specialist hub responses
+## Reactive POI responses
 
-These are the evidence-interpretation moments. They are the new mechanic, but they should remain a minority of visits.
+These are the visit-reactive moments. They are useful, but they should remain a minority of visits.
 
 ### hub_railway_ticket_response — Charing Cross Railway Office
 
@@ -824,7 +824,7 @@ Ordinary notices of the day, including one long announcement from Kensington and
 - This case should be loadable without a backend.
 - Exact-match theory checking is acceptable for v0.
 - Generic visits should not count as leads.
-- First useful specialist hub responses should count as leads.
+- First useful reactive POI responses should count as leads.
 - Repeat visits should not count.
-- Do not expose an inventory menu for the hub responses. The player’s decision to visit the expert location is the interaction.
+- Do not expose an inventory menu for reactive POI responses. The player’s decision to visit the expert location is the interaction.
 - This is draft prose. Keep the content editable from JSON and do not hardcode strings into the runtime.

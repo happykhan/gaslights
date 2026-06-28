@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gaslights POI Review</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" />
+    <link rel="stylesheet" href="./assets/poi-review.css" />
+  </head>
+  <body>
+    <div class="review-shell">
+      <aside class="review-sidebar">
+        <div class="review-brand">
+          <p class="review-eyebrow">London 1895</p>
+          <h1>POI review</h1>
+        </div>
+
+        <label class="review-field">
+          <span>Filter POIs</span>
+          <input id="poiSearch" type="search" placeholder="hospital, station, wharf, Covent" autocomplete="off" />
+        </label>
+
+        <label class="review-checkbox">
+          <input id="onlyNeedsReview" type="checkbox" checked />
+          <span>Only needs review</span>
+        </label>
+
+        <div class="review-actions">
+          <button id="prevPoi" type="button">Prev</button>
+          <button id="nextPoi" type="button">Next</button>
+        </div>
+
+        <div id="poiList" class="poi-list" aria-label="POI candidates"></div>
+      </aside>
+
+      <main class="review-main">
+        <header class="poi-header">
+          <div>
+            <p id="poiStatus" class="review-status">Loading</p>
+            <h2 id="poiTitle">Preparing queue</h2>
+            <p id="poiMeta" class="poi-meta"></p>
+          </div>
+          <div class="poi-header-actions">
+            <label class="autosave-toggle">
+              <input id="autosaveToggle" type="checkbox" checked />
+              <span>Auto-save</span>
+            </label>
+            <span id="saveState" class="save-state">Idle</span>
+            <button id="resetPoi" type="button">Reset</button>
+            <button id="savePoi" class="is-primary" type="button">Save</button>
+          </div>
+        </header>
+
+        <section class="workspace-grid">
+          <div class="map-panel">
+            <div id="map" class="map"></div>
+            <div class="map-caption">Historical six-inch layer with current POI marker.</div>
+          </div>
+
+          <aside class="detail-panel">
+            <div class="detail-card">
+              <div class="detail-grid">
+                <label class="review-field">
+                  <span>Status</span>
+                  <select id="reviewStatusInput">
+                    <option value="candidate">candidate</option>
+                    <option value="accepted">accepted</option>
+                    <option value="needs_research">needs_research</option>
+                    <option value="rejected">rejected</option>
+                  </select>
+                </label>
+                <label class="review-field">
+                  <span>Type guess</span>
+                  <input id="typeGuessInput" type="text" disabled />
+                </label>
+                <label class="review-field">
+                  <span>Canonical name</span>
+                  <input id="canonicalNameInput" type="text" />
+                </label>
+                <label class="review-field">
+                  <span>Confirmed type</span>
+                  <input id="confirmedTypeInput" type="text" placeholder="station, hospital, church" />
+                </label>
+                <label class="review-field">
+                  <span>Tags</span>
+                  <input id="tagsInput" type="text" placeholder="transport, railway, medical" />
+                </label>
+              </div>
+
+              <label class="review-field">
+                <span>Default visit text</span>
+                <textarea id="defaultVisitTextInput" rows="4"></textarea>
+              </label>
+
+              <label class="review-field">
+                <span>Notes</span>
+                <textarea id="notesInput" rows="4"></textarea>
+              </label>
+            </div>
+
+            <div class="detail-card">
+              <h3>OSM hint</h3>
+              <div id="osmHint" class="info-block"></div>
+            </div>
+
+            <div class="detail-card">
+              <h3>Source refs</h3>
+              <div id="sourceRefs" class="info-block"></div>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+    <script type="module" src="./assets/poi-review.js"></script>
+  </body>
+</html>

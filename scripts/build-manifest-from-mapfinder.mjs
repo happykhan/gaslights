@@ -153,7 +153,7 @@ function is1851ProofSheet(sheet, dates, year) {
 function isSixInch1890s(sheet, dates, year) {
   if (!/Six-inch to the mile/i.test(dates)) return false;
   if (!/^(London|Middlesex|Surrey|Kent)\b/i.test(sheet)) return false;
-  if (!/Revised:\s*1893(?:\s*to\s*1895)?|Revised:\s*1894(?:\s*to\s*1895)?/i.test(dates)) {
+  if (!/Revised:\s*1891\s*to\s*1894|Revised:\s*1893(?:\s*to\s*1895)?|Revised:\s*1894(?:\s*to\s*1895)?/i.test(dates)) {
     return false;
   }
   const y = String(year || "");

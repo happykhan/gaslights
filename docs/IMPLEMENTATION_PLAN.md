@@ -16,7 +16,7 @@ The player receives:
 - Historical London map.
 - Directory.
 - Newspaper.
-- Known informants / specialist institutions.
+- Known informants, offices, and institutions.
 - Notebook / visited lead history.
 - Theory board.
 
@@ -35,7 +35,7 @@ Read the lead
   ↓
 Discover evidence, facts, people, or further places
   ↓
-Take evidence to a specialist POI if useful
+Revisit a relevant tagged POI when prior visits give you something concrete
   ↓
 Update theory
   ↓
@@ -178,16 +178,16 @@ Acceptance criteria:
 - Visited locations are recorded.
 - Refreshing the page keeps investigation state.
 
-### Milestone 3 — Evidence and specialist hub mechanic
+### Milestone 3 — Visit-reactive POI mechanic
 
 Goal: implement the core digital improvement.
 
 Deliverables:
 
-- Evidence objects.
-- Facts / knowledge objects.
-- Hub response rules.
-- Automatic hub interpretation when the player visits the correct specialist location.
+- Case visit rules with conditions.
+- Notebook notes added by visit rules.
+- Tagged POI fallback rules.
+- Automatic case-specific response when the player visits the correct tagged location.
 - No explicit “use item on person” UI for the simple case.
 
 Acceptance criteria:
@@ -195,10 +195,10 @@ Acceptance criteria:
 Example vertical slice:
 
 1. Player visits the body/crime scene.
-2. Player discovers `train_ticket`.
+2. Player learns about a suspicious train ticket.
 3. Player visits `charing_cross_railway_office`.
-4. The railway clerk automatically gives new text interpreting the ticket.
-5. The game records the interpreted fact.
+4. The railway clerk automatically gives relevant new text.
+5. The game records the resolved visit rule and any notebook note.
 6. No inventory menu is exposed.
 
 ### Milestone 4 — Generic location engine
@@ -207,7 +207,7 @@ Goal: let the player visit non-case POIs without every POI needing bespoke case 
 
 Deliverables:
 
-- Generic lead rules by location type and hub domain.
+- Generic lead rules by location type and tags.
 - Fallback text for irrelevant locations.
 - Ambient/generic visit handling.
 - Generic visits should not break scoring.
@@ -216,7 +216,7 @@ Acceptance criteria:
 
 - Visiting a random pub gives plausible non-critical text.
 - Visiting a random church gives plausible non-critical text.
-- Visiting an expert hub without relevant evidence gives a useful “nothing specific yet” response.
+- Visiting a tagged office without relevant prior context gives a useful “nothing specific yet” response.
 - Generic text is clearly non-spoilery.
 
 ### Milestone 5 — Newspaper and directory
@@ -247,8 +247,7 @@ Deliverables:
 - POI review queue.
 - Promote POI to global location.
 - Add/edit case-specific lead text for a location.
-- Add evidence discovered at a lead.
-- Add hub response triggered by evidence.
+- Add reactive visit rules triggered by prior visits.
 - Preview a lead as the player would see it.
 - Export updated JSON.
 
@@ -256,8 +255,8 @@ Acceptance criteria:
 
 - Author can import POI candidates.
 - Author can select a POI and make it part of a case.
-- Author can write lead text and evidence output.
-- Author can define a specialist hub response.
+- Author can write lead text and rule effects.
+- Author can define a reactive POI response.
 - Author can export valid case JSON.
 
 ### Milestone 7 — Theory board and endgame
@@ -288,7 +287,7 @@ Deliverables:
 - One complete case.
 - 50–100 visible POIs.
 - 20–30 case leads.
-- 5–8 specialist hubs.
+- 5–8 tagged expert POIs.
 - 8–12 evidence objects.
 - One newspaper issue.
 - Directory entries.
@@ -343,14 +342,14 @@ Build in this order:
 
 1. Map and POI browser.
 2. Case runtime.
-3. Evidence-to-hub interpretation.
+3. Visit-reactive POI responses.
 4. Generic location fallback.
 5. Editor.
 6. Newspaper/directory.
 7. Theory board.
 8. Full pilot case.
 
-Do not spend weeks on historical data ingestion before the evidence-hub gameplay works.
+Do not spend weeks on historical data ingestion before the visit-reactive gameplay works.
 
 
 ## Pilot case data now included

@@ -1,0 +1,26 @@
+{
+  "fetchedAt": "2026-06-26T19:42:12.403Z",
+  "bounds": {
+    "west": -0.2305399,
+    "south": 51.4645187,
+    "east": -0.0218126,
+    "north": 51.5513826
+  },
+  "rawElementCount": 6014,
+  "locationCount": 851,
+  "typeCounts": {
+    "railway_station": 187,
+    "hospital": 69,
+    "bridge": 37,
+    "museum": 119,
+    "police_station": 42,
+    "courthouse": 18,
+    "dock": 13,
+    "theatre": 162,
+    "town_hall": 9,
+    "college": 32,
+    "university": 46,
+    "library": 86,
+    "market": 31
+  }
+}

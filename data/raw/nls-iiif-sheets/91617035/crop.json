@@ -1,0 +1,60 @@
+{
+  "sourceImage": {
+    "width": 8940,
+    "height": 6526
+  },
+  "previewImage": {
+    "width": 559,
+    "height": 408
+  },
+  "previewCrop": {
+    "x": 51,
+    "y": 31,
+    "width": 452,
+    "height": 301
+  },
+  "sourceCrop": {
+    "x": 816,
+    "y": 496,
+    "width": 7229,
+    "height": 4815
+  },
+  "previewQuad": {
+    "topLeft": {
+      "x": 53,
+      "y": 32
+    },
+    "topRight": {
+      "x": 503,
+      "y": 32
+    },
+    "bottomRight": {
+      "x": 503,
+      "y": 331
+    },
+    "bottomLeft": {
+      "x": 52,
+      "y": 332
+    }
+  },
+  "sourceQuad": {
+    "topLeft": {
+      "x": 848,
+      "y": 512
+    },
+    "topRight": {
+      "x": 8044,
+      "y": 512
+    },
+    "bottomRight": {
+      "x": 8044,
+      "y": 5294
+    },
+    "bottomLeft": {
+      "x": 832,
+      "y": 5310
+    }
+  },
+  "status": "reviewed",
+  "reviewNotes": "Interactive review: left=51, top=31, right=503, bottom=332."
+}

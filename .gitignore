@@ -10,6 +10,7 @@ data/raw/nls-iiif-sheets/**/*.tif
 data/raw/nls-iiif-sheets/**/*.tiff
 
 # Large raw datasets and local extraction assets.
+data/raw/GB1900_raw_dump.zip
 data/raw/gb1900/
 data/raw/london-os-text-layer/
 data/raw/london-os-text-layer/*.geojson
@@ -22,3 +23,7 @@ build/historical-mosaic/
 
 # Generated local map tiles can be very large. Commit production tiles only by explicit decision.
 public/tiles/
+
+# Local browser/test outputs and downloaded map extraction scratch data.
+test-results/
+map_json2/

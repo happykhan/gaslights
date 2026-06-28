@@ -1,0 +1,2359 @@
+{
+  "infoUrl": "https://map-view.nls.uk/iiif/2/9680%2F96805053/info.json",
+  "baseUrl": "https://map-view.nls.uk/iiif/2/9680%2F96805053",
+  "width": 8920,
+  "height": 6566,
+  "tileWidth": 512,
+  "tileHeight": 512,
+  "tileArea": 262144,
+  "maxArea": 270000,
+  "totalColumns": 18,
+  "totalRows": 13,
+  "totalTiles": 234,
+  "plannedTiles": 234,
+  "format": "jpg",
+  "downloadedAt": "2026-06-26T17:55:02.253Z",
+  "sourceNote": "IIIF source-image tiles. These are not slippy map z/x/y tiles yet.",
+  "tiles": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "0_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 16577
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "512_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15329
+    },
+    {
+      "x": 1024,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 16762
+    },
+    {
+      "x": 1536,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15562
+    },
+    {
+      "x": 2048,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 19053
+    },
+    {
+      "x": 2560,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 17360
+    },
+    {
+      "x": 3072,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 17833
+    },
+    {
+      "x": 3584,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 19504
+    },
+    {
+      "x": 4096,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 24562
+    },
+    {
+      "x": 4608,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 22396
+    },
+    {
+      "x": 5120,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 19150
+    },
+    {
+      "x": 5632,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 21579
+    },
+    {
+      "x": 6144,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 18356
+    },
+    {
+      "x": 6656,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 19288
+    },
+    {
+      "x": 7168,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 29092
+    },
+    {
+      "x": 7680,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 23038
+    },
+    {
+      "x": 8192,
+      "y": 0,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_0_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,0,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15637
+    },
+    {
+      "x": 8704,
+      "y": 0,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_0_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,0,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 8061
+    },
+    {
+      "x": 0,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "0_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15250
+    },
+    {
+      "x": 512,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "512_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 35276
+    },
+    {
+      "x": 1024,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66405
+    },
+    {
+      "x": 1536,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 59336
+    },
+    {
+      "x": 2048,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 62275
+    },
+    {
+      "x": 2560,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 62512
+    },
+    {
+      "x": 3072,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 62230
+    },
+    {
+      "x": 3584,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 61723
+    },
+    {
+      "x": 4096,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 62557
+    },
+    {
+      "x": 4608,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 67432
+    },
+    {
+      "x": 5120,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 64587
+    },
+    {
+      "x": 5632,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 60491
+    },
+    {
+      "x": 6144,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 58231
+    },
+    {
+      "x": 6656,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 57410
+    },
+    {
+      "x": 7168,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 43987
+    },
+    {
+      "x": 7680,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 55471
+    },
+    {
+      "x": 8192,
+      "y": 512,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_512_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,512,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 14432
+    },
+    {
+      "x": 8704,
+      "y": 512,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_512_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,512,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 7123
+    },
+    {
+      "x": 0,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "0_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15344
+    },
+    {
+      "x": 512,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "512_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 50591
+    },
+    {
+      "x": 1024,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 72976
+    },
+    {
+      "x": 1536,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 71844
+    },
+    {
+      "x": 2048,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69633
+    },
+    {
+      "x": 2560,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 67763
+    },
+    {
+      "x": 3072,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68319
+    },
+    {
+      "x": 3584,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 61667
+    },
+    {
+      "x": 4096,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65581
+    },
+    {
+      "x": 4608,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69748
+    },
+    {
+      "x": 5120,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69213
+    },
+    {
+      "x": 5632,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63125
+    },
+    {
+      "x": 6144,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65995
+    },
+    {
+      "x": 6656,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65127
+    },
+    {
+      "x": 7168,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 42162
+    },
+    {
+      "x": 7680,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 53150
+    },
+    {
+      "x": 8192,
+      "y": 1024,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_1024_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,1024,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 17982
+    },
+    {
+      "x": 8704,
+      "y": 1024,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_1024_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,1024,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6998
+    },
+    {
+      "x": 0,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "0_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 14847
+    },
+    {
+      "x": 512,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "512_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 44000
+    },
+    {
+      "x": 1024,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 74055
+    },
+    {
+      "x": 1536,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69387
+    },
+    {
+      "x": 2048,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68220
+    },
+    {
+      "x": 2560,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 64114
+    },
+    {
+      "x": 3072,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 62546
+    },
+    {
+      "x": 3584,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 62322
+    },
+    {
+      "x": 4096,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66055
+    },
+    {
+      "x": 4608,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65388
+    },
+    {
+      "x": 5120,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 56448
+    },
+    {
+      "x": 5632,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 50158
+    },
+    {
+      "x": 6144,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 50086
+    },
+    {
+      "x": 6656,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66609
+    },
+    {
+      "x": 7168,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 50960
+    },
+    {
+      "x": 7680,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 43125
+    },
+    {
+      "x": 8192,
+      "y": 1536,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_1536_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,1536,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 14121
+    },
+    {
+      "x": 8704,
+      "y": 1536,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_1536_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,1536,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6945
+    },
+    {
+      "x": 0,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "0_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15126
+    },
+    {
+      "x": 512,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "512_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 38850
+    },
+    {
+      "x": 1024,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 70375
+    },
+    {
+      "x": 1536,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69612
+    },
+    {
+      "x": 2048,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68030
+    },
+    {
+      "x": 2560,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 67350
+    },
+    {
+      "x": 3072,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66819
+    },
+    {
+      "x": 3584,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66948
+    },
+    {
+      "x": 4096,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 54987
+    },
+    {
+      "x": 4608,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 59805
+    },
+    {
+      "x": 5120,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 60318
+    },
+    {
+      "x": 5632,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 54177
+    },
+    {
+      "x": 6144,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 70853
+    },
+    {
+      "x": 6656,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69832
+    },
+    {
+      "x": 7168,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65570
+    },
+    {
+      "x": 7680,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 55611
+    },
+    {
+      "x": 8192,
+      "y": 2048,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_2048_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,2048,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 20493
+    },
+    {
+      "x": 8704,
+      "y": 2048,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_2048_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,2048,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6849
+    },
+    {
+      "x": 0,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "0_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15327
+    },
+    {
+      "x": 512,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "512_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 44222
+    },
+    {
+      "x": 1024,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69064
+    },
+    {
+      "x": 1536,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69126
+    },
+    {
+      "x": 2048,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 71053
+    },
+    {
+      "x": 2560,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68442
+    },
+    {
+      "x": 3072,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66105
+    },
+    {
+      "x": 3584,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65050
+    },
+    {
+      "x": 4096,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65920
+    },
+    {
+      "x": 4608,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65078
+    },
+    {
+      "x": 5120,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63382
+    },
+    {
+      "x": 5632,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65707
+    },
+    {
+      "x": 6144,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 74357
+    },
+    {
+      "x": 6656,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 74679
+    },
+    {
+      "x": 7168,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 71779
+    },
+    {
+      "x": 7680,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63375
+    },
+    {
+      "x": 8192,
+      "y": 2560,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_2560_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,2560,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 20336
+    },
+    {
+      "x": 8704,
+      "y": 2560,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_2560_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,2560,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6754
+    },
+    {
+      "x": 0,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "0_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15815
+    },
+    {
+      "x": 512,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "512_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 44454
+    },
+    {
+      "x": 1024,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69547
+    },
+    {
+      "x": 1536,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68733
+    },
+    {
+      "x": 2048,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 70340
+    },
+    {
+      "x": 2560,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 67875
+    },
+    {
+      "x": 3072,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66736
+    },
+    {
+      "x": 3584,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69501
+    },
+    {
+      "x": 4096,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66772
+    },
+    {
+      "x": 4608,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 64547
+    },
+    {
+      "x": 5120,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 67418
+    },
+    {
+      "x": 5632,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 70816
+    },
+    {
+      "x": 6144,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66351
+    },
+    {
+      "x": 6656,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 70743
+    },
+    {
+      "x": 7168,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68105
+    },
+    {
+      "x": 7680,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 58239
+    },
+    {
+      "x": 8192,
+      "y": 3072,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_3072_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,3072,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 17852
+    },
+    {
+      "x": 8704,
+      "y": 3072,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_3072_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,3072,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6427
+    },
+    {
+      "x": 0,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "0_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15297
+    },
+    {
+      "x": 512,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "512_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 39788
+    },
+    {
+      "x": 1024,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 64210
+    },
+    {
+      "x": 1536,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 56960
+    },
+    {
+      "x": 2048,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 61071
+    },
+    {
+      "x": 2560,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65944
+    },
+    {
+      "x": 3072,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63699
+    },
+    {
+      "x": 3584,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63886
+    },
+    {
+      "x": 4096,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66330
+    },
+    {
+      "x": 4608,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63605
+    },
+    {
+      "x": 5120,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63679
+    },
+    {
+      "x": 5632,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 56726
+    },
+    {
+      "x": 6144,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63378
+    },
+    {
+      "x": 6656,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 64561
+    },
+    {
+      "x": 7168,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 70650
+    },
+    {
+      "x": 7680,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 61571
+    },
+    {
+      "x": 8192,
+      "y": 3584,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_3584_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,3584,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 20895
+    },
+    {
+      "x": 8704,
+      "y": 3584,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_3584_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,3584,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6372
+    },
+    {
+      "x": 0,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "0_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15930
+    },
+    {
+      "x": 512,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "512_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 33832
+    },
+    {
+      "x": 1024,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63974
+    },
+    {
+      "x": 1536,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69165
+    },
+    {
+      "x": 2048,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68336
+    },
+    {
+      "x": 2560,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63494
+    },
+    {
+      "x": 3072,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66747
+    },
+    {
+      "x": 3584,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 66238
+    },
+    {
+      "x": 4096,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65481
+    },
+    {
+      "x": 4608,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 64163
+    },
+    {
+      "x": 5120,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 59909
+    },
+    {
+      "x": 5632,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 54689
+    },
+    {
+      "x": 6144,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 58659
+    },
+    {
+      "x": 6656,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 65846
+    },
+    {
+      "x": 7168,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69099
+    },
+    {
+      "x": 7680,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 62554
+    },
+    {
+      "x": 8192,
+      "y": 4096,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_4096_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,4096,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 14832
+    },
+    {
+      "x": 8704,
+      "y": 4096,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_4096_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,4096,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6103
+    },
+    {
+      "x": 0,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "0_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 16518
+    },
+    {
+      "x": 512,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "512_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 37006
+    },
+    {
+      "x": 1024,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 64850
+    },
+    {
+      "x": 1536,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 58533
+    },
+    {
+      "x": 2048,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 63447
+    },
+    {
+      "x": 2560,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 69557
+    },
+    {
+      "x": 3072,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68901
+    },
+    {
+      "x": 3584,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68774
+    },
+    {
+      "x": 4096,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 68230
+    },
+    {
+      "x": 4608,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 67456
+    },
+    {
+      "x": 5120,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 58171
+    },
+    {
+      "x": 5632,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 53993
+    },
+    {
+      "x": 6144,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 54204
+    },
+    {
+      "x": 6656,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 64577
+    },
+    {
+      "x": 7168,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 60879
+    },
+    {
+      "x": 7680,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 54931
+    },
+    {
+      "x": 8192,
+      "y": 4608,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_4608_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,4608,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 18331
+    },
+    {
+      "x": 8704,
+      "y": 4608,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_4608_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,4608,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6212
+    },
+    {
+      "x": 0,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "0_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 16384
+    },
+    {
+      "x": 512,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "512_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 31165
+    },
+    {
+      "x": 1024,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 46588
+    },
+    {
+      "x": 1536,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 52184
+    },
+    {
+      "x": 2048,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 58245
+    },
+    {
+      "x": 2560,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 52475
+    },
+    {
+      "x": 3072,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 55562
+    },
+    {
+      "x": 3584,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 48935
+    },
+    {
+      "x": 4096,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 52060
+    },
+    {
+      "x": 4608,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 45714
+    },
+    {
+      "x": 5120,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 48972
+    },
+    {
+      "x": 5632,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 44926
+    },
+    {
+      "x": 6144,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 49526
+    },
+    {
+      "x": 6656,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 49584
+    },
+    {
+      "x": 7168,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 45712
+    },
+    {
+      "x": 7680,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 39201
+    },
+    {
+      "x": 8192,
+      "y": 5120,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_5120_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,5120,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 17094
+    },
+    {
+      "x": 8704,
+      "y": 5120,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_5120_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,5120,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6147
+    },
+    {
+      "x": 0,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "0_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 14988
+    },
+    {
+      "x": 512,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "512_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 16149
+    },
+    {
+      "x": 1024,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "1024_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 21759
+    },
+    {
+      "x": 1536,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "1536_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 21638
+    },
+    {
+      "x": 2048,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "2048_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 25711
+    },
+    {
+      "x": 2560,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "2560_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 20929
+    },
+    {
+      "x": 3072,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "3072_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 17331
+    },
+    {
+      "x": 3584,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "3584_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 19924
+    },
+    {
+      "x": 4096,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "4096_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 21901
+    },
+    {
+      "x": 4608,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "4608_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 23365
+    },
+    {
+      "x": 5120,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "5120_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 25965
+    },
+    {
+      "x": 5632,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "5632_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 22600
+    },
+    {
+      "x": 6144,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "6144_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 25714
+    },
+    {
+      "x": 6656,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "6656_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 25245
+    },
+    {
+      "x": 7168,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "7168_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 21400
+    },
+    {
+      "x": 7680,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "7680_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 23050
+    },
+    {
+      "x": 8192,
+      "y": 5632,
+      "w": 512,
+      "h": 512,
+      "filename": "8192_5632_512_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,5632,512,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 13408
+    },
+    {
+      "x": 8704,
+      "y": 5632,
+      "w": 216,
+      "h": 512,
+      "filename": "8704_5632_216_512.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,5632,216,512/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 6108
+    },
+    {
+      "x": 0,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "0_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/0,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 13701
+    },
+    {
+      "x": 512,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "512_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/512,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 12379
+    },
+    {
+      "x": 1024,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "1024_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1024,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 12512
+    },
+    {
+      "x": 1536,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "1536_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/1536,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 11609
+    },
+    {
+      "x": 2048,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "2048_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2048,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 10909
+    },
+    {
+      "x": 2560,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "2560_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/2560,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 11641
+    },
+    {
+      "x": 3072,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "3072_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3072,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 16543
+    },
+    {
+      "x": 3584,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "3584_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/3584,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 16103
+    },
+    {
+      "x": 4096,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "4096_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4096,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 18390
+    },
+    {
+      "x": 4608,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "4608_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/4608,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15499
+    },
+    {
+      "x": 5120,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "5120_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5120,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 15084
+    },
+    {
+      "x": 5632,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "5632_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/5632,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 14449
+    },
+    {
+      "x": 6144,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "6144_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6144,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 14021
+    },
+    {
+      "x": 6656,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "6656_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/6656,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 14945
+    },
+    {
+      "x": 7168,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "7168_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7168,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 11860
+    },
+    {
+      "x": 7680,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "7680_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/7680,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 12130
+    },
+    {
+      "x": 8192,
+      "y": 6144,
+      "w": 512,
+      "h": 422,
+      "filename": "8192_6144_512_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8192,6144,512,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 12069
+    },
+    {
+      "x": 8704,
+      "y": 6144,
+      "w": 216,
+      "h": 422,
+      "filename": "8704_6144_216_422.jpg",
+      "url": "https://map-view.nls.uk/iiif/2/9680%2F96805053/8704,6144,216,422/full/0/default.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 5329
+    }
+  ]
+}

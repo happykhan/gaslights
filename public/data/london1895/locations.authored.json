@@ -1,0 +1,3259 @@
+[
+  {
+    "id": "adelphi_theatre",
+    "name": "Adelphi Theatre",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Popular theatre first built as the Sans Pareil, renamed Adelphi in 1820.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.510083,
+      "lng": -0.12302
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "admiralty",
+    "name": "Admiralty",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Naval business and patronage are directed from these offices on Whitehall.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.505869,
+      "lng": -0.129016
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "albany",
+    "name": "Albany",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Fashionable bachelor chambers stand just off Piccadilly.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.509095,
+      "lng": -0.138641
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "aldersgate_street_station",
+    "name": "Aldersgate Street Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves General Post Office, St Paul's, Christ's Hospital, Smithfield, Goswell Road, Charterhouse Square, and Snow Hill.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.520249,
+      "lng": -0.098633
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "aldgate_station",
+    "name": "Aldgate Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "The Metropolitan Railway's eastern station serves Leadenhall Street, Fenchurch Street, Mark Lane, Eastcheap, the docks, Whitechapel, and Commercial Road.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514243,
+      "lng": -0.075702
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "alexandra_mansions",
+    "name": "Alexandra Mansions",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Private residential family club for visitors to town, four minutes from South Kensington station.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.49395,
+      "lng": -0.175095
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "alhambra_theatre",
+    "name": "Alhambra Theatre",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A handsome theatre and music hall, chiefly devoted to burlesque and comic opera.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.510473,
+      "lng": -0.129135
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "argentine_republic_consulate",
+    "name": "Argentine Republic Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "19 Craven Street, Strand, London",
+    "searchPreviewText": "La Plata / Argentine Republic consulate.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.507112,
+      "lng": -0.124428
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "austria_hungary_consulate",
+    "name": "Austria-Hungary Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "29 St Swithin's Lane, London",
+    "searchPreviewText": "Austro-Hungarian consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.512143,
+      "lng": -0.088896
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "austria_hungary_embassy",
+    "name": "Austria-Hungary Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "18 Belgrave Square, London",
+    "searchPreviewText": "Embassy in Belgrave Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.499705,
+      "lng": -0.154384
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "baker_street_station",
+    "name": "Baker Street Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Regent's Park West, Madame Tussaud's, Baker Street Bazaar, Portman Square, and Manchester Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.522721,
+      "lng": -0.156854
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "bank_of_england",
+    "name": "Bank of England",
+    "aliases": [
+      "Threadneedle Street"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "Threadneedle Street",
+    "searchPreviewText": "Core City financial institution near Royal Exchange and Mansion House.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514167,
+      "lng": -0.088545
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "barclay_son",
+    "name": "Barclay & Son",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "138 Regent Street",
+    "searchPreviewText": "Lamps, colza oil, kerosene oil, wax, sperm, and paraffin candles.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511073,
+      "lng": -0.139347
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "battersea_park",
+    "name": "Battersea Park",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A broad riverside park of 180 acres, drained, planted, and admired for its sub-tropical garden.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.479079,
+      "lng": -0.1581
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "bayswater_station",
+    "name": "Bayswater Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Kensington Gardens, Kensington Palace Gardens, Princes Square, Moscow Road, synagogue, and Greek Church.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.512271,
+      "lng": -0.188199
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "belgium_consulate",
+    "name": "Belgium Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "11 Bury Court, St Mary Axe, London",
+    "searchPreviewText": "Belgian consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.519259,
+      "lng": -0.061326
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "belgium_embassy",
+    "name": "Belgium Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "36 Grosvenor Gardens, Pimlico, London",
+    "searchPreviewText": "Embassy near Victoria.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.49804,
+      "lng": -0.146924
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "bethlem_hospital",
+    "name": "Bethlem Hospital",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Bedlam now stands at Lambeth Road, with patients given work, music, games, and exercise.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.496023,
+      "lng": -0.108574
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "bethnal_green_museum",
+    "name": "Bethnal Green Museum",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Museum removed from South Kensington to the East End.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.529024,
+      "lng": -0.054903
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "billingsgate_fish_market",
+    "name": "Billingsgate Fish Market",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Red-brick fish market below London Bridge; wholesale trading over by morning.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508848,
+      "lng": -0.084091
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "bishopsgate",
+    "name": "Bishopsgate",
+    "aliases": [
+      "Liverpool Street"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Great Eastern Railway access to Bishopsgate, Shoreditch, Victoria Park, Bank, Royal Exchange, and London Bridge.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.51717,
+      "lng": -0.082664
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "blackfriars_station",
+    "name": "Blackfriars Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Blackfriars Bridge and Road, Farringdon Street, Fleet Street, Ludgate Hill, St Paul's, Queen Victoria Street, and Cheapside.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511568,
+      "lng": -0.103991
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "booksellers_row",
+    "name": "Booksellers Row",
+    "aliases": [
+      "Holywell Street"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Synonymous with London's underground print culture, evolving from a mart for cheap broadside ballads and music sheets to a focal point for radical publishing and erotica.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.512746,
+      "lng": -0.115703
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "borough_market",
+    "name": "Borough Market",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Vegetable and fruit market adjacent to St Saviour's.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.505535,
+      "lng": -0.090757
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "brazil_consulate",
+    "name": "Brazil Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "6 Great Winchester Street Buildings, London",
+    "searchPreviewText": "Brazilian consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516218,
+      "lng": -0.085685
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "brazil_embassy",
+    "name": "Brazil Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "32 Grosvenor Gardens, Pimlico, London",
+    "searchPreviewText": "Embassy near Victoria.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.49804,
+      "lng": -0.146924
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "brown_and_green",
+    "name": "Brown and Green",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "72 Bishopsgate Street",
+    "searchPreviewText": "Prize medal kitcheners and cooking stoves, advertised as saving coal and curing smoky chimneys.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515345,
+      "lng": -0.08281
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "buckingham_palace",
+    "name": "Buckingham Palace",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "The royal palace stands west of St James's Park on the route from Pall Mall to Pimlico.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.500927,
+      "lng": -0.143011
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "burlington_arcade",
+    "name": "Burlington Arcade",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A fashionable covered arcade runs beside Burlington House on Piccadilly.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508357,
+      "lng": -0.139941
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "burlington_house",
+    "name": "Burlington House",
+    "aliases": [
+      "Royal Academy"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Learned societies and art exhibition centre.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508569,
+      "lng": -0.139201
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "canada_agency_general",
+    "name": "Canada Agency-General",
+    "aliases": [],
+    "type": "agency",
+    "visibility": "public",
+    "address": "31 Queen Victoria Street, London",
+    "searchPreviewText": "Dominion of Canada Agency-General.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.512283,
+      "lng": -0.094019
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "cannon_street_hotel",
+    "name": "Cannon Street Hotel",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A railway hotel attached to the Cannon Street terminus.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511453,
+      "lng": -0.090505
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "cannon_street_station",
+    "name": "Cannon Street Station",
+    "aliases": [],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A South-Eastern Railway city terminus stands in Cannon Street, close to Mansion House.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.510296,
+      "lng": -0.090752
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "cardinal_harford",
+    "name": "Cardinal & Harford",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Importers of Turkey, Persian, and Oriental carpets, rugs, and matting.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.517803,
+      "lng": -0.119473
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "central_criminal_court",
+    "name": "Central Criminal Court",
+    "aliases": [
+      "Old Bailey"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.5154,
+      "lng": -0.101959
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "charing_cross_station",
+    "name": "Charing Cross Station",
+    "aliases": [],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.5079,
+      "lng": -0.1246
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "charing_cross_underground_station",
+    "name": "Charing Cross Underground Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Thames Embankment, South Eastern Railway, Society of Arts, Strand, Trafalgar Square, National Gallery, theatres, Haymarket, Pall Mall, and Waterloo Place.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.507382,
+      "lng": -0.1224
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "chile_consulate",
+    "name": "Chile Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "Gresham House, Old Broad Street, London",
+    "searchPreviewText": "Chilean consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514051,
+      "lng": -0.086532
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "christ_s_hospital",
+    "name": "Christ's Hospital",
+    "aliases": [
+      "Blue Coat School"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Famous school near Newgate Street and Cheapside.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516413,
+      "lng": -0.100229
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "civil_service_supply_association",
+    "name": "Civil Service Supply Association",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Chief store of the Civil Service Supply Association.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514079,
+      "lng": -0.1225
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "cleopatra_s_needle",
+    "name": "Cleopatra's Needle",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A granite Egyptian obelisk, seventy feet high, newly raised on the Thames Embankment.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508508,
+      "lng": -0.120499
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "coal_exchange",
+    "name": "Coal Exchange",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Fine building decorated with fossil plant motifs from coal formations.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.509311,
+      "lng": -0.083572
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "colombia_consulate",
+    "name": "Colombia Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "3 St Helen's Place, London",
+    "searchPreviewText": "United States of Colombia consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.570278,
+      "lng": -0.032834
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "colonial_office",
+    "name": "Colonial Office",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Office of the Secretary of State for Britain's colonies.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.502964,
+      "lng": -0.126912
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "columbia_market",
+    "name": "Columbia Market",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Built at Baroness Burdett Coutts's expense for the East-end poor.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.529311,
+      "lng": -0.069505
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "corn_exchange",
+    "name": "Corn Exchange",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Mark Lane's exchange draws the corn trade into the eastern City.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.510109,
+      "lng": -0.080241
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "costa_rica_consulate",
+    "name": "Costa Rica Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "4 Lime Street, London",
+    "searchPreviewText": "Costa Rican consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.586574,
+      "lng": -0.035553
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "coutts_s_and_co_bank",
+    "name": "Coutts's and Co. Bank",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A sober Strand bank whose plain frontage hides deep and valuable cellarage.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.509276,
+      "lng": -0.123367
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "covent_garden_market",
+    "name": "Covent Garden Market",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Famous fruit, vegetable, and flower market in the West End.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.512026,
+      "lng": -0.122862
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "cranwell_co",
+    "name": "Cranwell & Co.",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Turkey and Eastern Carpet Depot, importers.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515595,
+      "lng": -0.100066
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "cremorne_gardens",
+    "name": "Cremorne Gardens",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "The famous Chelsea pleasure gardens have closed, but the riverside still carries their reputation.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.479821,
+      "lng": -0.1781
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "custom_house",
+    "name": "Custom House",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "River-facing customs institution, central to London's port trade.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508789,
+      "lng": -0.082596
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "david_bogue",
+    "name": "David Bogue",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Publisher of Health Primers and Half-Hour Volumes.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.509657,
+      "lng": -0.127293
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "debain_co",
+    "name": "Debain & Co.",
+    "aliases": [
+      "J. Stuttaford"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Harmoniums, organophones, mechanical pianos, and pianos; London representative at Rathbone Place.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.517022,
+      "lng": -0.133993
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "denmark_consulate",
+    "name": "Denmark Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "42 Great Tower Street, London",
+    "searchPreviewText": "Danish consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.510119,
+      "lng": -0.081794
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "denmark_embassy",
+    "name": "Denmark Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "62 Wimpole Street, London",
+    "searchPreviewText": "Danish embassy in Wimpole Street.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.518683,
+      "lng": -0.148683
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "earl_s_court_station",
+    "name": "Earl's Court Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Earl's Court Road and westward districts.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.491607,
+      "lng": -0.193968
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "edgware_road_station",
+    "name": "Edgware Road Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.519823,
+      "lng": -0.167794
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "egyptian_hall",
+    "name": "Egyptian Hall",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A Piccadilly exhibition hall known for public curiosities and entertainments.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.507876,
+      "lng": -0.139921
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "elephant_and_castle",
+    "name": "Elephant and Castle",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Mail coaches, omnibuses, and south London roads converge at this busy rendezvous.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.494884,
+      "lng": -0.10055
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "euston_station",
+    "name": "Euston Station",
+    "aliases": [],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.529069,
+      "lng": -0.134805
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "exeter_hall",
+    "name": "Exeter Hall",
+    "aliases": [
+      "Exeter Hall",
+      "YMCA Headquarters",
+      "Young Men's Christian Association"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Exeter Hall is the venue for many great gatherings of activists for various causes, most notably the anti-slavery movement and the meeting of the Anti–Corn Law League. It is also the headquarters of the Young Men's Christian Association.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511062,
+      "lng": -0.120945
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "farringdon_street_station",
+    "name": "Farringdon Street Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves meat market, Farringdon Market, Clerkenwell, Hatton Garden, Holborn Viaduct, Gray's Inn, Ludgate Hill, Fleet Street, Chancery Lane, Temple, Strand, and Blackfriars.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.520331,
+      "lng": -0.105556
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "fenchurch_street_station",
+    "name": "Fenchurch Street Station",
+    "aliases": [],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Railway terminus for eastward routes.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.51148,
+      "lng": -0.078443
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "finchley_road_station",
+    "name": "Finchley Road Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A Metropolitan extension station on the north-western line toward Willesden.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.546948,
+      "lng": -0.179907
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "floral_hall",
+    "name": "Floral Hall",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Associated with the Covent Garden market and theatre district.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.513029,
+      "lng": -0.122359
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "foreign_office",
+    "name": "Foreign Office",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.503055,
+      "lng": -0.128731
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "france_consulate",
+    "name": "France Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "38 Finsbury Circus, London",
+    "searchPreviewText": "French consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.517818,
+      "lng": -0.086471
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "france_embassy",
+    "name": "France Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "Albert Gate House, Hyde Park, London",
+    "searchPreviewText": "French embassy at Albert Gate House.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.502444,
+      "lng": -0.158917
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "garrick_club",
+    "name": "Garrick Club",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A theatrical club with a notable collection of portraits of actors and stage figures.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511464,
+      "lng": -0.126452
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "general_post_office",
+    "name": "General Post Office",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Major postal institution near St Paul's and Cheapside.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515718,
+      "lng": -0.09774
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "german_empire_consulate",
+    "name": "German Empire Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "5 Blomfield Street, London Wall, London",
+    "searchPreviewText": "German consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.51705,
+      "lng": -0.085503
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "german_empire_embassy",
+    "name": "German Empire Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "9 Carlton House Terrace, London",
+    "searchPreviewText": "German embassy by The Mall.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.505935,
+      "lng": -0.13233
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "gower_street_station",
+    "name": "Gower Street Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Tottenham Court Road, Hampstead Road, Euston, Russell Square, British Museum, Bloomsbury, Camden Town, Kentish Town, and theatres.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.525684,
+      "lng": -0.136127
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "great_western_royal_hotel",
+    "name": "Great Western Royal Hotel",
+    "aliases": [
+      "Great Western Hotel"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "Praed Street, Paddington",
+    "searchPreviewText": "The Great Western Hotel stands opposite Paddington Station on Praed Street.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515783,
+      "lng": -0.175923
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "greece_consulate",
+    "name": "Greece Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "25 Old Broad Street, London",
+    "searchPreviewText": "Greek consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515217,
+      "lng": -0.083878
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "greece_embassy",
+    "name": "Greece Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "64 Pall Mall, London",
+    "searchPreviewText": "Greek embassy in Pall Mall.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.506373,
+      "lng": -0.134635
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "grosvenor_hotel",
+    "name": "Grosvenor Hotel",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A large railway hotel serves travellers arriving at Victoria.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.495695,
+      "lng": -0.145345
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "guatemala_consulate",
+    "name": "Guatemala Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "22 Great Winchester Street, London",
+    "searchPreviewText": "Guatemalan consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516203,
+      "lng": -0.085509
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "guildhall",
+    "name": "Guildhall",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Seat of City government with Gog and Magog and the Guildhall Museum.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515953,
+      "lng": -0.092027
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "guy_s_hospital",
+    "name": "Guy's Hospital",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Founded by Thomas Guy, bookseller and speculator.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.503833,
+      "lng": -0.088347
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "h_lamplough",
+    "name": "H. Lamplough",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Consulting chemist advertising Pyretic Saline and lime juice syrup.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.517796,
+      "lng": -0.119914
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "h_schweitzer_co",
+    "name": "H. Schweitzer & Co.",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Sole proprietors of Cocoatina, advertised as soluble cocoa or chocolate powder.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.509822,
+      "lng": -0.12214
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "hawaiian_islands_consulate",
+    "name": "Hawaiian Islands Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "St Michael's Buildings, Cornhill, London",
+    "searchPreviewText": "Hawaiian Islands consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.513492,
+      "lng": -0.085799
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "horns_tavern",
+    "name": "Horns Tavern",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A Kennington tavern and assembly-room known for large political and public meetings.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.484749,
+      "lng": -0.109954
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "houses_of_parliament",
+    "name": "Houses of Parliament",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.499581,
+      "lng": -0.124725
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "india_office",
+    "name": "India Office",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Office regulating the affairs of the Indian Empire.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.502579,
+      "lng": -0.129178
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "italy_consulate",
+    "name": "Italy Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "31 Old Jewry, London",
+    "searchPreviewText": "Italian consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.51437,
+      "lng": -0.090997
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "italy_embassy",
+    "name": "Italy Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "35 Queen's Gate, Kensington, London",
+    "searchPreviewText": "Italian embassy in Queen's Gate.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.498056,
+      "lng": -0.180036
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "j_h_steward",
+    "name": "J. H. Steward",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Optician to British and foreign governments; binocular, opera, field, tourist, and marine glasses.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.510432,
+      "lng": -0.122856
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "james_how_co",
+    "name": "James How & Co.",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "73 Farringdon Street",
+    "searchPreviewText": "Chemical and philosophical instrument makers to government; microscopes, telescopes, lanterns, and apparatus.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.521463,
+      "lng": -0.106896
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "kensington_high_street_station",
+    "name": "Kensington High Street Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Near vestry hall and old church; serves Pro-Cathedral, Carmelite Church, Holland House, and Phillimore Gardens.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.500567,
+      "lng": -0.192513
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "kensington_palace",
+    "name": "Kensington Palace",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Served by Bayswater / Kensington area entries.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.505164,
+      "lng": -0.188246
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "king_s_college_london",
+    "name": "King's College London",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "College, hospital, and school stand together on the busy eastward run of the Strand.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511332,
+      "lng": -0.116058
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "king_s_cross_station",
+    "name": "King's Cross Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Pentonville, Islington, Agricultural Hall, Holloway, Barnsbury, Gray's Inn Road, Foundling Hospital, Great Northern and Midland Railways.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.531655,
+      "lng": -0.123522
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "lambeth_palace",
+    "name": "Lambeth Palace",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Residence of the Archbishops of Canterbury for six and a half centuries.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.495487,
+      "lng": -0.11999
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "langham_hotel",
+    "name": "Langham Hotel",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Served by Portland Road station; major hotel near Regent Street.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.517698,
+      "lng": -0.144254
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "leadenhall_market",
+    "name": "Leadenhall Market",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Historic market serving the City.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.512915,
+      "lng": -0.083713
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "leicester_square",
+    "name": "Leicester Square",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Foreign exiles, theatres, clubs, and lodging houses give the square a restless continental air.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.510351,
+      "lng": -0.130296
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "liberia_consulate",
+    "name": "Liberia Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "18 Pinners' Hall, Old Broad Street, London",
+    "searchPreviewText": "Liberian consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514051,
+      "lng": -0.086532
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "liverpool_street_station",
+    "name": "Liverpool Street Station",
+    "aliases": [],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.518222,
+      "lng": -0.081416
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "lloyd_s_of_london",
+    "name": "Lloyd's of London",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Merchants and insurers gather here in the commercial heart of the City.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.513119,
+      "lng": -0.082785
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "london_bridge_station",
+    "name": "London Bridge Station",
+    "aliases": [],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Railway terminus serving London Bridge and the Borough.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.504303,
+      "lng": -0.085554
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "london_docks",
+    "name": "London Docks",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Large dock system with tobacco warehouses, wine vaults, wool, spices, tea, and drugs.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.50705,
+      "lng": -0.060112
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "london_stock_exchange",
+    "name": "London Stock Exchange",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515037,
+      "lng": -0.099098
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "mansion_house",
+    "name": "Mansion House",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Lord Mayor's official residence near Bank and Royal Exchange.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.513028,
+      "lng": -0.089438
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "marlborough_house",
+    "name": "Marlborough House",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "West End royal residence near St James's Palace.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.504965,
+      "lng": -0.136193
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "marlborough_road_station",
+    "name": "Marlborough Road Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Branch station for Eyre Arms, Portland Town, and Acacia Road.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.536748,
+      "lng": -0.175885
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "marshalsea_prison_site",
+    "name": "Marshalsea Prison site",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "The old Marshalsea has gone, but its memory lingers in Borough High Street.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.501613,
+      "lng": -0.091986
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "mexico_consulate",
+    "name": "Mexico Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "4 Adam's Court, Old Broad Street, London",
+    "searchPreviewText": "Mexican consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514051,
+      "lng": -0.086532
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "midland_grand_hotel",
+    "name": "Midland Grand Hotel",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A grand railway hotel rises above the Midland terminus on Euston Road.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.529603,
+      "lng": -0.126408
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "millwall_prison",
+    "name": "Millwall Prison",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.491103,
+      "lng": -0.128762
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "monument",
+    "name": "Monument",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Monument to the Great Fire; prominent City landmark.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.510116,
+      "lng": -0.085936
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "moorgate_street_station",
+    "name": "Moorgate Street Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Finsbury, Cheapside, Gresham Street, Guildhall, Mansion House, Bank, Cornhill, Lombard Street, and London Bridge.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.518346,
+      "lng": -0.089563
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "mrs_addley_bourne",
+    "name": "Mrs Addley Bourne",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Ladies' outfitter, corset and baby linen manufacturer; bridal trousseaux and layettes.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.509022,
+      "lng": -0.136354
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "national_gallery",
+    "name": "National Gallery",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "The old King's Mews has given way to a national picture gallery facing Trafalgar Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508672,
+      "lng": -0.128488
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "natural_history_museum",
+    "name": "Natural History Museum",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A major museum of natural history anchors the South Kensington museum district.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.496336,
+      "lng": -0.176639
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "netherlands_consulate",
+    "name": "Netherlands Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "17 Finsbury Circus, London",
+    "searchPreviewText": "Netherlands consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.517818,
+      "lng": -0.086471
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "netherlands_embassy",
+    "name": "Netherlands Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "40 Grosvenor Gardens, Pimlico, London",
+    "searchPreviewText": "Embassy near Victoria.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.49804,
+      "lng": -0.146924
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "new_location",
+    "name": "New Location",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.512389,
+      "lng": -0.174451
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "newgate_prison",
+    "name": "Newgate Prison",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A grim prison beside the Old Bailey, long bound to executions and criminal trials.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515927,
+      "lng": -0.101936
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "nicaragua_consulate",
+    "name": "Nicaragua Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "3 St Helen's Place, London",
+    "searchPreviewText": "Nicaraguan consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.570278,
+      "lng": -0.032834
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "north_british_and_mercantile_insurance_company",
+    "name": "North British and Mercantile Insurance Company",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Fire and life insurance company with London and Edinburgh head offices.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514238,
+      "lng": -0.085868
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "notting_hill_gate_station",
+    "name": "Notting Hill Gate Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Camden Hill, Pembridge Square, Holland Park, Pembridge Gardens, Linden Grove, and Ladbroke Road.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508623,
+      "lng": -0.19614
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "paddington_station",
+    "name": "Paddington Station",
+    "aliases": [],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "Praed Street, Paddington",
+    "searchPreviewText": "Opposite the Great Western Hotel; serves Great Western Railway, Hyde Park, Eastbourne Terrace, Westbourne Terrace, Gloucester Square, and Craven Hill.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516896,
+      "lng": -0.177529
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "peru_consulate",
+    "name": "Peru Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "21 Gower Street, London",
+    "searchPreviewText": "Peruvian consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.520533,
+      "lng": -0.130772
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "portland_road_station",
+    "name": "Portland Road Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Albany Street, Regent's Park, St George's Hall, Polytechnic, Langham Hotel, Regent Street, and Oxford Street.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.523733,
+      "lng": -0.1441
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "portugal_consulate",
+    "name": "Portugal Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "10 St Mary Axe, London",
+    "searchPreviewText": "Portuguese consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514084,
+      "lng": -0.081078
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "portugal_embassy",
+    "name": "Portugal Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "12 Gloucester Place, Portman Square, London",
+    "searchPreviewText": "Portuguese embassy near Portman Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.51676,
+      "lng": -0.157343
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "rent_guarantee_society_ltd",
+    "name": "Rent Guarantee Society Ltd",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "66 Cannon Street",
+    "searchPreviewText": "Collects rents, tithes, mortgage interest, dividends, and manages property.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511868,
+      "lng": -0.091789
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "royal_albert_hall",
+    "name": "Royal Albert Hall",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A great South Kensington hall near the Horticultural Gardens and the Albert Memorial.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.50101,
+      "lng": -0.177532
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "royal_botanic_gardens",
+    "name": "Royal Botanic Gardens",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Botanical gardens and society grounds occupy part of Regent's Park.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.527521,
+      "lng": -0.153949
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "royal_chelsea_hospital",
+    "name": "Royal Chelsea Hospital",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Wren-built retreat for old soldiers, traditionally linked with Nell Gwynne.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.487302,
+      "lng": -0.158028
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "royal_college_of_physicians",
+    "name": "Royal College of Physicians",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Portraits and relics of eminent physicians are kept in this learned college by Trafalgar Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508122,
+      "lng": -0.129496
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "royal_courts_of_justice",
+    "name": "Royal Courts of Justice",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "New law courts area serving Strand, Fleet Street, and the Inns of Court.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514222,
+      "lng": -0.113748
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "royal_exchange",
+    "name": "Royal Exchange",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "Cornhill",
+    "searchPreviewText": "Commercial exchange at the heart of the City.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.513605,
+      "lng": -0.087227
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "royal_mint",
+    "name": "Royal Mint",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "The coinage of the realm is struck near Tower Hill and the old fortress.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.509237,
+      "lng": -0.072122
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "russia_consulate",
+    "name": "Russia Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "17 Great Winchester Street, London",
+    "searchPreviewText": "Russian consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516018,
+      "lng": -0.084613
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "russia_embassy",
+    "name": "Russia Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "Chesham House, Belgrave Square, London",
+    "searchPreviewText": "Russian embassy in Belgrave Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516167,
+      "lng": -0.085019
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "salvador_consulate",
+    "name": "Salvador Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "Wool Exchange, Coleman Street, London",
+    "searchPreviewText": "Salvador Republic consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514873,
+      "lng": -0.09039
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "samaritan_free_hospital_for_women_and_children",
+    "name": "Samaritan Free Hospital for Women and Children",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Free hospital for women and children with in-patient and out-patient departments.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514867,
+      "lng": -0.156932
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "san_domingo_consulate",
+    "name": "San Domingo Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "18 Coleman Street, London",
+    "searchPreviewText": "San Domingo consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515331,
+      "lng": -0.090126
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "scotland_yard",
+    "name": "Scotland Yard",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "The Metropolitan Police keep their headquarters here, amid older memories of Milton, Wren, and court officials.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.506355,
+      "lng": -0.126389
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "siam_consulate",
+    "name": "Siam Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "5 Great Winchester Street Buildings, London",
+    "searchPreviewText": "Siamese consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516218,
+      "lng": -0.085685
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "sloane_square_station",
+    "name": "Sloane Square Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Sloane Street, East Chelsea, Chelsea Hospital, Battersea Park, King's Road, Royal Court Theatre, Prince's Cricket Ground, and Eaton Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.492176,
+      "lng": -0.155918
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "smithfield_meat_market",
+    "name": "Smithfield Meat Market",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Metropolitan meat market; cattle market had moved to Copenhagen Fields.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.519322,
+      "lng": -0.101621
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "somerset_house",
+    "name": "Somerset House",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Government offices and Inland Revenue associations in the Strand.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511096,
+      "lng": -0.117397
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "south_australia_agency_general",
+    "name": "South Australia Agency-General",
+    "aliases": [],
+    "type": "agency",
+    "visibility": "public",
+    "address": "8 Victoria Chambers, Victoria Street, Westminster, London",
+    "searchPreviewText": "Agency-General for South Australia.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.499319,
+      "lng": -0.129872
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "south_kensington_museum",
+    "name": "South Kensington Museum",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Served by South Kensington station; major museum quarter.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.4971,
+      "lng": -0.172496
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "south_kensington_station",
+    "name": "South Kensington Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves South Kensington Museum, Oratory, Horticultural Gardens, Royal Albert Hall, Albert Memorial, Brompton Road, Fulham Road, Cromwell Road, Chelsea West, and Thurloe Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.494073,
+      "lng": -0.173379
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "spain_consulate",
+    "name": "Spain Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "21 Billiter Street, London",
+    "searchPreviewText": "Spanish consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.512938,
+      "lng": -0.08041
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "spain_embassy",
+    "name": "Spain Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "12 Queen's Gate Place, South Kensington, London",
+    "searchPreviewText": "Spanish embassy in Queen's Gate Place.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.497102,
+      "lng": -0.180433
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_bride_s_church",
+    "name": "St Bride's Church",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A notable City church tucked just south of Fleet Street and its printers.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.513781,
+      "lng": -0.105678
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_george_s_roman_catholic_cathedral",
+    "name": "St George's Roman Catholic Cathedral",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Built by A. W. Pugin in 1848.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.497803,
+      "lng": -0.108113
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_james_s_palace",
+    "name": "St James's Palace",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Palace and court quarter in the Pall Mall route.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.504589,
+      "lng": -0.137859
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_james_s_park_station",
+    "name": "St James's Park Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Birdcage Walk, Royal Aquarium, Victoria Street, Army and Navy Stores, Westminster, Palace Hotel, Broad Sanctuary, Dean's Yard, and Westminster Hospital.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.499387,
+      "lng": -0.13471
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_john_s_wood_road_station",
+    "name": "St John's Wood Road Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Branch station for Lord's Cricket Ground, Park Road, Regent's Park, Primrose Hill, and Wellington Road.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.529472,
+      "lng": -0.168404
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_katherine_s_docks",
+    "name": "St Katherine's Docks",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "One of London's major docks, nearest London Bridge.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.507342,
+      "lng": -0.07124
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_martin_in_the_fields",
+    "name": "St Martin-in-the-Fields",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A handsome church in florid Roman or Italian style with a western Corinthian portico.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508806,
+      "lng": -0.126927
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_marylebone_female_protection_society",
+    "name": "St Marylebone Female Protection Society",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Founded in 1838 to shelter and train young women and mothers in distress.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.520733,
+      "lng": -0.163591
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_paul_s_cathedral",
+    "name": "St Paul's Cathedral",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Wren's great cathedral dominates the City with its dome, monuments, and Whispering Gallery.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.513714,
+      "lng": -0.098727
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_paul_s_station",
+    "name": "St Paul's Station",
+    "aliases": [],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511408,
+      "lng": -0.10334
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_saviour_s_church",
+    "name": "St Saviour's Church",
+    "aliases": [
+      "Southwark Cathedral"
+    ],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Southwark's great old church rivals Westminster Abbey for historical interest.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.506049,
+      "lng": -0.089576
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "st_thomas_s_hospital",
+    "name": "St Thomas's Hospital",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A charitable foundation now serving as one of London's great hospitals by Westminster Bridge.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.499052,
+      "lng": -0.119998
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "surrey_theatre",
+    "name": "Surrey Theatre",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Theatre at the end of Great Surrey Street, near five-road junction.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.499074,
+      "lng": -0.10537
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "sweden_and_norway_consulate",
+    "name": "Sweden and Norway Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "24 Great Winchester Street, London",
+    "searchPreviewText": "Swedish and Norwegian consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516203,
+      "lng": -0.085509
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "sweden_and_norway_embassy",
+    "name": "Sweden and Norway Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "47 Charles Street, Berkeley Square, London",
+    "searchPreviewText": "Embassy near Berkeley Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508401,
+      "lng": -0.145893
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "switzerland_consulate",
+    "name": "Switzerland Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "25 Old Broad Street, London",
+    "searchPreviewText": "Swiss consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515217,
+      "lng": -0.083878
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "temple_church",
+    "name": "Temple Church",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "The church of the Temple stands among the lawyers' courts and gardens between Strand and Fleet Street.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.51323,
+      "lng": -0.110443
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "temple_station",
+    "name": "Temple Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Inns of Court, east Strand, new law courts, and Fleet Street.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.511011,
+      "lng": -0.114367
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "thames_tunnel",
+    "name": "Thames Tunnel",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Brunel's tunnel beneath the Thames now carries East London Railway traffic between Wapping and Rotherhithe.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.503176,
+      "lng": -0.054578
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "the_grand_hotel",
+    "name": "The Grand Hotel",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.507584,
+      "lng": -0.126869
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "thomas_aldred",
+    "name": "Thomas Aldred",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "126 Oxford Street",
+    "searchPreviewText": "Archery manufacturer to the Royal Family and crowned heads of Europe.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515803,
+      "lng": -0.136204
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "tower_of_london",
+    "name": "Tower of London",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Best river view of Traitor's Gate; fortress and prison landmark.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508062,
+      "lng": -0.076004
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "trafalgar_square",
+    "name": "Trafalgar Square",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "Trafalgar Square",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.508035,
+      "lng": -0.12821
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "turkey_consulate",
+    "name": "Turkey Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "55 to 58 Ethelburga House, 70 and 71 Bishopsgate Street Within, London",
+    "searchPreviewText": "Turkish consular office in Ethelburga House.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.51335,
+      "lng": -0.084075
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "turkey_embassy",
+    "name": "Turkey Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "1 Bryanston Square, London",
+    "searchPreviewText": "Turkish embassy in Bryanston Square.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516816,
+      "lng": -0.159989
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "united_states_consulate",
+    "name": "United States Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "53a Old Broad Street, London",
+    "searchPreviewText": "The United States keeps its City consular office in Old Broad Street, separate from the Westbourne Place embassy.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516448,
+      "lng": -0.083371
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "united_states_embassy",
+    "name": "United States Embassy",
+    "aliases": [],
+    "type": "embassy",
+    "visibility": "public",
+    "address": "25 Westbourne Place, London",
+    "searchPreviewText": "US embassy address in west London.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.523275,
+      "lng": -0.199194
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "uruguay_consulate",
+    "name": "Uruguay Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "49 Lower Belgrave Street, London",
+    "searchPreviewText": "Republic of Uruguay / Monte Video consular address.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.496586,
+      "lng": -0.147977
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "vaudeville_theatre",
+    "name": "Vaudeville Theatre",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Scene of very popular comedies by H. J. Byron.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.510292,
+      "lng": -0.122333
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "venezuela_consulate",
+    "name": "Venezuela Consulate",
+    "aliases": [],
+    "type": "consulate",
+    "visibility": "public",
+    "address": "42 Moorgate Street, London",
+    "searchPreviewText": "Venezuelan consular office.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.515217,
+      "lng": -0.083878
+    },
+    "tags": [
+      "diplomatic"
+    ],
+    "worldVisitRules": []
+  },
+  {
+    "id": "victoria_palace_theatre",
+    "name": "Victoria Palace Theatre",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A large theatre famous for pronounced melodramas and farces.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.502058,
+      "lng": -0.109553
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "victoria_park",
+    "name": "Victoria Park",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "A large East End park serving the crowded districts around Bethnal Green.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.538214,
+      "lng": -0.036307
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "victoria_station",
+    "name": "Victoria Station",
+    "aliases": [],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.495035,
+      "lng": -0.144449
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "w_tarn_co",
+    "name": "W. Tarn & Co.",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "General house furnishers and silk mercers with large departments for furniture, drapery, clothing, and mourning.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.495803,
+      "lng": -0.09986
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "wapping_old_stairs",
+    "name": "Wapping Old Stairs",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Shipping quarter, remembered in Dibdin's river songs.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.502934,
+      "lng": -0.062228
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "waterloo_station",
+    "name": "Waterloo Station",
+    "aliases": [
+      "London Waterloo",
+      "Waterloo"
+    ],
+    "type": "railway_station",
+    "visibility": "public",
+    "address": "Waterloo Road",
+    "searchPreviewText": "A major railway terminus south of the Thames.",
+    "defaultVisitText": "Porters, cabmen, and passengers crowd the station approaches.",
+    "coordinates": {
+      "lat": 51.5033,
+      "lng": -0.1136
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "west_brompton_station",
+    "name": "West Brompton Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Adjoins West London Railway; serves Beaufort House, Walham Green, athletic grounds, and Brompton Cemetery.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.487185,
+      "lng": -0.195406
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "westminster_abbey",
+    "name": "Westminster Abbey",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Abbey, school, Parliament, and church crowd this remarkable Westminster prospect.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.49942,
+      "lng": -0.127454
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "westminster_bridge_station",
+    "name": "Westminster Bridge Station",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Serves Abbey, Parliament, Foreign Office, Home Office, Treasury, India Office, Whitehall, Horse Guards, Old Palace Yard, Embankment, Lambeth Bridge, St Thomas's, and Waterloo.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.501411,
+      "lng": -0.124763
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "westminster_hospital",
+    "name": "Westminster Hospital",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.500064,
+      "lng": -0.129159
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "westminster_palace_hotel",
+    "name": "Westminster Palace Hotel",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "One of the largest hotels at the Westminster end of town.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.499431,
+      "lng": -0.130714
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "wm_t_cooper",
+    "name": "Wm. T. Cooper",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Chemist advertising Cantharidine and Rosemary Cream, marking ink, and effervescing lozenges.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.516209,
+      "lng": -0.131422
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "ye_olde_cheshire_cheese",
+    "name": "Ye Olde Cheshire Cheese",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Old literary tavern near Fleet Street.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.514368,
+      "lng": -0.108276
+    },
+    "tags": [],
+    "worldVisitRules": []
+  },
+  {
+    "id": "zoological_gardens",
+    "name": "Zoological Gardens",
+    "aliases": [],
+    "type": "other",
+    "visibility": "public",
+    "address": "",
+    "searchPreviewText": "Regent's Park keeps London's zoological gardens and their public attractions.",
+    "defaultVisitText": "",
+    "coordinates": {
+      "lat": 51.535279,
+      "lng": -0.153514
+    },
+    "tags": [],
+    "worldVisitRules": []
+  }
+]

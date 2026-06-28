@@ -1,0 +1,10 @@
+[
+  {
+    "id": "missing_chemist",
+    "title": "The Missing Chemist",
+    "date": "1894-05-17",
+    "summary": "An analytical chemist vanishes after a lecture. His laboratory is disturbed, a railway ticket has been planted, and his assistant is missing.",
+    "path": "./data/cases/missing-chemist.case.json",
+    "status": "playable"
+  }
+]

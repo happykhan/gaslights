@@ -4,54 +4,56 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gaslights</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" />
-    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/styles.css?v=202606281510" />
   </head>
   <body>
     <div id="app" class="app-shell">
+      <div id="mobileSidebarBackdrop" class="mobile-sidebar-backdrop"></div>
       <aside class="sidebar" aria-label="Investigation controls">
         <header class="brand">
-          <p class="eyebrow">London, 1894</p>
+          <button id="closeSidebarDrawer" class="close-button mobile-drawer-close" type="button" aria-label="Close menu">×</button>
           <h1>Gaslights</h1>
           <p id="caseSummary" class="case-summary">Loading the case...</p>
+          <div class="brand-actions">
+            <button id="openEditorBrand" class="secondary-button inline-button" type="button">Open editor</button>
+          </div>
         </header>
 
         <nav class="tabs" aria-label="Investigation sections">
+          <button class="tab" data-view="cases" type="button">Cases</button>
           <button class="tab is-active" data-view="briefing" type="button">Briefing</button>
-          <button class="tab" data-view="search" type="button">Search</button>
           <button class="tab" data-view="notebook" type="button">Notebook</button>
           <button class="tab" data-view="theory" type="button">Theory</button>
         </nav>
+
+        <section id="casesView" class="panel view" aria-label="Available cases">
+          <div class="panel-heading">
+            <div>
+              <h2>Cases</h2>
+              <p class="muted">Choose another investigation to play.</p>
+            </div>
+            <div id="caseCount" class="panel-count">0 cases</div>
+          </div>
+          <div id="caseList" class="results"></div>
+        </section>
 
         <section id="briefingView" class="panel view is-active" aria-label="Case briefing">
           <h2 id="caseTitle">The Missing Chemist</h2>
           <div id="caseIntro" class="prose"></div>
           <div class="stats">
             <span><strong id="leadCount">0</strong> leads</span>
-            <span><strong id="evidenceCount">0</strong> evidence</span>
-            <span><strong id="factCount">0</strong> facts</span>
+            <span><strong id="visitCount">0</strong> places visited</span>
           </div>
           <button id="resetInvestigation" class="secondary-button" type="button">Reset investigation</button>
         </section>
 
-        <section id="searchView" class="panel view" aria-label="Search">
-          <label class="field">
-            <span>Search map, directory, and newspaper</span>
-            <input id="searchInput" type="search" placeholder="chemist, Mallory, railway, Mercia" autocomplete="off" />
-          </label>
-          <div class="filters" aria-label="Map layers">
-            <label><input id="showKnown" type="checkbox" checked /> Known places</label>
-            <label><input id="showHidden" type="checkbox" /> Hidden after discovery</label>
-            <label><input id="showDirectory" type="checkbox" checked /> Directory</label>
-          </div>
-          <div id="searchResults" class="results"></div>
-        </section>
-
         <section id="notebookView" class="panel view" aria-label="Notebook">
-          <h2>Notebook</h2>
-          <h3>Evidence</h3>
-          <div id="evidenceList" class="compact-list"></div>
-          <h3>Facts</h3>
+          <h2>Visit history</h2>
           <div id="factList" class="compact-list"></div>
           <h3>Notes</h3>
           <div id="noteList" class="compact-list"></div>
@@ -60,7 +62,7 @@
         <section id="theoryView" class="panel view" aria-label="Theory board">
           <h2>Theory</h2>
           <form id="theoryForm" class="theory-form"></form>
-          <button id="submitTheory" class="primary-button" type="button">Submit theory</button>
+          <button id="submitTheory" class="primary-button" type="button">Lock theory</button>
           <div id="solutionResult" class="solution-result" hidden></div>
         </section>
       </aside>
@@ -68,31 +70,106 @@
       <main class="map-stage">
         <div id="map" class="map" aria-label="Historical London map"></div>
         <div class="map-tools" aria-label="Map controls">
+          <button id="openSidebarDrawer" class="mobile-menu-button" type="button" aria-label="Open investigation menu">☰</button>
+          <label class="map-search">
+            <span class="sr-only">Search the city</span>
+            <input id="searchInput" type="search" placeholder="Search the city" autocomplete="off" />
+          </label>
+          <button id="runSearch" type="button">Search</button>
+          <button id="togglePoiLayers" type="button">Layers</button>
           <div class="zoom-indicator" aria-live="polite">
             <span>Zoom</span>
             <strong id="zoomLevel">15.0</strong>
           </div>
-          <div class="map-label" aria-label="Historical map layer">
-            <span>Historical</span>
-            <strong>London 1895</strong>
+          <div class="map-label" aria-label="Case date">
+            <span>Date</span>
+            <strong id="caseDate">17 May 1894</strong>
           </div>
+          <button id="openNewspaper" type="button">Newspaper</button>
           <label class="opacity-control">
             <span>Opacity</span>
             <input id="historicalOpacity" type="range" min="0" max="1" step="0.05" value="0.45" />
           </label>
         </div>
-        <section id="leadPanel" class="lead-panel" aria-live="polite">
+        <section id="layerPanel" class="layer-panel" aria-label="Point of interest layers" hidden>
+          <div class="panel-heading compact-heading">
+            <div>
+              <p class="eyebrow">POI Layers</p>
+              <h2>Categories</h2>
+            </div>
+            <div class="panel-actions">
+              <button id="enableAllPoiLayers" class="secondary-button inline-button" type="button">All</button>
+              <button id="disableAllPoiLayers" class="secondary-button inline-button" type="button">None</button>
+            </div>
+          </div>
+          <p id="poiLayerSummary" class="muted"></p>
+          <div id="poiLayerFilters" class="filters layer-filters"></div>
+        </section>
+        <section id="searchPanel" class="search-panel" hidden>
+          <div class="panel-heading compact-heading">
+            <div>
+              <p class="eyebrow">Search</p>
+              <h2>Map results</h2>
+            </div>
+            <button id="closeSearchPanel" class="secondary-button inline-button" type="button">Close</button>
+          </div>
+          <div id="searchResults" class="results"></div>
+        </section>
+        <section id="newspaperPanel" class="newspaper-panel" hidden>
+          <button id="closeNewspaper" class="close-button" type="button" aria-label="Close">×</button>
+          <div class="newspaper-masthead">
+            <h2 id="newspaperTitle">The Daily Telegraph</h2>
+          </div>
+          <div class="newspaper-meta">
+            <span id="newspaperIssueLine">No. 11,081 (0)</span>
+            <span id="newspaperDate">London, 17 May 1894.</span>
+            <span>One Penny</span>
+          </div>
+          <div id="newspaperResults" class="newspaper-grid"></div>
+          <button class="newspaper-resize-handle is-east" type="button" data-resize-direction="east" aria-label="Resize newspaper width"></button>
+          <button class="newspaper-resize-handle is-south" type="button" data-resize-direction="south" aria-label="Resize newspaper height"></button>
+          <button class="newspaper-resize-handle is-corner" type="button" data-resize-direction="southeast" aria-label="Resize newspaper panel"></button>
+          <article id="newspaperArticlePanel" class="newspaper-article-panel" hidden>
+            <button id="closeNewspaperArticle" class="close-button" type="button" aria-label="Close article">×</button>
+            <p id="newspaperArticleType" class="eyebrow">News</p>
+            <h3 id="newspaperArticleHeadline">Headline</h3>
+            <div id="newspaperArticleBody" class="newspaper-article-body"></div>
+            <div class="newspaper-article-actions">
+              <button id="newspaperArticleMap" class="secondary-button inline-button" type="button" hidden>Show on map</button>
+            </div>
+          </article>
+        </section>
+        <section id="leadPanel" class="lead-panel" aria-live="polite" hidden>
           <button id="closeLead" class="close-button" type="button" aria-label="Close">×</button>
-          <p id="leadKicker" class="eyebrow">Choose a location</p>
-          <h2 id="leadTitle">The city is the interface</h2>
-          <p id="leadText">Search the directory, inspect the newspaper, or click a known place on the map to begin.</p>
+          <p id="leadKicker" class="eyebrow"></p>
+          <h2 id="leadTitle"></h2>
+          <p id="leadText"></p>
           <div id="leadDiscoveries" class="discoveries"></div>
+          <button id="showOnMap" class="secondary-button inline-button" type="button" hidden>Show on map</button>
           <button id="visitLocation" class="primary-button" type="button" hidden>Visit location</button>
+        </section>
+        <section id="editorOverlay" class="editor-overlay" hidden aria-label="Editor">
+          <div class="editor-overlay-shell">
+            <div class="editor-overlay-bar">
+              <div>
+                <p class="eyebrow">Authoring</p>
+                <h2>Editor</h2>
+              </div>
+              <button id="closeEditorOverlay" class="secondary-button inline-button" type="button">Close editor</button>
+            </div>
+            <iframe
+              id="editorFrame"
+              class="editor-frame"
+              data-src="./editor/"
+              title="Gaslights editor"
+              loading="lazy"
+            ></iframe>
+          </div>
         </section>
       </main>
     </div>
 
     <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
-    <script type="module" src="./assets/app.js?v=202606261840"></script>
+    <script type="module" src="./assets/app.js?v=202606281510"></script>
   </body>
 </html>

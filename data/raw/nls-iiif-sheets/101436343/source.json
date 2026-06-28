@@ -1,0 +1,16 @@
+{
+  "imageId": "101436343",
+  "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/10143%2F101436343/info.json",
+  "iiifBaseUrl": "https://map-view.nls.uk/iiif/2/10143%2F101436343",
+  "source": "National Library of Scotland IIIF",
+  "rights": {
+    "status": "needs_verification_before_production",
+    "notes": "Use for local development. Verify commercial redistribution terms before shipping paid product."
+  },
+  "crop": {
+    "status": "not_started"
+  },
+  "georeference": {
+    "status": "not_started"
+  }
+}

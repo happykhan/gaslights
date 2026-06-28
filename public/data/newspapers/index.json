@@ -1,0 +1,11 @@
+[
+  {
+    "id": "chronicle_1894_05_17",
+    "title": "The Daily Telegraph",
+    "date": "1894-05-17",
+    "path": "./data/newspapers/1894-05-17-london-evening-chronicle.json",
+    "caseIds": [
+      "missing_chemist"
+    ]
+  }
+]

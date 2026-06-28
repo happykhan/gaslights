@@ -1,0 +1,103 @@
+{
+  "patches": {
+    "harcourt_home": {
+      "name": "23 Gower Street",
+      "aliases": [
+        "Harcourt residence",
+        "23 Gower Street"
+      ],
+      "type": "private_residence",
+      "address": "23 Gower Street",
+      "tags": [
+        "case_location",
+        "home"
+      ],
+      "coordinates": {
+        "lat": 51.520768,
+        "lng": -0.131012
+      },
+      "searchPreviewText": "Harcourt Residence",
+      "defaultVisitText": "You knock and there is no reply."
+    },
+    "harcourt_laboratory": {
+      "name": "Harcourt's Laboratory",
+      "aliases": [
+        "Dr Harcourt's Laboratory",
+        "13 Craven Street"
+      ],
+      "type": "laboratory",
+      "address": "17 Craven Street, Strand",
+      "searchPreviewText": "A narrow set of rooms above a scientific-instrument maker, used by Dr Edwin Harcourt for analytical chemistry and private research.",
+      "defaultVisitText": "A narrow set of rooms above a scientific-instrument maker, used by Dr Edwin Harcourt for analytical chemistry and private research.",
+      "tags": [
+        "case_location",
+        "chemist",
+        "laboratory"
+      ],
+      "coordinates": {
+        "lat": 51.507537,
+        "lng": -0.125105
+      }
+    },
+    "charing_cross_railway_office": {
+      "name": "Charing Cross Railway Office",
+      "aliases": [
+        "Charing Cross Station",
+        "South Eastern Railway Office"
+      ],
+      "type": "railway_office",
+      "address": "Charing Cross Station, Strand",
+      "searchPreviewText": "A busy railway office where clerks can answer precise questions about tickets, departures, and passenger records.",
+      "defaultVisitText": "A busy railway office where clerks can answer precise questions about tickets, departures, and passenger records.",
+      "tags": [
+        "railway",
+        "transport"
+      ],
+      "coordinates": {
+        "lat": 51.50855,
+        "lng": -0.124891
+      }
+    },
+    "royal_institution": {
+      "name": "Royal Institution",
+      "aliases": [
+        "Royal Institution of Great Britain",
+        "Albemarle Street"
+      ],
+      "type": "scientific_institution",
+      "address": "Albemarle Street",
+      "searchPreviewText": "A public scientific institution whose lecture rooms attract scientists, patrons, and curious members of society.",
+      "defaultVisitText": "A public scientific institution whose lecture rooms attract scientists, patrons, and curious members of society.",
+      "tags": [
+        "science",
+        "lecture",
+        "case_location"
+      ],
+      "coordinates": {
+        "lat": 51.509718,
+        "lng": -0.142256
+      }
+    },
+    "lady_ashcombe_house": {
+      "name": "Lady Ashcombe's House",
+      "aliases": [
+        "Lady Ashcombe",
+        "Ashcombe House"
+      ],
+      "type": "private_residence",
+      "address": "Grosvenor Square",
+      "searchPreviewText": "A Mayfair house belonging to a scientific patron with strong opinions and unreliable gossip.",
+      "defaultVisitText": "A Mayfair house belonging to a scientific patron with strong opinions and unreliable gossip.",
+      "tags": [
+        "society",
+        "patron",
+        "red_herring"
+      ],
+      "coordinates": {
+        "lat": 51.512304,
+        "lng": -0.151829
+      }
+    }
+  },
+  "retiredLocationIds": []
+}

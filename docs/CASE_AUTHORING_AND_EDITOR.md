@@ -10,9 +10,9 @@ A case contains:
 - A briefing.
 - Case-relevant locations.
 - Static leads.
-- Evidence.
-- Facts / interpreted knowledge.
-- Specialist hub responses.
+- Visit rules.
+- Notebook notes.
+- Reactive POI responses.
 - Directory entries.
 - Newspaper items.
 - Red herrings and ambient city material.
@@ -91,7 +91,7 @@ Use a focused slice:
 
 - 50–100 visible POIs.
 - 20–30 case-relevant leads.
-- 5–8 specialist hubs.
+- 5–8 useful offices, institutions, or experts.
 - A few large districts: e.g. Whitechapel, Fleet Street, Charing Cross, Limehouse, City.
 
 The player should see the haystack, but the haystack should be tuned.
@@ -106,9 +106,9 @@ Visit once → read useful text → done.
 
 Do not make every location evolve.
 
-### Step 6 — Add specialist hub responses
+### Step 6 — Add reactive visit rules
 
-Only after the static leads exist, add evidence interpretation at expert locations.
+Only after the static leads exist, add case-specific responses at relevant expert or institutional locations.
 
 Examples:
 
@@ -170,7 +170,7 @@ Watch for:
 - Too many dead ends.
 - Critical clues hidden behind obscure reasoning.
 - The player knowing the answer but the game blocking them.
-- Hub interpretations feeling like adventure-game item puzzles.
+- Reactive POIs feeling like adventure-game item puzzles.
 - Newspaper being too obviously clue-highlighted.
 
 ## 4. Editor goals
@@ -217,10 +217,12 @@ Fields:
 - Type.
 - Address.
 - Coordinates.
-- Short description.
+- Search preview text.
+- Default visit text.
+- World visit texts for reusable global behaviour.
 - Tags.
 - Source references.
-- Hub domains, if it is a specialist location.
+- Small map/search tags.
 
 ### 5.3 Case map editor
 
@@ -231,13 +233,12 @@ Features:
 - Pick a case.
 - Toggle global POIs into the case.
 - Mark a POI as one of:
-  - `case_lead`.
-  - `specialist_hub`.
-  - `ambient_only`.
+  - `lead`.
+  - `ambient`.
   - `red_herring`.
-  - `hidden_until_discovered`.
+  - `hidden`.
 - Add map marker style.
-- Add case-specific label/description.
+- Add case-specific labels and visit rules.
 
 ### 5.4 Lead editor
 
@@ -290,29 +291,26 @@ newspaper_archive
 identity
 ```
 
-### 5.6 Specialist hub response editor
+### 5.6 Reactive visit rule editor
 
-Purpose: define what happens when evidence is brought to the right place.
+Purpose: define what happens when prior visits make a later place relevant.
 
 Fields:
 
-- Hub location.
-- Required evidence.
-- Required facts, optional.
+- Location.
+- Required resolved visit rules, visited locations, or visit counts.
 - Response text.
-- Revealed facts.
-- Revealed evidence.
 - Revealed locations.
+- Notebook note.
 - Counts as lead? usually yes for first useful response.
 - Can repeat? usually no.
 
 Example:
 
 ```text
-Evidence found: train_ticket
-Hub visited: Charing Cross Railway Office
-Response: Clerk identifies ticket purchase time and route.
-Reveals fact: ticket_bought_at_7_15_by_man_matching_suspect
+Prior visit rule: lead_harcourt_laboratory
+Location visited: Charing Cross Railway Office
+Response: Clerk checks the ledger once the player knows what journey matters.
 Reveals location: Brighton Hotel Office
 ```
 
@@ -323,10 +321,10 @@ Purpose: control what happens when the player visits a location without case-spe
 Features:
 
 - Rules by location type.
-- Rules by hub domain.
+- Rules by tags.
 - First-visit vs repeat-visit variants.
 - Case-aware neutral flavour.
-- “Nothing useful yet” text for expert hubs.
+- “Nothing useful yet” text for tagged offices or institutions.
 
 Example generic rule:
 
@@ -336,10 +334,10 @@ Text: The publican has heard the usual gossip, but nothing that appears to touch
 Counts as lead: false
 ```
 
-Example hub-without-evidence rule:
+Example tagged-office generic rule:
 
 ```text
-Hub domain: railway_ticket
+Tag: railway
 Text: The clerk explains that railway records are exacting, but he needs a ticket, destination, date, or named passenger before he can help.
 Counts as lead: false
 ```
@@ -356,9 +354,9 @@ The editor should allow the author to preview a location as the player would see
 Validation should warn about:
 
 - Lead references missing location.
-- Evidence discovered nowhere.
-- Hub response references missing evidence.
-- Solution slot has no supporting evidence.
+- Visit rule references missing location.
+- Visit rule condition references missing rules or locations.
+- Solution slot has no option or solution value.
 - Hidden location has no unlock path.
 - Duplicate IDs.
 - Missing source/license for imported POI.
@@ -378,43 +376,29 @@ Later options:
 
 When the player visits a location, the engine should select content in this order:
 
-1. Case-specific lead text, if the location has one and it has not been visited.
-2. Specialist hub responses triggered by known evidence/facts.
-3. Repeat-visit summary for already visited case leads.
-4. Generic hub “nothing specific yet” text.
-5. Generic location type text.
-6. Global fallback text.
+1. Matching case visit rule.
+2. Matching world visit rule.
+3. Generic tag or location-type rule.
+4. Global fallback text.
 
 Pseudo-code:
 
 ```js
 function resolveVisit(caseData, location, state) {
-  const caseLead = findCaseLead(caseData, location.id);
-  const hubResponses = findTriggeredHubResponses(caseData, location, state);
+  const caseRule = findMatchingCaseVisitRule(caseData, location.id, state);
+  if (caseRule) return renderVisitRule(caseRule);
 
-  if (hubResponses.length > 0) {
-    return combineHubResponses(hubResponses);
-  }
+  const worldRule = findMatchingWorldVisitRule(location, caseData.date, state);
+  if (worldRule) return renderVisitRule(worldRule);
 
-  if (caseLead && !state.visitedLeadIds.includes(caseLead.id)) {
-    return renderCaseLead(caseLead);
-  }
-
-  if (caseLead && state.visitedLeadIds.includes(caseLead.id)) {
-    return renderRepeatVisit(caseLead);
-  }
-
-  const genericHub = findGenericHubRule(location, state);
-  if (genericHub) return renderGeneric(genericHub);
-
-  const genericType = findGenericTypeRule(location, state);
-  if (genericType) return renderGeneric(genericType);
+  const genericRule = findGenericTagOrTypeRule(location, state);
+  if (genericRule) return renderGeneric(genericRule);
 
   return renderFallback(location);
 }
 ```
 
-Important: if the player has evidence relevant to a hub, the hub response should generally take precedence over static “already visited” text.
+Important: if a later visit rule depends on an earlier visit, that rule should generally have higher priority than generic or repeat text.
 
 ## 7. Counting leads and scoring
 
@@ -423,7 +407,7 @@ Lead counting should avoid punishing reasonable exploration too harshly.
 Suggested v0 rules:
 
 - First visit to a case lead counts.
-- First useful specialist hub response counts.
+- First useful reactive POI response counts.
 - Repeat visits do not count.
 - Generic ambient “nothing useful” visits do not count.
 - Optional: track generic visits separately as “wandering” but do not include in score initially.
@@ -441,8 +425,8 @@ Minimum planning tables:
 | ID | Name | Type | Role | Notes |
 | --- | --- | --- | --- | --- |
 | crime_scene | Drayton Laboratory | case_lead | critical | Body / disappearance start |
-| railway_office | Charing Cross Railway Office | specialist_hub | interpreter | Handles train ticket |
-| insurance_office | Lloyd's agent | specialist_hub | interpreter | Handles policy |
+| railway_office | Charing Cross Railway Office | lead | reactive visit | Handles train ticket |
+| insurance_office | Lloyd's agent | lead | reactive visit | Handles policy |
 
 ### Evidence
 
@@ -481,7 +465,7 @@ Find key → use key on door → find crowbar → use crowbar on crate
 Gaslights pattern:
 
 ```text
-Find evidence → choose relevant expert location → receive interpretation → use interpretation in deduction
+Find a lead → choose a relevant tagged POI → receive case-specific text → use it in deduction
 ```
 
-Do not lock the final answer behind arbitrary object combinations. If a player has guessed the truth, the game should let them submit it. Specialist hubs should strengthen, verify, or deepen their theory, not act as mandatory puzzle locks unless narratively essential.
+Do not lock the final answer behind arbitrary object combinations. If a player has guessed the truth, the game should let them submit it. Reactive POIs should strengthen, verify, or deepen their theory, not act as mandatory puzzle locks unless narratively essential.

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Gaslights">
+  <rect width="64" height="64" rx="12" fill="#11120f"/>
+  <circle cx="32" cy="24" r="15" fill="#f0c15a" opacity="0.22"/>
+  <path d="M24 26c0-6 4-12 8-17 4 5 8 11 8 17 0 5-4 9-8 9s-8-4-8-9Z" fill="#f0c15a"/>
+  <path d="M28 27c0-4 2-8 4-11 2 3 4 7 4 11 0 3-2 5-4 5s-4-2-4-5Z" fill="#fff3c4"/>
+  <path d="M24 40h16l-3 15H27l-3-15Z" fill="#2f8f83"/>
+  <path d="M21 40h22M26 55h12M32 35v5" stroke="#f2ead5" stroke-width="4" stroke-linecap="round"/>
+</svg>

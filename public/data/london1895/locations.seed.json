@@ -18,7 +18,6 @@
       "chemist",
       "laboratory"
     ],
-    "globalDescription": "A narrow set of rooms above a scientific-instrument maker, used by Dr Edwin Harcourt for analytical chemistry and private research.",
     "sourceRefs": [
       {
         "label": "fictional pilot POI; coordinates approximate",
@@ -26,7 +25,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A narrow set of rooms above a scientific-instrument maker, used by Dr Edwin Harcourt for analytical chemistry and private research."
   },
   {
     "id": "harcourt_home",
@@ -46,7 +46,6 @@
       "case_location",
       "home"
     ],
-    "globalDescription": "A respectable Bloomsbury house where Mrs Agnes Harcourt receives callers after her husband's disappearance.",
     "sourceRefs": [
       {
         "label": "fictional pilot POI; coordinates approximate",
@@ -54,7 +53,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A respectable Bloomsbury house where Mrs Agnes Harcourt receives callers after her husband's disappearance."
   },
   {
     "id": "royal_institution",
@@ -75,7 +75,6 @@
       "lecture",
       "case_location"
     ],
-    "globalDescription": "A public scientific institution whose lecture rooms attract scientists, patrons, and curious members of society.",
     "sourceRefs": [
       {
         "label": "real institution; verify historical address for production",
@@ -83,7 +82,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A public scientific institution whose lecture rooms attract scientists, patrons, and curious members of society."
   },
   {
     "id": "charing_cross_railway_office",
@@ -101,15 +101,8 @@
     },
     "tags": [
       "railway",
-      "transport",
-      "specialist_hub"
+      "transport"
     ],
-    "hubDomains": [
-      "railway_ticket",
-      "timetable",
-      "passenger_ledger"
-    ],
-    "globalDescription": "A busy railway office where clerks can answer precise questions about tickets, departures, and passenger records.",
     "sourceRefs": [
       {
         "label": "real station; verify historical railway company details",
@@ -117,7 +110,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A busy railway office where clerks can answer precise questions about tickets, departures, and passenger records."
   },
   {
     "id": "dr_north_analytical_chemist",
@@ -136,22 +130,17 @@
     "tags": [
       "chemist",
       "toxicology",
-      "specialist_hub"
+      "medical"
     ],
-    "hubDomains": [
-      "chemical",
-      "poison",
-      "residue"
-    ],
-    "globalDescription": "A private analytical chemist able to identify powders, stains, poisons, and residues.",
     "sourceRefs": [
       {
-        "label": "fictional specialist for pilot",
+        "label": "fictional pilot POI",
         "url": null,
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A private analytical chemist able to identify powders, stains, poisons, and residues."
   },
   {
     "id": "mallory_lodgings",
@@ -172,7 +161,6 @@
       "lodging",
       "suspect"
     ],
-    "globalDescription": "A cheap lodging-house room kept by Silas Mallory, assistant to Dr Harcourt.",
     "sourceRefs": [
       {
         "label": "fictional pilot POI; coordinates approximate",
@@ -180,7 +168,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A cheap lodging-house room kept by Silas Mallory, assistant to Dr Harcourt."
   },
   {
     "id": "henley_pawnbroker",
@@ -198,15 +187,8 @@
     },
     "tags": [
       "finance",
-      "pawn",
-      "specialist_hub"
+      "pawn"
     ],
-    "hubDomains": [
-      "pawn_receipt",
-      "watch",
-      "pledge"
-    ],
-    "globalDescription": "A pawnbroker who keeps careful pledge books and recognises repeat customers by sight.",
     "sourceRefs": [
       {
         "label": "fictional pilot POI",
@@ -214,7 +196,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A pawnbroker who keeps careful pledge books and recognises repeat customers by sight."
   },
   {
     "id": "central_cab_registry",
@@ -232,23 +215,17 @@
     },
     "tags": [
       "transport",
-      "cab",
-      "specialist_hub"
+      "cab"
     ],
-    "hubDomains": [
-      "cab_number",
-      "cab_journey",
-      "driver"
-    ],
-    "globalDescription": "A registry where licensed cab numbers can sometimes be traced to a driver and a recent fare.",
     "sourceRefs": [
       {
-        "label": "fictional specialist for pilot",
+        "label": "fictional pilot POI",
         "url": null,
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A registry where licensed cab numbers can sometimes be traced to a driver and a recent fare."
   },
   {
     "id": "north_star_assurance",
@@ -267,14 +244,8 @@
     "tags": [
       "insurance",
       "finance",
-      "specialist_hub"
+      "shipping"
     ],
-    "hubDomains": [
-      "insurance",
-      "cargo_policy",
-      "policy_number"
-    ],
-    "globalDescription": "An assurance office whose clerks can interpret policy numbers, beneficiaries, cargo schedules, and claims.",
     "sourceRefs": [
       {
         "label": "fictional insurance office for pilot",
@@ -282,7 +253,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "An assurance office whose clerks can interpret policy numbers, beneficiaries, cargo schedules, and claims."
   },
   {
     "id": "port_authority_london_docks",
@@ -302,15 +274,8 @@
     "tags": [
       "dock",
       "shipping",
-      "specialist_hub"
+      "insurance"
     ],
-    "hubDomains": [
-      "shipping",
-      "manifest",
-      "cargo_policy",
-      "warehouse"
-    ],
-    "globalDescription": "A dock records office where clerks can trace cargo manifests, warehouse numbers, and sailings if given enough particulars.",
     "sourceRefs": [
       {
         "label": "real district, fictional office; verify production details",
@@ -318,7 +283,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A dock records office where clerks can trace cargo manifests, warehouse numbers, and sailings if given enough particulars."
   },
   {
     "id": "rudd_vale_office",
@@ -340,7 +306,6 @@
       "case_location",
       "suspect"
     ],
-    "globalDescription": "A chemical import business with offices near Fenchurch Street and storage interests in the eastern docks.",
     "sourceRefs": [
       {
         "label": "fictional business for pilot",
@@ -348,7 +313,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A chemical import business with offices near Fenchurch Street and storage interests in the eastern docks."
   },
   {
     "id": "caledonia_warehouse_limehouse",
@@ -371,7 +337,6 @@
       "case_location",
       "hidden_until_discovered"
     ],
-    "globalDescription": "A riverside warehouse used for chemical cargo and outbound crates. In the pilot it is the endgame location.",
     "sourceRefs": [
       {
         "label": "fictional warehouse for pilot; coordinates approximate",
@@ -379,7 +344,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A riverside warehouse used for chemical cargo and outbound crates. In the pilot it is the endgame location."
   },
   {
     "id": "chancery_patent_solicitors",
@@ -398,13 +364,9 @@
     "tags": [
       "law",
       "patent",
-      "case_location"
+      "case_location",
+      "science"
     ],
-    "hubDomains": [
-      "legal",
-      "patent"
-    ],
-    "globalDescription": "A firm of patent solicitors handling scientific inventions and priority claims.",
     "sourceRefs": [
       {
         "label": "fictional firm for pilot",
@@ -412,7 +374,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A firm of patent solicitors handling scientific inventions and priority claims."
   },
   {
     "id": "bow_street_police_station",
@@ -430,15 +393,8 @@
     },
     "tags": [
       "police",
-      "case_location",
-      "specialist_hub"
+      "case_location"
     ],
-    "hubDomains": [
-      "police_record",
-      "warrant",
-      "criminal_record"
-    ],
-    "globalDescription": "A police station where official enquiries can be made, though officers rarely welcome amateur interference.",
     "sourceRefs": [
       {
         "label": "real institution/location category; verify production details",
@@ -446,7 +402,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A police station where official enquiries can be made, though officers rarely welcome amateur interference."
   },
   {
     "id": "blue_anchor_wapping",
@@ -468,7 +425,6 @@
       "optional",
       "red_herring"
     ],
-    "globalDescription": "A dockside public house full of sailors, lightermen, and confident false rumours.",
     "sourceRefs": [
       {
         "label": "fictional pilot POI",
@@ -476,7 +432,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A dockside public house full of sailors, lightermen, and confident false rumours."
   },
   {
     "id": "london_evening_chronicle_office",
@@ -495,14 +452,8 @@
     "tags": [
       "newspaper",
       "archive",
-      "specialist_hub"
+      "press"
     ],
-    "hubDomains": [
-      "newspaper_archive",
-      "advert",
-      "public_notice"
-    ],
-    "globalDescription": "A newspaper office with back issues, shipping notices, court reports, and advertisements.",
     "sourceRefs": [
       {
         "label": "fictional newspaper office for pilot",
@@ -510,7 +461,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A newspaper office with back issues, shipping notices, court reports, and advertisements."
   },
   {
     "id": "st_bartholomews_hospital",
@@ -531,11 +483,6 @@
       "medical",
       "optional"
     ],
-    "hubDomains": [
-      "medical",
-      "hospital_record"
-    ],
-    "globalDescription": "A major hospital whose physicians have an interest in disinfectants and hospital hygiene.",
     "sourceRefs": [
       {
         "label": "real hospital; verify historical details",
@@ -543,7 +490,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A major hospital whose physicians have an interest in disinfectants and hospital hygiene."
   },
   {
     "id": "lady_ashcombe_house",
@@ -564,7 +512,6 @@
       "patron",
       "red_herring"
     ],
-    "globalDescription": "A Mayfair house belonging to a scientific patron with strong opinions and unreliable gossip.",
     "sourceRefs": [
       {
         "label": "fictional pilot POI",
@@ -572,7 +519,8 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A Mayfair house belonging to a scientific patron with strong opinions and unreliable gossip."
   },
   {
     "id": "ezra_pike_bookmaker",
@@ -593,7 +541,6 @@
       "debt",
       "red_herring"
     ],
-    "globalDescription": "A bookmaker whose ledgers are less respectable than his brass nameplate.",
     "sourceRefs": [
       {
         "label": "fictional pilot POI",
@@ -601,138 +548,7 @@
         "license": "placeholder"
       }
     ],
-    "status": "promoted"
-  },
-  {
-    "id": "general_post_office_telegraph",
-    "name": "General Post Office Telegraph Counter",
-    "aliases": [
-      "Telegraph Counter",
-      "General Post Office"
-    ],
-    "type": "telegraph_office",
-    "address": "St Martin's-le-Grand",
-    "district": "EC",
-    "coordinates": {
-      "lat": 51.5155,
-      "lng": -0.0988
-    },
-    "tags": [
-      "telegraph",
-      "generic"
-    ],
-    "hubDomains": [
-      "telegram",
-      "message"
-    ],
-    "globalDescription": "A telegraph counter where messages may be traced only with precise times, offices, or addressees.",
-    "sourceRefs": [
-      {
-        "label": "real institution category; verify production details",
-        "url": null,
-        "license": "placeholder"
-      }
-    ],
-    "status": "promoted"
-  },
-  {
-    "id": "british_museum_reading_room",
-    "name": "British Museum Reading Room",
-    "aliases": [
-      "British Museum",
-      "Reading Room"
-    ],
-    "type": "library",
-    "address": "Great Russell Street",
-    "district": "WC",
-    "coordinates": {
-      "lat": 51.5194,
-      "lng": -0.1269
-    },
-    "tags": [
-      "library",
-      "research",
-      "generic"
-    ],
-    "hubDomains": [
-      "research",
-      "reference"
-    ],
-    "globalDescription": "A grand reading room useful for general reference, scientific papers, and background research.",
-    "sourceRefs": [
-      {
-        "label": "real institution; verify production details",
-        "url": null,
-        "license": "placeholder"
-      }
-    ],
-    "status": "promoted"
-  },
-  {
-    "id": "bank_of_england",
-    "name": "Bank of England",
-    "aliases": [
-      "The Bank",
-      "Threadneedle Street"
-    ],
-    "type": "bank",
-    "address": "Threadneedle Street",
-    "district": "EC",
-    "coordinates": {
-      "lat": 51.5141,
-      "lng": -0.0884
-    },
-    "tags": [
-      "bank",
-      "finance",
-      "generic"
-    ],
-    "hubDomains": [
-      "cheque",
-      "account",
-      "financial_record"
-    ],
-    "globalDescription": "The central bank; useful only when an enquiry has precise financial particulars.",
-    "sourceRefs": [
-      {
-        "label": "real institution; verify production details",
-        "url": null,
-        "license": "placeholder"
-      }
-    ],
-    "status": "promoted"
-  },
-  {
-    "id": "somerset_house_registry",
-    "name": "Somerset House Registry",
-    "aliases": [
-      "Registry Office",
-      "Somerset House"
-    ],
-    "type": "registry_office",
-    "address": "Strand",
-    "district": "WC",
-    "coordinates": {
-      "lat": 51.5109,
-      "lng": -0.1177
-    },
-    "tags": [
-      "registry",
-      "civil_records",
-      "generic"
-    ],
-    "hubDomains": [
-      "birth_death_marriage",
-      "company_record"
-    ],
-    "globalDescription": "A place to verify civil records and official entries, if one knows what to ask for.",
-    "sourceRefs": [
-      {
-        "label": "real building/category; verify production details",
-        "url": null,
-        "license": "placeholder"
-      }
-    ],
-    "status": "promoted"
+    "status": "promoted",
+    "defaultVisitText": "A bookmaker whose ledgers are less respectable than his brass nameplate."
   }
 ]

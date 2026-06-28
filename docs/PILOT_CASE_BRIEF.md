@@ -14,7 +14,7 @@ Build one complete playable mystery that proves the core product:
 - Directory and newspaper research.
 - Static location leads.
 - Evidence discovery.
-- Evidence interpretation at specialist POIs.
+- Case-specific responses at tagged POIs.
 - Theory submission.
 - End-of-case comparison.
 
@@ -29,7 +29,7 @@ Moderate. The case does not need a genius twist.
 The challenge should come from:
 
 - Finding the right leads in a large city.
-- Knowing which specialist POI can interpret which evidence.
+- Knowing which tagged POI is relevant to a clue.
 - Connecting timeline, motive, and opportunity.
 - Filtering noise from newspaper/directory material.
 
@@ -61,17 +61,17 @@ Example:
 Visit laboratory → discover train ticket and forced drawer.
 ```
 
-### 2. Specialist hub with automatic interpretation
+### 2. Tagged POI with automatic response
 
 Example:
 
 ```text
-Find train ticket → visit railway office → clerk automatically interprets ticket.
+Learn about train ticket → visit railway office → clerk automatically gives relevant text.
 ```
 
 No explicit “use ticket” menu.
 
-### 3. Hub without evidence
+### 3. Tagged POI before context
 
 Example:
 
@@ -123,13 +123,13 @@ For the pilot:
 
 - 50–100 visible POIs.
 - 20–30 case-specific leads.
-- 5–8 specialist hubs.
+- 5–8 tagged expert POIs.
 - 8–12 evidence objects.
 - 8–12 interpreted facts.
 - 1 newspaper issue with 15–25 items.
 - 30–60 directory entries.
 
-## Suggested specialist hubs
+## Suggested tagged expert POIs
 
 - Railway office.
 - Coroner.
@@ -157,13 +157,13 @@ Implement only this mini-chain first:
 ```text
 Briefing
   → Laboratory
-  → train_ticket evidence
+  → suspicious train ticket lead
   → Railway Office
-  → interpreted ticket fact
+  → ticket-related notebook note
   → Theory board updated manually by player
 ```
 
-This slice proves the evidence-hub mechanic. Build it before writing the full case.
+This slice proves the visit-reactive POI mechanic. Build it before writing the full case.
 
 ## Playtest questions
 

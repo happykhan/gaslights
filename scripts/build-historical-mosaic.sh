@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ZOOMS="${1:-12-20}"
+ZOOMS="${1:-12-14}"
 OUT_DIR="${2:-public/tiles/london-1895}"
 VRT_PATH="${3:-build/historical-mosaic/london-1895.vrt}"
 

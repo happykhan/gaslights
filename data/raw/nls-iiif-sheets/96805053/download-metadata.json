@@ -1,0 +1,17 @@
+{
+  "infoUrl": "https://map-view.nls.uk/iiif/2/9680%2F96805053/info.json",
+  "baseUrl": "https://map-view.nls.uk/iiif/2/9680%2F96805053",
+  "width": 8920,
+  "height": 6566,
+  "tileWidth": 512,
+  "tileHeight": 512,
+  "tileArea": 262144,
+  "maxArea": 270000,
+  "totalColumns": 18,
+  "totalRows": 13,
+  "totalTiles": 234,
+  "plannedTiles": 234,
+  "format": "jpg",
+  "downloadedAt": "2026-06-26T17:55:02.253Z",
+  "sourceNote": "IIIF source-image tiles. These are not slippy map z/x/y tiles yet."
+}

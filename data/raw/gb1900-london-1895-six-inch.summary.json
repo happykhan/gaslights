@@ -1,0 +1,594 @@
+{
+  "zipPath": "data/raw/GB1900_raw_dump.zip",
+  "manifest": "data/raw/nls-sheet-index/london-1895-six-inch.manifest.json",
+  "bounds": {
+    "west": -0.2305399,
+    "south": 51.4645187,
+    "east": -0.0218126,
+    "north": 51.5513826,
+    "sheetCount": 9,
+    "sheetIds": [
+      "91617032",
+      "96805011",
+      "99383316",
+      "96805017",
+      "91617035",
+      "95470395",
+      "96805053",
+      "96805050",
+      "101436343"
+    ]
+  },
+  "minClassifications": 3,
+  "candidateCount": 8135,
+  "typeCounts": {
+    "road": 3046,
+    "unknown": 2930,
+    "church": 932,
+    "school": 657,
+    "station": 167,
+    "wharf": 60,
+    "public_house": 58,
+    "dock": 51,
+    "hall": 47,
+    "post_office": 46,
+    "bridge": 45,
+    "hospital": 40,
+    "pier": 37,
+    "barracks": 9,
+    "garden": 6,
+    "museum": 4
+  },
+  "topSamples": [
+    {
+      "id": "586ebe8a2c66dc67e200315d",
+      "name": "PETWORTH STREET",
+      "typeGuess": "road",
+      "priorityScore": 12,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.1667583,
+        "lat": 51.4758168
+      }
+    },
+    {
+      "id": "580502ed2c66dcab3d08393e",
+      "name": "Ann Street",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.05298972,
+        "lat": 51.52447879
+      }
+    },
+    {
+      "id": "57f6b2ea2c66dcab3d01db9e",
+      "name": "Church",
+      "typeGuess": "church",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08235455,
+        "lat": 51.51648445
+      }
+    },
+    {
+      "id": "57eec0352c66dca32200960b",
+      "name": "Foundling Hospital",
+      "typeGuess": "hospital",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.12081742,
+        "lat": 51.52414391
+      }
+    },
+    {
+      "id": "57eec0242c66dca3220095fd",
+      "name": "Hospl.",
+      "typeGuess": "hospital",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.11646152,
+        "lat": 51.5243642
+      }
+    },
+    {
+      "id": "57f685e22c66dcab3d01c187",
+      "name": "Monument Sta.",
+      "typeGuess": "station",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08821249,
+        "lat": 51.51074569
+      }
+    },
+    {
+      "id": "57f6ad662c66dcab3d01d8ba",
+      "name": "Old BRoad Street",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08575559,
+        "lat": 51.51459832
+      }
+    },
+    {
+      "id": "57f6b28d2c66dcab3d01db64",
+      "name": "R.C. Chap.",
+      "typeGuess": "church",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08666754,
+        "lat": 51.51766617
+      }
+    },
+    {
+      "id": "57f6ad572c66dcab3d01d8b6",
+      "name": "Sch.",
+      "typeGuess": "school",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.0869143,
+        "lat": 51.51672814
+      }
+    },
+    {
+      "id": "57f6ad522c66dcab3d01d8b4",
+      "name": "Sch.",
+      "typeGuess": "school",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08852363,
+        "lat": 51.5166547
+      }
+    },
+    {
+      "id": "57f6b2e42c66dcab3d01db98",
+      "name": "Sch.",
+      "typeGuess": "school",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08276761,
+        "lat": 51.51677154
+      }
+    },
+    {
+      "id": "57f6b37f2c66dcab3d01dbf7",
+      "name": "Sun Street",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08488119,
+        "lat": 51.52021977
+      }
+    },
+    {
+      "id": "57f6ac9e2c66dcab3d01d86d",
+      "name": "Threadneedle Street",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08786917,
+        "lat": 51.51373701
+      }
+    },
+    {
+      "id": "57e5262e2c66dc43f4000dd1",
+      "name": "Westminster Bridge",
+      "typeGuess": "bridge",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.12329578,
+        "lat": 51.50075538
+      }
+    },
+    {
+      "id": "580b61ad2c66dc1ce5021de2",
+      "name": "ALDRED ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.10547519,
+        "lat": 51.48261229
+      }
+    },
+    {
+      "id": "586ad2c02c66dc10b807bd56",
+      "name": "AMPTHILL SQUARE",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.13825178,
+        "lat": 51.5306263
+      }
+    },
+    {
+      "id": "57f6629b2c66dcab3d01b00b",
+      "name": "BALACLAVA ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.0725913,
+        "lat": 51.49053575
+      }
+    },
+    {
+      "id": "5866e0f72c66dc10b80690ee",
+      "name": "BALCOMBE STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.16235948,
+        "lat": 51.52417172
+      }
+    },
+    {
+      "id": "5934786e2c66dc085a077101",
+      "name": "BARRETT STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.20641208,
+        "lat": 51.52698194
+      }
+    },
+    {
+      "id": "5803bda52c66dcab3d07b812",
+      "name": "BIDBOROUGH STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.12725472,
+        "lat": 51.52797649
+      }
+    },
+    {
+      "id": "58678a542c66dc10b806a98c",
+      "name": "BOLINGBROKE ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.21825671,
+        "lat": 51.49990049
+      }
+    },
+    {
+      "id": "5809214c2c66dc1ce5011f92",
+      "name": "BROKE ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.06857336,
+        "lat": 51.53718005
+      }
+    },
+    {
+      "id": "586ad9ae2c66dc10b807c0b6",
+      "name": "CALEDONIAN ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1176846,
+        "lat": 51.54430002
+      }
+    },
+    {
+      "id": "57fd6cdc2c66dcab3d04c142",
+      "name": "CASSIDY ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19978166,
+        "lat": 51.47884271
+      }
+    },
+    {
+      "id": "5868303a2c66dc10b806e838",
+      "name": "CHARLES'S SQUARE",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.21515608,
+        "lat": 51.52186868
+      }
+    },
+    {
+      "id": "58658c4d2c66dc10b8060bb6",
+      "name": "CHRIST CHURCH ST",
+      "typeGuess": "church",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.16305685,
+        "lat": 51.48633368
+      }
+    },
+    {
+      "id": "57f40f532c66dcab3d00d5df",
+      "name": "COLLEGE STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.11840343,
+        "lat": 51.53206126
+      }
+    },
+    {
+      "id": "57f6c6ba2c66dcab3d01e3d3",
+      "name": "CRANBOURN STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.12947559,
+        "lat": 51.5110662
+      }
+    },
+    {
+      "id": "580684b12c66dcab3d0904bc",
+      "name": "DOD STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.02628028,
+        "lat": 51.51393064
+      }
+    },
+    {
+      "id": "5803bb402c66dcab3d07b597",
+      "name": "DUKE'S ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.12981892,
+        "lat": 51.52756266
+      }
+    },
+    {
+      "id": "5991f99d2c66dc085a189268",
+      "name": "EGLINTON ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.03113508,
+        "lat": 51.53129623
+      }
+    },
+    {
+      "id": "586ebc3b2c66dc67e2003040",
+      "name": "EVERETT STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1338315,
+        "lat": 51.48254548
+      }
+    },
+    {
+      "id": "58716e412c66dc67e200f9a5",
+      "name": "GLADYS ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19427776,
+        "lat": 51.54469369
+      }
+    },
+    {
+      "id": "57f643bd2c66dcab3d01a30f",
+      "name": "GREAT RUSSELL STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1284349,
+        "lat": 51.51762166
+      }
+    },
+    {
+      "id": "5803bbde2c66dcab3d07b65d",
+      "name": "GUILFORD STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.12192249,
+        "lat": 51.52291007
+      }
+    },
+    {
+      "id": "58035e312c66dcab3d076147",
+      "name": "HANNIBAL ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.05005002,
+        "lat": 51.52047345
+      }
+    },
+    {
+      "id": "5870138c2c66dc67e20098d9",
+      "name": "HARGWYNE STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.12197614,
+        "lat": 51.46636022
+      }
+    },
+    {
+      "id": "57f781fd2c66dcab3d02113c",
+      "name": "HUNSDEN ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.04878402,
+        "lat": 51.47999979
+      }
+    },
+    {
+      "id": "5943e88e2c66dc085a0ad8c1",
+      "name": "LADBROKE GROVE ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.21509171,
+        "lat": 51.52609417
+      }
+    },
+    {
+      "id": "57fd6c612c66dcab3d04c102",
+      "name": "LAMONT ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1798743,
+        "lat": 51.48278489
+      }
+    },
+    {
+      "id": "586c18be2c66dc10b80816e0",
+      "name": "LANCASTER PLACE",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.16920447,
+        "lat": 51.54608818
+      }
+    },
+    {
+      "id": "5807b6462c66dcd647000009",
+      "name": "MYDDLETON SQUARE",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.10923028,
+        "lat": 51.53031927
+      }
+    },
+    {
+      "id": "57f642682c66dcab3d01a295",
+      "name": "R.C.CH.",
+      "typeGuess": "church",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1502037,
+        "lat": 51.50954265
+      }
+    },
+    {
+      "id": "57e55aa72c66dc43f4001e4c",
+      "name": "RICHMOND ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19597292,
+        "lat": 51.51804337
+      }
+    },
+    {
+      "id": "586b77cf2c66dc10b807cab0",
+      "name": "RONALDS ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.10604382,
+        "lat": 51.550645
+      }
+    },
+    {
+      "id": "586782632c66dc10b806a786",
+      "name": "ROWAN ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.22027373,
+        "lat": 51.49378891
+      }
+    },
+    {
+      "id": "5880a7f62c66dc67e20696d3",
+      "name": "SEMERTON STREET",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.11955142,
+        "lat": 51.54061006
+      }
+    },
+    {
+      "id": "5891aacb2c66dc811902e842",
+      "name": "SERPENTINE ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.16685486,
+        "lat": 51.50592443
+      }
+    },
+    {
+      "id": "5943e6122c66dc085a0ad827",
+      "name": "SHIRLAND ROAD",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19818306,
+        "lat": 51.52790975
+      }
+    },
+    {
+      "id": "57f5a83f2c66dcab3d01824f",
+      "name": "SHOE LANE",
+      "typeGuess": "road",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.10664463,
+        "lat": 51.51662688
+      }
+    }
+  ]
+}

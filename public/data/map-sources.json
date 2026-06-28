@@ -18,21 +18,21 @@
   },
   {
     "id": "london-1895-six-inch-local",
-    "label": "London 1895",
+    "label": "London 1895 six-inch",
     "kind": "raster_xyz",
     "tiles": [
-      "/tiles/london-1895-six-inch/{z}/{x}/{y}.png?v=202606261801"
+      "/tiles/london-1895-six-inch/{z}/{x}/{y}.png?v=202606270945"
     ],
     "tileSize": 256,
     "defaultVisible": true,
     "opacity": 1,
     "minzoom": 11,
-    "maxzoom": 20,
+    "maxzoom": 16,
     "attribution": "Historical mapping derived from out-of-copyright Ordnance Survey/NLS six-inch source material; provenance recorded per sheet.",
     "license": "needs-production-verification",
-    "notes": "Generated from 8 reviewed sheets for London 1895 six-inch; updated 2026-06-26T18:01:27.517Z.",
+    "notes": "Generated from 9 reviewed sheets for London 1895 six-inch in draft coverage (tiles 12-16); updated 2026-06-26T20:47:07.778Z.",
     "bounds": [
-      -0.2305399,
+      -0.2306249,
       51.4645187,
       -0.0218126,
       51.5513826

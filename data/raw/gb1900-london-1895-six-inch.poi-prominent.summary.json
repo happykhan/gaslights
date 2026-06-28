@@ -1,0 +1,2115 @@
+{
+  "input": "data/raw/gb1900-london-1895-six-inch.poi-candidates.json",
+  "output": "data/raw/gb1900-london-1895-six-inch.poi-prominent.json",
+  "minScore": 8,
+  "keptCount": 539,
+  "reasonCounts": {
+    "road": 3046,
+    "low_signal_generic": 1561,
+    "keep_type": 539,
+    "street_suffix": 59,
+    "low_score": 2930
+  },
+  "samples": [
+    {
+      "id": "57eec0352c66dca32200960b",
+      "name": "Foundling Hospital",
+      "typeGuess": "hospital",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.12081742,
+        "lat": 51.52414391
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57eec0352c66dca32200960b",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f685e22c66dcab3d01c187",
+      "name": "Monument Sta.",
+      "typeGuess": "station",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08821249,
+        "lat": 51.51074569
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f685e22c66dcab3d01c187",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f6b28d2c66dcab3d01db64",
+      "name": "R.C. Chap.",
+      "typeGuess": "church",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.08666754,
+        "lat": 51.51766617
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f6b28d2c66dcab3d01db64",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57e5262e2c66dc43f4000dd1",
+      "name": "Westminster Bridge",
+      "typeGuess": "bridge",
+      "priorityScore": 11,
+      "classificationCount": 5,
+      "coordinates": {
+        "lng": -0.12329578,
+        "lat": 51.50075538
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57e5262e2c66dc43f4000dd1",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f642682c66dcab3d01a295",
+      "name": "R.C.CH.",
+      "typeGuess": "church",
+      "priorityScore": 11,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1502037,
+        "lat": 51.50954265
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f642682c66dcab3d01a295",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f17b822c66dca32201b659",
+      "name": "Albert Bridge (Suspension)",
+      "typeGuess": "bridge",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1664257,
+        "lat": 51.48233167
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f17b822c66dca32201b659",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0fe042c66dcdfff000008",
+      "name": "Atkin's Wharf",
+      "typeGuess": "wharf",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.0325191,
+        "lat": 51.49719547
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0fe042c66dcdfff000008",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586ebd062c66dc67e2003094",
+      "name": "Battersea Park Rd. Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14503241,
+        "lat": 51.47869682
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ebd062c66dc67e2003094",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f688162c66dcab3d01c32a",
+      "name": "Blackfriars' Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.10547519,
+        "lat": 51.51152025
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f688162c66dcab3d01c32a",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f12eaa2c66dca3220171f5",
+      "name": "Borough Road Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.09989619,
+        "lat": 51.49940625
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f12eaa2c66dca3220171f5",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586a45852c66dc10b8076fff",
+      "name": "Camberwell New Rd. Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.09897351,
+        "lat": 51.47309029
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586a45852c66dc10b8076fff",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f17ba32c66dca32201b683",
+      "name": "Carlyle Pier (Floating)",
+      "typeGuess": "pier",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17235875,
+        "lat": 51.48187733
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f17ba32c66dca32201b683",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f17b8f2c66dca32201b663",
+      "name": "Chelsea Pier (Floating)",
+      "typeGuess": "pier",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.16606092,
+        "lat": 51.48294636
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f17b8f2c66dca32201b663",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f5a7642c66dcab3d0181db",
+      "name": "G.P.O.",
+      "typeGuess": "post_office",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.09793282,
+        "lat": 51.5150846
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f5a7642c66dcab3d0181db",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586537922c66dc10b805ceae",
+      "name": "Gloucester Road Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1840961,
+        "lat": 51.4941229
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586537922c66dc10b805ceae",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5865949f2c66dc10b80610c8",
+      "name": "Goods Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19554377,
+        "lat": 51.48571236
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5865949f2c66dc10b80610c8",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5866e9042c66dc10b806948f",
+      "name": "Goods Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1840961,
+        "lat": 51.51929181
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866e9042c66dc10b806948f",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586c1a7e2c66dc10b8081746",
+      "name": "Goods Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14960289,
+        "lat": 51.5404766
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586c1a7e2c66dc10b8081746",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586ec5f92c66dc67e2003507",
+      "name": "Goods Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.16671538,
+        "lat": 51.46541111
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ec5f92c66dc67e2003507",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586ecda32c66dc67e2003643",
+      "name": "Goods Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14457107,
+        "lat": 51.47169357
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ecda32c66dc67e2003643",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "58653cd52c66dc10b805d317",
+      "name": "Grosvenor Road Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.1499033,
+        "lat": 51.48583261
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58653cd52c66dc10b805d317",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f6acc22c66dcab3d01d882",
+      "name": "Guild Hall",
+      "typeGuess": "hall",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.09397388,
+        "lat": 51.51588691
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f6acc22c66dcab3d01d882",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586784142c66dc10b806a854",
+      "name": "Hammersmith Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.22621751,
+        "lat": 51.49215902
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586784142c66dc10b806a854",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586784342c66dc10b806a860",
+      "name": "Hammersmith Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.22780538,
+        "lat": 51.49340148
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586784342c66dc10b806a860",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "58658bd42c66dc10b8060b7c",
+      "name": "Hospl",
+      "typeGuess": "hospital",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17062068,
+        "lat": 51.48307999
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58658bd42c66dc10b8060b7c",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f686df2c66dcab3d01c23a",
+      "name": "Mansion Ho. Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.0955832,
+        "lat": 51.51151357
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f686df2c66dcab3d01c23a",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586b825c2c66dc10b807ccab",
+      "name": "Mildmay Park Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.08398533,
+        "lat": 51.54927733
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586b825c2c66dc10b807ccab",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586697c12c66dc10b8065a71",
+      "name": "Misn. Ch.",
+      "typeGuess": "church",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.21141171,
+        "lat": 51.48324702
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586697c12c66dc10b8065a71",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586594372c66dc10b8061078",
+      "name": "Mort. Chap.",
+      "typeGuess": "church",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.18897772,
+        "lat": 51.48299313
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586594372c66dc10b8061078",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5866905f2c66dc10b806541e",
+      "name": "Parson's Green Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.20275354,
+        "lat": 51.47450703
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866905f2c66dc10b806541e",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586ed2732c66dc67e20036c7",
+      "name": "Queen's Road Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14744639,
+        "lat": 51.47416621
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ed2732c66dc67e20036c7",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586bbbe72c66dc10b807dd0e",
+      "name": "R.C. Ch.",
+      "typeGuess": "church",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17329216,
+        "lat": 51.52713547
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586bbbe72c66dc10b807dd0e",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5866ddca2c66dc10b8068ef9",
+      "name": "R.C. Chap.",
+      "typeGuess": "church",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14496803,
+        "lat": 51.52734906
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866ddca2c66dc10b8068ef9",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586ad3e12c66dc10b807bddb",
+      "name": "R.C. Chap.",
+      "typeGuess": "church",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.13376713,
+        "lat": 51.53041939
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586ad3e12c66dc10b807bddb",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5857c9852c66dc10b8019063",
+      "name": "R.C. Church",
+      "typeGuess": "church",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.15778899,
+        "lat": 51.55118538
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5857c9852c66dc10b8019063",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586781d72c66dc10b806a739",
+      "name": "R.C. Sch.",
+      "typeGuess": "school",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.21537066,
+        "lat": 51.4957594
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586781d72c66dc10b806a739",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f643722c66dcab3d01a2f1",
+      "name": "R.C.Ch.",
+      "typeGuess": "church",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.13251185,
+        "lat": 51.51527155
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f643722c66dcab3d01a2f1",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586536d82c66dc10b805ce43",
+      "name": "South Kensington Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17699361,
+        "lat": 51.49382899
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586536d82c66dc10b805ce43",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586c1d8e2c66dc10b8081835",
+      "name": "Sta",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14033318,
+        "lat": 51.55089184
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586c1d8e2c66dc10b8081835",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586537852c66dc10b805cea3",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.18267989,
+        "lat": 51.49473075
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586537852c66dc10b805cea3",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5866eade2c66dc10b806953a",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.18829107,
+        "lat": 51.51213454
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866eade2c66dc10b806953a",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586786f82c66dc10b806a906",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.22653937,
+        "lat": 51.49508477
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586786f82c66dc10b806a906",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5867881c2c66dc10b806a932",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.22350311,
+        "lat": 51.50223136
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5867881c2c66dc10b806a932",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5867aaf72c66dc10b806ae5a",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19693315,
+        "lat": 51.50887935
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5867aaf72c66dc10b806ae5a",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586b7d1c2c66dc10b807cc15",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.13871312,
+        "lat": 51.5420714
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586b7d1c2c66dc10b807cc15",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586b7de32c66dc10b807cc37",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.13393879,
+        "lat": 51.54656857
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586b7de32c66dc10b807cc37",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586bc40f2c66dc10b807e3a8",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19273281,
+        "lat": 51.53710665
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586bc40f2c66dc10b807e3a8",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586c16222c66dc10b808160a",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17992258,
+        "lat": 51.5469422
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586c16222c66dc10b808160a",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586c1aa22c66dc10b808174e",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.15479565,
+        "lat": 51.54353937
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586c1aa22c66dc10b808174e",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586e88822c66dc67e2001809",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.203408,
+        "lat": 51.54492722
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586e88822c66dc67e2001809",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5936720a2c66dc085a07d099",
+      "name": "Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.17504096,
+        "lat": 51.54343928
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5936720a2c66dc085a07d099",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "58701cbd2c66dc67e2009cd3",
+      "name": "Stockwell Sta. (Elec. Ry.)",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.12536645,
+        "lat": 51.47246879
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58701cbd2c66dc67e2009cd3",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "580332422c66dcab3d07483e",
+      "name": "Sun. Sch.",
+      "typeGuess": "school",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.21637917,
+        "lat": 51.54628167
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "580332422c66dcab3d07483e",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f17b422c66dca32201b613",
+      "name": "Victoria Bridge",
+      "typeGuess": "bridge",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.14905572,
+        "lat": 51.48493736
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f17b422c66dca32201b613",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586594ba2c66dc10b80610dc",
+      "name": "West Brompton Sta. (Met. Dist.)",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.19528627,
+        "lat": 51.48753622
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586594ba2c66dc10b80610dc",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586780812c66dc10b806a63e",
+      "name": "West Kensington Sta.",
+      "typeGuess": "station",
+      "priorityScore": 10,
+      "classificationCount": 4,
+      "coordinates": {
+        "lng": -0.20704508,
+        "lat": 51.49071612
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586780812c66dc10b806a63e",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f00c312c66dca322010922",
+      "name": "ALBION DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04781842,
+        "lat": 51.49940625
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00c312c66dca322010922",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f8f1ff2c66dcab3d02971c",
+      "name": "BARRACKS",
+      "typeGuess": "barracks",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.16580343,
+        "lat": 51.50235825
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f8f1ff2c66dcab3d02971c",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5865316c2c66dc10b805cb5d",
+      "name": "BARRACKS",
+      "typeGuess": "barracks",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.19064069,
+        "lat": 51.50380746
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5865316c2c66dc10b805cb5d",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5866de422c66dc10b8068f44",
+      "name": "BARRACKS",
+      "typeGuess": "barracks",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.144099,
+        "lat": 51.53342277
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5866de422c66dc10b8068f44",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "58653f5e2c66dc10b805d5d1",
+      "name": "BELGRAVE DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.14071941,
+        "lat": 51.48696168
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58653f5e2c66dc10b805d5d1",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57e526552c66dc43f4000dd7",
+      "name": "BETHLEM ROYAL HOSPITAL",
+      "typeGuess": "hospital",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.10840416,
+        "lat": 51.49685482
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57e526552c66dc43f4000dd7",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0e9972c66dca322014b7c",
+      "name": "CANADA DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04821539,
+        "lat": 51.49681475
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0e9972c66dca322014b7c",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "58653c422c66dc10b805d27a",
+      "name": "CHELSEA BARRACKS",
+      "typeGuess": "barracks",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.15472054,
+        "lat": 51.48967399
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58653c422c66dc10b805d27a",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f6b91b2c66dc32f2000023",
+      "name": "COVENT GARDEN",
+      "typeGuess": "garden",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.12349963,
+        "lat": 51.5120878
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f6b91b2c66dc32f2000023",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f782df2c66dcab3d0211be",
+      "name": "DEPTFORD BRIDGE",
+      "typeGuess": "bridge",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.02387166,
+        "lat": 51.47443352
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f782df2c66dcab3d0211be",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0e9cf2c66dca322014b96",
+      "name": "DEPTFORD WHARF",
+      "typeGuess": "wharf",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03171444,
+        "lat": 51.49243958
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0e9cf2c66dca322014b96",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f132062c66dca3220174ed",
+      "name": "DRAW DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.12591362,
+        "lat": 51.48842474
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f132062c66dca3220174ed",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f00b8b2c66dca3220108ea",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04660606,
+        "lat": 51.50665233
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00b8b2c66dca3220108ea",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0fd252c66dca3220153a3",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03225088,
+        "lat": 51.50400113
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0fd252c66dca3220153a3",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0fe9f2c66dca32201546b",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03260493,
+        "lat": 51.49541207
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0fe9f2c66dca32201546b",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f00b922c66dca3220108f0",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04503965,
+        "lat": 51.50721995
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00b922c66dca3220108f0",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f00bb72c66dca3220108fc",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03978252,
+        "lat": 51.50770742
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00bb72c66dca3220108fc",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0fe982c66dca322015467",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03255129,
+        "lat": 51.49652753
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0fe982c66dca322015467",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f53c922c66dcab3d015117",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.02990127,
+        "lat": 51.49626036
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f53c922c66dcab3d015117",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f53cfa2c66dc5da7000119",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.0294292,
+        "lat": 51.50082884
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f53cfa2c66dc5da7000119",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f545532c66dcab3d01541d",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03330231,
+        "lat": 51.50775417
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f545532c66dcab3d01541d",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f5454d2c66dcab3d015417",
+      "name": "DRY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03149986,
+        "lat": 51.50694616
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f5454d2c66dcab3d015417",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f6878a2c66dcab3d01c2be",
+      "name": "G.P.O. SAVINGS BK.",
+      "typeGuess": "post_office",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.10166109,
+        "lat": 51.51198431
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f6878a2c66dcab3d01c2be",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0e9bc2c66dca322014b8a",
+      "name": "GREENLAND DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03736854,
+        "lat": 51.49502465
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0e9bc2c66dca322014b8a",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57eebf362c66dca322009549",
+      "name": "HOSPITAL",
+      "typeGuess": "hospital",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.10627985,
+        "lat": 51.53721231
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57eebf362c66dca322009549",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f646c22c66dcab3d01a3f3",
+      "name": "HOSPITAL",
+      "typeGuess": "hospital",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.0901866,
+        "lat": 51.52536548
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f646c22c66dcab3d01a3f3",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586592822c66dc10b8060f07",
+      "name": "HOSPITAL",
+      "typeGuess": "hospital",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.17436504,
+        "lat": 51.49144425
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586592822c66dc10b8060f07",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "5865945f2c66dc10b8061094",
+      "name": "HOSPITAL",
+      "typeGuess": "hospital",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.19481421,
+        "lat": 51.48459663
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "5865945f2c66dc10b8061094",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f00b1a2c66dca3220108ae",
+      "name": "ISLAND DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.0450182,
+        "lat": 51.50261203
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00b1a2c66dca3220108ae",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "59e4a19b2c66dc87d8024767",
+      "name": "L. B. & S. C. R. DEPTFORD WHARF BR.",
+      "typeGuess": "wharf",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04662752,
+        "lat": 51.48473025
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "59e4a19b2c66dc87d8024767",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f131ff2c66dca3220174e7",
+      "name": "LACK'S DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.12588143,
+        "lat": 51.48775
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f131ff2c66dca3220174e7",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0fdac2c66dca3220153f6",
+      "name": "LADY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03775477,
+        "lat": 51.49941961
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0fdac2c66dca3220153f6",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "58035cff2c66dcab3d075fa7",
+      "name": "LONDON HOSPITAL",
+      "typeGuess": "hospital",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.05990982,
+        "lat": 51.51840389
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58035cff2c66dcab3d075fa7",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0e9b32c66dca322014b85",
+      "name": "NORWAY DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03828049,
+        "lat": 51.49635387
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0e9b32c66dca322014b85",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57eec01b2c66dca3220095f8",
+      "name": "POST OFFICE",
+      "typeGuess": "post_office",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.11361837,
+        "lat": 51.52634671
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57eec01b2c66dca3220095f8",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "58035b352c66dcab3d075d5a",
+      "name": "REGENT'S CANAL DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03818393,
+        "lat": 51.51127319
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58035b352c66dcab3d075d5a",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f544632c66dcab3d015391",
+      "name": "RUSSIA DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.0398469,
+        "lat": 51.50142325
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f544632c66dcab3d015391",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57eebdff2c66dca322009465",
+      "name": "S.E. HOSPITAL",
+      "typeGuess": "hospital",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.05064011,
+        "lat": 51.47868234
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57eebdff2c66dca322009465",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f0e9c52c66dca322014b90",
+      "name": "SOUTH DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.03673553,
+        "lat": 51.4935952
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f0e9c52c66dca322014b90",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "586533a22c66dc10b805cc22",
+      "name": "SOUTH KENSINGTON MUSEUM",
+      "typeGuess": "museum",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.17397881,
+        "lat": 51.49617353
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "586533a22c66dc10b805cc22",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f687282c66dcab3d01c27b",
+      "name": "ST. PAUL'S CHURCH YARD",
+      "typeGuess": "church",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.09983182,
+        "lat": 51.51334308
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f687282c66dcab3d01c27b",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57e55bd82c66dc43f4001ee8",
+      "name": "ST. THOMAS'S HOSPITAL",
+      "typeGuess": "hospital",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.12248039,
+        "lat": 51.49900551
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57e55bd82c66dc43f4001ee8",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "57f00b522c66dca3220108cc",
+      "name": "STAVE DOCK",
+      "typeGuess": "dock",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.04503965,
+        "lat": 51.50372732
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "57f00b522c66dca3220108cc",
+          "license": "CC0"
+        }
+      ]
+    },
+    {
+      "id": "58067f472c66dcab3d08ff60",
+      "name": "WELLINGTON BARRACKS",
+      "typeGuess": "barracks",
+      "priorityScore": 10,
+      "classificationCount": 3,
+      "coordinates": {
+        "lng": -0.13980746,
+        "lat": 51.49991385
+      },
+      "reviewStatus": "candidate",
+      "promotionReason": "keep_type",
+      "sourceRefs": [
+        {
+          "kind": "gb1900",
+          "label": "GB1900 raw gazetteer pin",
+          "pinId": "58067f472c66dcab3d08ff60",
+          "license": "CC0"
+        }
+      ]
+    }
+  ]
+}

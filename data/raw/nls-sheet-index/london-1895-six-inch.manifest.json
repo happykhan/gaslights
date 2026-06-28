@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-06-26T12:16:54.163Z",
+  "generatedAt": "2026-06-26T20:26:10.207Z",
   "source": [
     "map_json2/MapFinderWithOutlinesFeatures (1).geojson",
     "map_json2/MapFinderWithOutlinesFeatures (10).geojson",
     "map_json2/MapFinderWithOutlinesFeatures (11).geojson",
     "map_json2/MapFinderWithOutlinesFeatures (12).geojson",
     "map_json2/MapFinderWithOutlinesFeatures (13).geojson",
+    "map_json2/MapFinderWithOutlinesFeatures (14).geojson",
     "map_json2/MapFinderWithOutlinesFeatures (2).geojson",
     "map_json2/MapFinderWithOutlinesFeatures (3).geojson",
     "map_json2/MapFinderWithOutlinesFeatures (4).geojson",
@@ -31,6 +32,50 @@
     ]
   },
   "sheets": [
+    {
+      "imageId": "96805008",
+      "sheet": "London VI.NE",
+      "year": "1894",
+      "scale": "6in_to_1mile",
+      "imageUrl": "https://maps.nls.uk/view/96805008",
+      "iiifInfoUrl": "https://map-view.nls.uk/iiif/2/9680%2F96805008/info.json",
+      "footprint": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -0.2305399,
+                51.5223771
+              ],
+              [
+                -0.2306249,
+                51.5513061
+              ],
+              [
+                -0.1610209,
+                51.551365
+              ],
+              [
+                -0.16098,
+                51.5224359
+              ],
+              [
+                -0.2305399,
+                51.5223771
+              ]
+            ]
+          ]
+        ]
+      },
+      "bounds": {
+        "west": -0.2306249,
+        "south": 51.5223771,
+        "east": -0.16098,
+        "north": 51.551365
+      },
+      "sourceNote": "Imported from NLS Map Finder outline export"
+    },
     {
       "imageId": "91617032",
       "sheet": "London VI.SE",

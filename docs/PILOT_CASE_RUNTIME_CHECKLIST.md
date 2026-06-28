@@ -24,20 +24,18 @@ This checklist describes the minimum runtime behaviour needed to play **The Miss
 ```json
 {
   "caseId": "missing_chemist",
-  "visitedLeadIds": [],
   "visitedLocationIds": [],
-  "discoveredEvidenceIds": [],
-  "discoveredFactIds": [],
-  "resolvedHubResponseIds": [],
+  "locationVisitCounts": {},
+  "resolvedVisitRuleIds": [],
   "revealedLocationIds": ["harcourt_laboratory", "harcourt_home", "royal_institution"],
+  "notebookEntries": [],
   "leadCount": 0,
+  "genericVisitCount": 0,
   "theory": {
     "who": null,
     "why": null,
     "how": null,
-    "where": null,
-    "when": null,
-    "supportingEvidenceIds": []
+    "where": null
   }
 }
 ```
@@ -46,20 +44,17 @@ This checklist describes the minimum runtime behaviour needed to play **The Miss
 
 Use this order for the pilot:
 
-1. Find triggered hub responses at the visited location.
-2. If any triggered unresolved hub response exists, show it and resolve it.
-3. Otherwise, if an unvisited case lead exists, show it.
-4. Otherwise, if a visited case lead exists, show repeat text.
-5. Otherwise, show a generic hub rule.
-6. Otherwise, show a generic type rule.
-7. Otherwise, show global fallback.
+1. Find the highest-priority matching case visit rule.
+2. Otherwise find a matching world visit rule.
+3. Otherwise show a generic tag or type rule.
+4. Otherwise show global fallback.
 
 Rationale: if the player finds the ticket and returns to the railway office, the new expert response should appear instead of generic/repeat text.
 
 ## Counting rules
 
 - Unvisited case lead: +1.
-- First useful specialist hub response: +1.
+- First useful reactive POI response: +1.
 - Repeat visit: +0.
 - Generic fallback: +0.
 
@@ -103,9 +98,8 @@ Later versions can support aliases and partial credit.
 Fail if:
 
 - Any lead location is missing.
-- Any evidence `discoveredAtLeadId` is missing.
-- Any hub response location is missing.
-- Any hub response trigger references missing evidence/facts.
+- Any visit rule location is missing.
+- Any visit rule condition references missing rules or locations.
 - Any `revealLocationIds` target is missing.
 - Any solution slot references an option that is not in `theoryOptions`.
 
@@ -113,5 +107,5 @@ Warn if:
 
 - A location has no coordinates.
 - A hidden location has no reveal path.
-- An evidence object has no specialist domain.
+- A case rule points at no useful tag or location type.
 - A critical evidence object is not discoverable on the critical path.

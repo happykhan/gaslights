@@ -1,30 +1,26 @@
 export function createInitialState(caseData) {
+  const theorySlots = getTheorySlots(caseData);
   return {
     caseId: caseData.id,
     startedAt: new Date().toISOString(),
-    visitedLeadIds: [],
     visitedLocationIds: [],
-    discoveredEvidenceIds: [],
-    discoveredFactIds: [],
-    resolvedHubResponseIds: [],
-    revealedLocationIds: [...caseData.startingLocationIds],
+    locationVisitCounts: {},
+    resolvedVisitRuleIds: [],
+    revealedLocationIds: [...getCaseLocationIds(caseData, true)],
     notebookEntries: [],
     leadCount: 0,
     genericVisitCount: 0,
     theory: {
-      who: null,
-      why: null,
-      how: null,
-      where: null,
-      when: null,
-      supportingEvidenceIds: []
+      ...Object.fromEntries(theorySlots.map((slot) => [slot, null]))
     }
   };
 }
 
 export function isLocationKnown(caseData, state, locationId) {
-  return caseData.activeLocationIds.includes(locationId) && (
-    !caseData.hiddenLocationIds.includes(locationId) ||
+  const caseLocationIds = getCaseLocationIds(caseData);
+  const hiddenLocationIds = getHiddenLocationIds(caseData);
+  return caseLocationIds.includes(locationId) && (
+    !hiddenLocationIds.includes(locationId) ||
     state.revealedLocationIds.includes(locationId)
   );
 }
@@ -33,40 +29,30 @@ export function resolveVisit(caseData, locations, genericRules, state, locationI
   const location = locations.find((item) => item.id === locationId);
   if (!location) throw new Error(`Missing location: ${locationId}`);
 
-  const hubResponse = findTriggeredHubResponse(caseData, state, locationId);
-  if (hubResponse) {
-    return {
-      kind: "hub_response",
-      id: hubResponse.id,
-      title: location.name,
-      text: hubResponse.text,
-      repeatText: hubResponse.repeatText,
-      countsAsLead: Boolean(hubResponse.countsAsLead),
-      effects: hubResponse.onResolve || {}
-    };
+  const visitRules = getVisitRules(caseData);
+  if (visitRules.length) {
+    const matchingRule = findMatchingVisitRule(caseData, state, locationId);
+    if (matchingRule) {
+      return {
+        kind: matchingRule.kind || "visit_rule",
+        id: matchingRule.id,
+        title: matchingRule.title || location.name,
+        text: matchingRule.text,
+        countsAsLead: Boolean(matchingRule.countsAsLead),
+        effects: matchingRule.effects || {}
+      };
+    }
   }
 
-  const lead = caseData.leads.find((item) => item.locationId === locationId);
-  if (lead && !state.visitedLeadIds.includes(lead.id)) {
+  const locationRule = findMatchingLocationRule(caseData, state, location);
+  if (locationRule) {
     return {
-      kind: "case_lead",
-      id: lead.id,
-      title: lead.title,
-      text: lead.text,
-      repeatText: lead.repeatText,
-      countsAsLead: Boolean(lead.countsAsLead),
-      effects: lead.onVisit || {}
-    };
-  }
-
-  if (lead) {
-    return {
-      kind: "repeat",
-      id: lead.id,
-      title: lead.title,
-      text: lead.repeatText || lead.text,
-      countsAsLead: false,
-      effects: {}
+      kind: locationRule.kind || "world",
+      id: locationRule.id,
+      title: locationRule.title || location.name,
+      text: locationRule.text,
+      countsAsLead: Boolean(locationRule.countsAsLead),
+      effects: locationRule.effects || {}
     };
   }
 
@@ -86,7 +72,7 @@ export function resolveVisit(caseData, locations, genericRules, state, locationI
     kind: "fallback",
     id: `fallback_${location.id}`,
     title: location.name,
-    text: location.globalDescription || "This place offers no useful information for the present matter.",
+    text: location.defaultVisitText || location.searchPreviewText || "This place offers no useful information for the present matter.",
     countsAsLead: false,
     effects: {}
   };
@@ -95,9 +81,9 @@ export function resolveVisit(caseData, locations, genericRules, state, locationI
 export function applyResolution(caseData, state, locationId, resolution) {
   const next = structuredClone(state);
   addUnique(next.visitedLocationIds, locationId);
+  next.locationVisitCounts[locationId] = (next.locationVisitCounts[locationId] || 0) + 1;
 
-  if (resolution.kind === "case_lead") addUnique(next.visitedLeadIds, resolution.id);
-  if (resolution.kind === "hub_response") addUnique(next.resolvedHubResponseIds, resolution.id);
+  if (isVisitRuleResolution(caseData, resolution.id) || resolution.kind === "world") addUnique(next.resolvedVisitRuleIds, resolution.id);
   if (resolution.kind === "generic" || resolution.kind === "fallback") next.genericVisitCount += 1;
   if (resolution.countsAsLead) next.leadCount += 1;
 
@@ -110,45 +96,116 @@ export function applyResolution(caseData, state, locationId, resolution) {
     });
   }
 
-  next.revealedLocationIds = next.revealedLocationIds.filter((id) => caseData.activeLocationIds.includes(id));
+  next.revealedLocationIds = next.revealedLocationIds.filter((id) => getCaseLocationIds(caseData).includes(id));
   return next;
 }
 
 export function compareTheory(caseData, state) {
-  const slots = ["who", "why", "how", "where", "when"];
+  const slots = getTheorySlots(caseData);
   const result = Object.fromEntries(slots.map((slot) => [
     slot,
-    state.theory[slot] === caseData.solution[slot] ? "correct" : "incorrect"
+    state.theory[slot] === caseData.solution?.[slot] ? "correct" : "incorrect"
   ]));
-  const missedCriticalEvidenceIds = (caseData.scoring?.criticalEvidenceIds || caseData.solution.supportingEvidenceIds || [])
-    .filter((id) => !state.discoveredEvidenceIds.includes(id));
   return {
     caseId: caseData.id,
     result,
-    missedCriticalEvidenceIds,
     leadCount: state.leadCount,
     holmesLeadCount: caseData.scoring?.holmesLeadCount
   };
 }
 
-function findTriggeredHubResponse(caseData, state, locationId) {
-  return caseData.hubResponses
-    .filter((response) => response.hubLocationId === locationId)
-    .filter((response) => !state.resolvedHubResponseIds.includes(response.id))
-    .filter((response) => triggerMatches(response.trigger || {}, state))
-    .sort((a, b) => (b.priority || 0) - (a.priority || 0))[0];
+export function getTheorySlots(caseData) {
+  return Array.isArray(caseData?.theorySlots) && caseData.theorySlots.length
+    ? caseData.theorySlots
+    : ["who", "why", "how", "where", "when"];
 }
 
-function triggerMatches(trigger, state) {
-  const evidenceAny = trigger.evidenceAny || [];
-  const evidenceAll = trigger.evidenceAll || [];
-  const factsAny = trigger.factsAny || [];
-  const factsAll = trigger.factsAll || [];
+function getCaseLocationIds(caseData, startingOnly = false) {
+  if (startingOnly) return caseData.startingLocationIds || [];
+  return caseData.caseLocationIds || caseData.activeLocationIds || [];
+}
 
-  if (evidenceAny.length && !evidenceAny.some((id) => state.discoveredEvidenceIds.includes(id))) return false;
-  if (evidenceAll.length && !evidenceAll.every((id) => state.discoveredEvidenceIds.includes(id))) return false;
-  if (factsAny.length && !factsAny.some((id) => state.discoveredFactIds.includes(id))) return false;
-  if (factsAll.length && !factsAll.every((id) => state.discoveredFactIds.includes(id))) return false;
+function getHiddenLocationIds(caseData) {
+  if (Array.isArray(caseData.hiddenLocationIds)) return caseData.hiddenLocationIds;
+  if (caseData.caseLocationRoles) {
+    return Object.entries(caseData.caseLocationRoles)
+      .filter(([, roles]) => (roles || []).includes("hidden"))
+      .map(([locationId]) => locationId);
+  }
+  return [];
+}
+
+function getVisitRules(caseData) {
+  return Array.isArray(caseData.visitRules) ? caseData.visitRules : [];
+}
+
+function isVisitRuleResolution(caseData, resolutionId) {
+  return getVisitRules(caseData).some((rule) => rule.id === resolutionId);
+}
+
+function findMatchingVisitRule(caseData, state, locationId) {
+  return getVisitRules(caseData)
+    .filter((rule) => rule.locationId === locationId)
+    .filter((rule) => rule.repeatable || !state.resolvedVisitRuleIds.includes(rule.id))
+    .sort((a, b) => (Number(b.priority || 0) - Number(a.priority || 0)))
+    .find((rule) => visitRuleMatches(rule, state));
+}
+
+function findMatchingLocationRule(caseData, state, location) {
+  return (location.worldVisitRules || [])
+    .filter((rule) => rule.repeatable || !state.resolvedVisitRuleIds.includes(rule.id))
+    .filter((rule) => dateMatches(rule, caseData.date))
+    .sort((a, b) => (Number(b.priority || 0) - Number(a.priority || 0)))
+    .find((rule) => visitRuleMatches(rule, state));
+}
+
+function dateMatches(rule, dateValue) {
+  if (!rule.validFrom && !rule.validTo) return true;
+  const date = Date.parse(`${dateValue || ""}T00:00:00Z`);
+  if (!Number.isFinite(date)) return true;
+  if (rule.validFrom && date < Date.parse(`${rule.validFrom}T00:00:00Z`)) return false;
+  if (rule.validTo && date > Date.parse(`${rule.validTo}T00:00:00Z`)) return false;
+  return true;
+}
+
+function visitRuleMatches(rule, state) {
+  const conditions = rule.conditions || {};
+  return groupMatches(conditions.all || [], state, "all")
+    && groupMatches(conditions.any || [], state, "any")
+    && groupMatches(conditions.none || [], state, "none");
+}
+
+function groupMatches(group, state, mode) {
+  if (!group.length) return true;
+  if (mode === "all") return group.every((condition) => conditionMatches(condition, state));
+  if (mode === "any") return group.some((condition) => conditionMatches(condition, state));
+  return group.every((condition) => !conditionMatches(condition, state));
+}
+
+function conditionMatches(condition, state) {
+  const values = condition.values || [];
+  switch (condition.type) {
+    case "resolvedRuleIds":
+      return values.every((id) => state.resolvedVisitRuleIds.includes(id));
+    case "visitedLocationIds":
+      return values.every((id) => state.visitedLocationIds.includes(id));
+    case "visitCountAtLocation":
+      return visitCountWithin(values[0], state, condition.min, condition.max);
+    case "globalVisitCount":
+      return numberWithin(state.genericVisitCount + state.leadCount, condition.min, condition.max);
+    default:
+      return false;
+  }
+}
+
+function visitCountWithin(locationId, state, min, max) {
+  const count = state.locationVisitCounts?.[locationId] || 0;
+  return numberWithin(count, min, max);
+}
+
+function numberWithin(value, min, max) {
+  if (Number.isFinite(min) && value < min) return false;
+  if (Number.isFinite(max) && value > max) return false;
   return true;
 }
 
@@ -156,17 +213,13 @@ function findGenericRule(genericRules, location) {
   return [...genericRules]
     .sort((a, b) => (b.priority || 0) - (a.priority || 0))
     .find((rule) => {
-      if (rule.hubDomainsAny?.length && location.hubDomains?.some((domain) => rule.hubDomainsAny.includes(domain))) {
-        return true;
-      }
+      if (rule.tagsAny?.length && location.tags?.some((tag) => rule.tagsAny.includes(tag))) return true;
       if (rule.locationTypes?.length && rule.locationTypes.includes(location.type)) return true;
       return false;
     });
 }
 
 function applyEffects(state, effects = {}) {
-  for (const id of effects.discoverEvidenceIds || []) addUnique(state.discoveredEvidenceIds, id);
-  for (const id of effects.discoverFactIds || []) addUnique(state.discoveredFactIds, id);
   for (const id of effects.revealLocationIds || []) addUnique(state.revealedLocationIds, id);
 }
 

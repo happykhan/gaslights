@@ -1,0 +1,96 @@
+[
+  {
+    "id": "edwin_harcourt",
+    "name": "Dr Edwin Harcourt",
+    "aliases": [
+      "Harcourt, Edwin",
+      "Dr Harcourt"
+    ],
+    "kind": "victim",
+    "residenceLocationId": "harcourt_home",
+    "workLocationIds": [
+      "harcourt_laboratory"
+    ],
+    "notes": "Analytical chemist and missing man in The Missing Chemist.",
+    "tags": [
+      "chemist",
+      "victim"
+    ]
+  },
+  {
+    "id": "ezra_pike",
+    "name": "Ezra Pike",
+    "aliases": [],
+    "kind": "witness",
+    "residenceLocationId": "",
+    "workLocationIds": [
+      "ezra_pike_bookmaker"
+    ],
+    "notes": "Bookmaker tied to Mallory's debts.",
+    "tags": [
+      "bookmaker",
+      "debt"
+    ]
+  },
+  {
+    "id": "lady_ashcombe",
+    "name": "Lady Eleanor Ashcombe",
+    "aliases": [
+      "Lady Ashcombe"
+    ],
+    "kind": "witness",
+    "residenceLocationId": "lady_ashcombe_house",
+    "workLocationIds": [],
+    "notes": "Scientific patron and red herring.",
+    "tags": [
+      "patron",
+      "red_herring"
+    ]
+  },
+  {
+    "id": "agnes_harcourt",
+    "name": "Mrs Agnes Harcourt",
+    "aliases": [
+      "Agnes Harcourt"
+    ],
+    "kind": "resident",
+    "residenceLocationId": "harcourt_home",
+    "workLocationIds": [],
+    "notes": "Client and wife of Edwin Harcourt.",
+    "tags": [
+      "client",
+      "wife"
+    ]
+  },
+  {
+    "id": "nathaniel_rudd",
+    "name": "Nathaniel Rudd",
+    "aliases": [],
+    "kind": "suspect",
+    "residenceLocationId": "",
+    "workLocationIds": [
+      "rudd_vale_office",
+      "caledonia_warehouse_limehouse"
+    ],
+    "notes": "Chemical importer and accessory.",
+    "tags": [
+      "merchant",
+      "suspect"
+    ]
+  },
+  {
+    "id": "silas_mallory",
+    "name": "Silas Mallory",
+    "aliases": [],
+    "kind": "suspect",
+    "residenceLocationId": "mallory_lodgings",
+    "workLocationIds": [
+      "harcourt_laboratory"
+    ],
+    "notes": "Assistant to Harcourt and principal culprit in the pilot case.",
+    "tags": [
+      "assistant",
+      "suspect"
+    ]
+  }
+]
